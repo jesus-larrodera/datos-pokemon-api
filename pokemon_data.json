@@ -35,8 +35,8 @@
       "velocidad": 65
     },
     "sprites": {
-      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
-      "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png"
+      "front_default": "/images/1.webp",
+      "official_artwork": "/images/1.webp"
     },
     "descripcion": "Prefiere los lugares cálidos. Si se moja la cola, se apaga la llama y muere.",
     "cadena_evolucion": 2
@@ -56,8 +56,8 @@
       "velocidad": 43
     },
     "sprites": {
-      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
-      "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png"
+      "front_default": "/images/1.webp",
+      "official_artwork": "/images/1.webp"
     },
     "descripcion": "Su caparazón redondeado y ranurado le ayuda a minimizar la resistencia al agua y le permite nadar a gran velocidad.",
     "cadena_evolucion": 3
@@ -77,8 +77,8 @@
       "velocidad": 90
     },
     "sprites": {
-      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
-      "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
+      "front_default": "/images/1.webp",
+      "official_artwork": "/images/1.webp"
     },
     "descripcion": "Este Pokémon tiene unas bolsas en las mejillas que usa para almacenar electricidad. Cuando se siente amenazado, descarga electricidad.",
     "cadena_evolucion": 10
@@ -98,8 +98,8 @@
       "velocidad": 100
     },
     "sprites": {
-      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png",
-      "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png"
+      "front_default": "/images/1.webp",
+      "official_artwork": "/images/1.webp"
     },
     "descripcion": "Gracias a su capacidad para aprender cualquier movimiento, Mew es un Pokémon muy versátil. Se dice que contiene el ADN de todos los Pokémon.",
     "cadena_evolucion": null
