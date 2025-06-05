@@ -14,8 +14,8 @@
       "velocidad": 45
     },
     "sprites": {
-      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
-      "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+      "front_default": "/images/1.webp",
+      "official_artwork": "/images/1.webp"
     },
     "descripcion": "Un Pokémon de tipo Planta/Veneno. Desde su nacimiento, una semilla crece en su espalda, acumulando nutrientes.",
     "cadena_evolucion": 1
