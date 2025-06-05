@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "nombre": "Bulbasaur",
+    "generacion": 1,
+    "tipos": ["Planta", "Veneno"],
+    "habilidades": ["Espesura"],
+    "estadisticas": {
+      "hp": 45,
+      "ataque": 49,
+      "defensa": 49,
+      "ataque_especial": 65,
+      "defensa_especial": 65,
+      "velocidad": 45
+    },
+    "sprites": {
+      "front_default": "/images/1.webp",
+      "official_artwork": "/images/1.webp"
+    },
+    "descripcion": "Un Pokémon de tipo Planta/Veneno. Desde su nacimiento, una semilla crece en su espalda, acumulando nutrientes.",
+    "cadena_evolucion": 1
+  },
+  {
+    "id": 4,
+    "nombre": "Charmander",
+    "generacion": 1,
+    "tipos": ["Fuego"],
+    "habilidades": ["Mar Llamas"],
+    "estadisticas": {
+      "hp": 39,
+      "ataque": 52,
+      "defensa": 43,
+      "ataque_especial": 60,
+      "defensa_especial": 50,
+      "velocidad": 65
+    },
+    "sprites": {
+      "front_default": "/images/4.webp",
+      "official_artwork": "/images/4.webp"
+    },
+    "descripcion": "Prefiere los lugares cálidos. Si se moja la cola, se apaga la llama y muere.",
+    "cadena_evolucion": 2
+  },
+  {
+    "id": 7,
+    "nombre": "Squirtle",
+    "generacion": 1,
+    "tipos": ["Agua"],
+    "habilidades": ["Torrente"],
+    "estadisticas": {
+      "hp": 44,
+      "ataque": 48,
+      "defensa": 65,
+      "ataque_especial": 50,
+      "defensa_especial": 64,
+      "velocidad": 43
+    },
+    "sprites": {
+      "front_default": "/images/7.webp",
+      "official_artwork": "/images/7.webp"
+    },
+    "descripcion": "Su caparazón redondeado y ranurado le ayuda a minimizar la resistencia al agua y le permite nadar a gran velocidad.",
+    "cadena_evolucion": 3
+  },
+  {
+    "id": 25,
+    "nombre": "Pikachu",
+    "generacion": 1,
+    "tipos": ["Eléctrico"],
+    "habilidades": ["Electricidad Estática", "Pararrayos"],
+    "estadisticas": {
+      "hp": 35,
+      "ataque": 55,
+      "defensa": 40,
+      "ataque_especial": 50,
+      "defensa_especial": 50,
+      "velocidad": 90
+    },
+    "sprites": {
+      "front_default": "/images/25.webp",
+      "official_artwork": "/images/25.webp"
+    },
+    "descripcion": "Este Pokémon tiene unas bolsas en las mejillas que usa para almacenar electricidad. Cuando se siente amenazado, descarga electricidad.",
+    "cadena_evolucion": 10
+  },
+  {
+    "id": 151,
+    "nombre": "Mew",
+    "generacion": 1,
+    "tipos": ["Psíquico"],
+    "habilidades": ["Sincronía"],
+    "estadisticas": {
+      "hp": 100,
+      "ataque": 100,
+      "defensa": 100,
+      "ataque_especial": 100,
+      "defensa_especial": 100,
+      "velocidad": 100
+    },
+    "sprites": {
+      "front_default": "/images/151.webp",
+      "official_artwork": "/images/151.webp"
+    },
+    "descripcion": "Gracias a su capacidad para aprender cualquier movimiento, Mew es un Pokémon muy versátil. Se dice que contiene el ADN de todos los Pokémon.",
+    "cadena_evolucion": null
+  }
+]
