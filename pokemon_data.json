@@ -34,8 +34,8 @@
       "level": 16
     }
   ]
-},
-  {
+}, <-- ¡COMA AÑADIDA AQUÍ!
+{
     "id": 4,
     "nombre": "Charmander",
     "generacion": 1,
