@@ -119,7 +119,87 @@
       "official_artwork": "/images/4.webp"
     },
     "descripcion": "Prefiere los lugares cálidos. Si se moja la cola, se apaga la llama y muere.",
-    "cadena_evolucion": 2
+    "cadena_evolucion": 2,
+    "peso": 85,
+    "altura": 0.6,
+    "genero_ratio": {
+      "male": 0.875,
+      "female": 0.125
+    },
+    "grupo_huevo": ["Monstruo", "Dragón"],
+    "evoluciones": [
+      {
+        "to_id": 5,
+        "to_nombre": "Charmeleon",
+        "method": "nivel",
+        "level": 16
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "nombre": "Charmeleon",
+    "generacion": 1,
+    "tipos": ["Fuego"],
+    "habilidades": ["Mar Llamas"],
+    "estadisticas": {
+      "hp": 58,
+      "ataque": 64,
+      "defensa": 58,
+      "ataque_especial": 80,
+      "defensa_especial": 65,
+      "velocidad": 80
+    },
+    "sprites": {
+      "front_default": "/images/5.webp",
+      "official_artwork": "/images/5.webp"
+    },
+    "descripcion": "Tiene una naturaleza ruda. Ataca a sus enemigos con garras afiladas y es capaz de escupir llamas calientes.",
+    "cadena_evolucion": 2,
+    "peso": 190,
+    "altura": 1.1,
+    "genero_ratio": {
+      "male": 0.875,
+      "female": 0.125
+    },
+    "grupo_huevo": ["Monstruo", "Dragón"],
+    "evoluciones": [
+      {
+        "to_id": 6,
+        "to_nombre": "Charizard",
+        "method": "nivel",
+        "level": 36
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "nombre": "Charizard",
+    "generacion": 1,
+    "tipos": ["Fuego", "Volador"],
+    "habilidades": ["Mar Llamas"],
+    "estadisticas": {
+      "hp": 78,
+      "ataque": 84,
+      "defensa": 78,
+      "ataque_especial": 109,
+      "defensa_especial": 85,
+      "velocidad": 100
+    },
+    "sprites": {
+      "front_default": "/images/6.webp",
+      "official_artwork": "/images/6.webp"
+    },
+    "descripcion": "Escupe fuego que es lo suficientemente caliente como para fundir rocas. Es un Pokémon muy orgulloso.",
+    "cadena_evolucion": 2,
+    "peso": 905,
+    "altura": 1.7,
+    "genero_ratio": {
+      "male": 0.875,
+      "female": 0.125
+    },
+    "grupo_huevo": ["Monstruo", "Dragón"],
+    "evoluciones": []
   },
   {
     "id": 7,
@@ -140,7 +220,650 @@
       "official_artwork": "/images/7.webp"
     },
     "descripcion": "Su caparazón redondeado y ranurado le ayuda a minimizar la resistencia al agua y le permite nadar a gran velocidad.",
-    "cadena_evolucion": 3
+    "cadena_evolucion": 3,
+    "peso": 90,
+    "altura": 0.5,
+    "genero_ratio": {
+      "male": 0.875,
+      "female": 0.125
+    },
+    "grupo_huevo": ["Monstruo", "Agua 1"],
+    "evoluciones": [
+      {
+        "to_id": 8,
+        "to_nombre": "Wartortle",
+        "method": "nivel",
+        "level": 16
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "nombre": "Wartortle",
+    "generacion": 1,
+    "tipos": ["Agua"],
+    "habilidades": ["Torrente"],
+    "estadisticas": {
+      "hp": 59,
+      "ataque": 63,
+      "defensa": 80,
+      "ataque_especial": 65,
+      "defensa_especial": 80,
+      "velocidad": 58
+    },
+    "sprites": {
+      "front_default": "/images/8.webp",
+      "official_artwork": "/images/8.webp"
+    },
+    "descripcion": "Se dice que vive durante 10.000 años y que su cola es un símbolo de longevidad. Es un Pokémon muy popular como mascota.",
+    "cadena_evolucion": 3,
+    "peso": 225,
+    "altura": 1.0,
+    "genero_ratio": {
+      "male": 0.875,
+      "female": 0.125
+    },
+    "grupo_huevo": ["Monstruo", "Agua 1"],
+    "evoluciones": [
+      {
+        "to_id": 9,
+        "to_nombre": "Blastoise",
+        "method": "nivel",
+        "level": 36
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "nombre": "Blastoise",
+    "generacion": 1,
+    "tipos": ["Agua"],
+    "habilidades": ["Torrente"],
+    "estadisticas": {
+      "hp": 79,
+      "ataque": 83,
+      "defensa": 100,
+      "ataque_especial": 85,
+      "defensa_especial": 105,
+      "velocidad": 78
+    },
+    "sprites": {
+      "front_default": "/images/9.webp",
+      "official_artwork": "/images/9.webp"
+    },
+    "descripcion": "Tiene cañones de agua que sobresalen de su caparazón. Los chorros que dispara pueden perforar el acero y la roca sólida.",
+    "cadena_evolucion": 3,
+    "peso": 855,
+    "altura": 1.6,
+    "genero_ratio": {
+      "male": 0.875,
+      "female": 0.125
+    },
+    "grupo_huevo": ["Monstruo", "Agua 1"],
+    "evoluciones": []
+  },
+  {
+    "id": 10,
+    "nombre": "Caterpie",
+    "generacion": 1,
+    "tipos": ["Bicho"],
+    "habilidades": ["Polvo Escudo"],
+    "estadisticas": {
+      "hp": 45,
+      "ataque": 30,
+      "defensa": 35,
+      "ataque_especial": 20,
+      "defensa_especial": 20,
+      "velocidad": 45
+    },
+    "sprites": {
+      "front_default": "/images/10.webp",
+      "official_artwork": "/images/10.webp"
+    },
+    "descripcion": "Para protegerse, Caterpie emite un hedor horrendo por las antenas de su cabeza. Adopta una coloración parecida a la de las hojas para camuflarse en el follaje.",
+    "cadena_evolucion": 4,
+    "peso": 29,
+    "altura": 0.3,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Bicho"],
+    "evoluciones": [
+      {
+        "to_id": 11,
+        "to_nombre": "Metapod",
+        "method": "nivel",
+        "level": 7
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "nombre": "Metapod",
+    "generacion": 1,
+    "tipos": ["Bicho"],
+    "habilidades": ["Mudar"],
+    "estadisticas": {
+      "hp": 50,
+      "ataque": 20,
+      "defensa": 55,
+      "ataque_especial": 25,
+      "defensa_especial": 25,
+      "velocidad": 30
+    },
+    "sprites": {
+      "front_default": "/images/11.webp",
+      "official_artwork": "/images/11.webp"
+    },
+    "descripcion": "El caparazón que le recubre el cuerpo es duro como el hierro. Metapod se prepara para evolucionar fortaleciendo sus músculos internos.",
+    "cadena_evolucion": 4,
+    "peso": 99,
+    "altura": 0.7,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Bicho"],
+    "evoluciones": [
+      {
+        "to_id": 12,
+        "to_nombre": "Butterfree",
+        "method": "nivel",
+        "level": 10
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "nombre": "Butterfree",
+    "generacion": 1,
+    "tipos": ["Bicho", "Volador"],
+    "habilidades": ["Ojo Compuesto"],
+    "estadisticas": {
+      "hp": 60,
+      "ataque": 45,
+      "defensa": 50,
+      "ataque_especial": 90,
+      "defensa_especial": 80,
+      "velocidad": 70
+    },
+    "sprites": {
+      "front_default": "/images/12.webp",
+      "official_artwork": "/images/12.webp"
+    },
+    "descripcion": "Es un Pokémon al que le encanta libar la miel de las flores. Tiene unas patas especiales con las que puede transportar el néctar.",
+    "cadena_evolucion": 4,
+    "peso": 320,
+    "altura": 1.1,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Bicho"],
+    "evoluciones": []
+  },
+  {
+    "id": 13,
+    "nombre": "Weedle",
+    "generacion": 1,
+    "tipos": ["Bicho", "Veneno"],
+    "habilidades": ["Polvo Escudo"],
+    "estadisticas": {
+      "hp": 40,
+      "ataque": 35,
+      "defensa": 30,
+      "ataque_especial": 20,
+      "defensa_especial": 20,
+      "velocidad": 50
+    },
+    "sprites": {
+      "front_default": "/images/13.webp",
+      "official_artwork": "/images/13.webp"
+    },
+    "descripcion": "Tiene un sentido del olfato increíblemente agudo. Puede encontrar la hoja que le gusta comer entre cientos de variedades diferentes.",
+    "cadena_evolucion": 5,
+    "peso": 32,
+    "altura": 0.3,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Bicho"],
+    "evoluciones": [
+      {
+        "to_id": 14,
+        "to_nombre": "Kakuna",
+        "method": "nivel",
+        "level": 7
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "nombre": "Kakuna",
+    "generacion": 1,
+    "tipos": ["Bicho", "Veneno"],
+    "habilidades": ["Mudar"],
+    "estadisticas": {
+      "hp": 45,
+      "ataque": 25,
+      "defensa": 50,
+      "ataque_especial": 25,
+      "defensa_especial": 25,
+      "velocidad": 35
+    },
+    "sprites": {
+      "front_default": "/images/14.webp",
+      "official_artwork": "/images/14.webp"
+    },
+    "descripcion": "Aunque es un Pokémon inmovilizado, puede extender su aguijón tóxico si se siente amenazado.",
+    "cadena_evolucion": 5,
+    "peso": 100,
+    "altura": 0.6,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Bicho"],
+    "evoluciones": [
+      {
+        "to_id": 15,
+        "to_nombre": "Beedrill",
+        "method": "nivel",
+        "level": 10
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "nombre": "Beedrill",
+    "generacion": 1,
+    "tipos": ["Bicho", "Veneno"],
+    "habilidades": ["Enjambre"],
+    "estadisticas": {
+      "hp": 65,
+      "ataque": 90,
+      "defensa": 40,
+      "ataque_especial": 45,
+      "defensa_especial": 80,
+      "velocidad": 75
+    },
+    "sprites": {
+      "front_default": "/images/15.webp",
+      "official_artwork": "/images/15.webp"
+    },
+    "descripcion": "Vuela velozmente y ataca con los grandes aguijones de sus patas delanteras y su cola. Puede ser muy agresivo.",
+    "cadena_evolucion": 5,
+    "peso": 295,
+    "altura": 1.0,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Bicho"],
+    "evoluciones": []
+  },
+   {
+    "id": 16,
+    "nombre": "Pidgey",
+    "generacion": 1,
+    "tipos": ["Normal", "Volador"],
+    "habilidades": ["Vista Lince", "Tumbos"],
+    "estadisticas": {
+      "hp": 40,
+      "ataque": 45,
+      "defensa": 40,
+      "ataque_especial": 35,
+      "defensa_especial": 35,
+      "velocidad": 56
+    },
+    "sprites": {
+      "front_default": "/images/16.webp",
+      "official_artwork": "/images/16.webp"
+    },
+    "descripcion": "Prefiere las zonas arboladas. Es muy dócil y no le gusta luchar. Se esconde en la hierba alta y ataca a los insectos.",
+    "cadena_evolucion": 6,
+    "peso": 18,
+    "altura": 0.3,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Volador"],
+    "evoluciones": [
+      {
+        "to_id": 17,
+        "to_nombre": "Pidgeotto",
+        "method": "nivel",
+        "level": 18
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "nombre": "Pidgeotto",
+    "generacion": 1,
+    "tipos": ["Normal", "Volador"],
+    "habilidades": ["Vista Lince", "Tumbos"],
+    "estadisticas": {
+      "hp": 63,
+      "ataque": 60,
+      "defensa": 55,
+      "ataque_especial": 50,
+      "defensa_especial": 50,
+      "velocidad": 71
+    },
+    "sprites": {
+      "front_default": "/images/17.webp",
+      "official_artwork": "/images/17.webp"
+    },
+    "descripcion": "Es un Pokémon muy territorial. Marca su territorio volando a gran altura y patrullando sus dominios sin descanso.",
+    "cadena_evolucion": 6,
+    "peso": 300,
+    "altura": 1.1,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Volador"],
+    "evoluciones": [
+      {
+        "to_id": 18,
+        "to_nombre": "Pidgeot",
+        "method": "nivel",
+        "level": 36
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "nombre": "Pidgeot",
+    "generacion": 1,
+    "tipos": ["Normal", "Volador"],
+    "habilidades": ["Vista Lince", "Tumbos"],
+    "estadisticas": {
+      "hp": 83,
+      "ataque": 80,
+      "defensa": 75,
+      "ataque_especial": 70,
+      "defensa_especial": 70,
+      "velocidad": 101
+    },
+    "sprites": {
+      "front_default": "/images/18.webp",
+      "official_artwork": "/images/18.webp"
+    },
+    "descripcion": "Este Pokémon vuela a Mach 2. Cuando sale a cazar, el reflejo de sus alas brillantes causa deslumbrantes efectos de luz.",
+    "cadena_evolucion": 6,
+    "peso": 395,
+    "altura": 1.5,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Volador"],
+    "evoluciones": []
+  },
+  {
+    "id": 19,
+    "nombre": "Rattata",
+    "generacion": 1,
+    "tipos": ["Normal"],
+    "habilidades": ["Fuga", "Agallas"],
+    "estadisticas": {
+      "hp": 30,
+      "ataque": 56,
+      "defensa": 35,
+      "ataque_especial": 25,
+      "defensa_especial": 35,
+      "velocidad": 72
+    },
+    "sprites": {
+      "front_default": "/images/19.webp",
+      "official_artwork": "/images/19.webp"
+    },
+    "descripcion": "Este Pokémon es muy cauteloso. Vive en grandes grupos y se reproduce muy rápido. Sus colmillos crecen sin parar.",
+    "cadena_evolucion": 7,
+    "peso": 35,
+    "altura": 0.3,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Campo"],
+    "evoluciones": [
+      {
+        "to_id": 20,
+        "to_nombre": "Raticate",
+        "method": "nivel",
+        "level": 20
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "nombre": "Raticate",
+    "generacion": 1,
+    "tipos": ["Normal"],
+    "habilidades": ["Fuga", "Agallas"],
+    "estadisticas": {
+      "hp": 55,
+      "ataque": 81,
+      "defensa": 60,
+      "ataque_especial": 50,
+      "defensa_especial": 70,
+      "velocidad": 97
+    },
+    "sprites": {
+      "front_default": "/images/20.webp",
+      "official_artwork": "/images/20.webp"
+    },
+    "descripcion": "Sus colmillos son extremadamente duros y pueden roer cualquier cosa. Usa sus bigotes para mantener el equilibrio.",
+    "cadena_evolucion": 7,
+    "peso": 185,
+    "altura": 0.7,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Campo"],
+    "evoluciones": []
+  },
+  {
+    "id": 21,
+    "nombre": "Spearow",
+    "generacion": 1,
+    "tipos": ["Normal", "Volador"],
+    "habilidades": ["Vista Lince"],
+    "estadisticas": {
+      "hp": 40,
+      "ataque": 60,
+      "defensa": 30,
+      "ataque_especial": 31,
+      "defensa_especial": 31,
+      "velocidad": 70
+    },
+    "sprites": {
+      "front_default": "/images/21.webp",
+      "official_artwork": "/images/21.webp"
+    },
+    "descripcion": "Un Pokémon pájaro que no puede volar a grandes alturas. Le gusta cazar insectos en el suelo.",
+    "cadena_evolucion": 8,
+    "peso": 20,
+    "altura": 0.3,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Volador"],
+    "evoluciones": [
+      {
+        "to_id": 22,
+        "to_nombre": "Fearow",
+        "method": "nivel",
+        "level": 20
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "nombre": "Fearow",
+    "generacion": 1,
+    "tipos": ["Normal", "Volador"],
+    "habilidades": ["Vista Lince"],
+    "estadisticas": {
+      "hp": 65,
+      "ataque": 90,
+      "defensa": 65,
+      "ataque_especial": 61,
+      "defensa_especial": 61,
+      "velocidad": 100
+    },
+    "sprites": {
+      "front_default": "/images/22.webp",
+      "official_artwork": "/images/22.webp"
+    },
+    "descripcion": "Un Pokémon con un gran cuello y un pico largo. Puede volar sin descanso durante días sin aterrizar.",
+    "cadena_evolucion": 8,
+    "peso": 380,
+    "altura": 1.2,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Volador"],
+    "evoluciones": []
+  },
+  {
+    "id": 23,
+    "nombre": "Ekans",
+    "generacion": 1,
+    "tipos": ["Veneno"],
+    "habilidades": ["Intimidación", "Mudar"],
+    "estadisticas": {
+      "hp": 35,
+      "ataque": 60,
+      "defensa": 44,
+      "ataque_especial": 40,
+      "defensa_especial": 54,
+      "velocidad": 55
+    },
+    "sprites": {
+      "front_default": "/images/23.webp",
+      "official_artwork": "/images/23.webp"
+    },
+    "descripcion": "Se mueve silenciosamente por la hierba. Su lengua bífida detecta el olor de sus presas.",
+    "cadena_evolucion": 9,
+    "peso": 69,
+    "altura": 2.0,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Campo", "Dragón"],
+    "evoluciones": [
+      {
+        "to_id": 24,
+        "to_nombre": "Arbok",
+        "method": "nivel",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "nombre": "Arbok",
+    "generacion": 1,
+    "tipos": ["Veneno"],
+    "habilidades": ["Intimidación", "Mudar"],
+    "estadisticas": {
+      "hp": 60,
+      "ataque": 95,
+      "defensa": 69,
+      "ataque_especial": 65,
+      "defensa_especial": 79,
+      "velocidad": 80
+    },
+    "sprites": {
+      "front_default": "/images/24.webp",
+      "official_artwork": "/images/24.webp"
+    },
+    "descripcion": "El patrón en su estómago puede variar en cada región. Usa la fuerza de su cuerpo para asfixiar a sus presas.",
+    "cadena_evolucion": 9,
+    "peso": 650,
+    "altura": 3.5,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Campo", "Dragón"],
+    "evoluciones": []
+  },
+  {
+    "id": 25,
+    "nombre": "Pikachu",
+    "generacion": 1,
+    "tipos": ["Eléctrico"],
+    "habilidades": ["Estática"],
+    "estadisticas": {
+      "hp": 35,
+      "ataque": 55,
+      "defensa": 40,
+      "ataque_especial": 50,
+      "defensa_especial": 50,
+      "velocidad": 90
+    },
+    "sprites": {
+      "front_default": "/images/25.webp",
+      "official_artwork": "/images/25.webp"
+    },
+    "descripcion": "Cuanto más potentes son las descargas eléctricas que genera, más suaves y elásticas se vuelven las bolsas de sus mejillas.",
+    "cadena_evolucion": 10,
+    "peso": 60,
+    "altura": 0.4,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Campo", "Hada"],
+    "evoluciones": [
+      {
+        "to_id": 26,
+        "to_nombre": "Raichu",
+        "method": "piedra",
+        "item": "Piedra Trueno"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "nombre": "Raichu",
+    "generacion": 1,
+    "tipos": ["Eléctrico"],
+    "habilidades": ["Estática"],
+    "estadisticas": {
+      "hp": 60,
+      "ataque": 90,
+      "defensa": 55,
+      "ataque_especial": 90,
+      "defensa_especial": 80,
+      "velocidad": 110
+    },
+    "sprites": {
+      "front_default": "/images/26.webp",
+      "official_artwork": "/images/26.webp"
+    },
+    "descripcion": "Si acumula demasiada electricidad, la libera a través de su cola y la entierra en el suelo.",
+    "cadena_evolucion": 10,
+    "peso": 300,
+    "altura": 0.8,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Campo", "Hada"],
+    "evoluciones": []
   },
   {
     "id": 25,
