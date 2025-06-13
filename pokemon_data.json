@@ -5,6 +5,7 @@
     "generacion": 1,
     "tipos": ["Planta", "Veneno"],
     "habilidades": ["Espesura"],
+    "habilidad_oculta" : ["Clorofila"],
     "estadisticas": {
       "hp": 45,
       "ataque": 49,
@@ -41,6 +42,7 @@
     "generacion": 1,
     "tipos": ["Planta", "Veneno"],
     "habilidades": ["Espesura"],
+    "habilidad_oculta" : ["Clorofila"],
     "estadisticas": {
       "hp": 60,
       "ataque": 62,
@@ -77,6 +79,7 @@
     "generacion": 1,
     "tipos": ["Planta", "Veneno"],
     "habilidades": ["Espesura"],
+    "habilidad_oculta" : ["Clorofila"],
     "estadisticas": {
       "hp": 80,
       "ataque": 82,
@@ -106,6 +109,7 @@
     "generacion": 1,
     "tipos": ["Fuego"],
     "habilidades": ["Mar Llamas"],
+    "habilidad_oculta" : ["Poder Solar"],
     "estadisticas": {
       "hp": 39,
       "ataque": 52,
@@ -142,6 +146,7 @@
     "generacion": 1,
     "tipos": ["Fuego"],
     "habilidades": ["Mar Llamas"],
+    "habilidad_oculta" : ["Poder Solar"],
     "estadisticas": {
       "hp": 58,
       "ataque": 64,
@@ -178,6 +183,7 @@
     "generacion": 1,
     "tipos": ["Fuego", "Volador"],
     "habilidades": ["Mar Llamas"],
+    "habilidad_oculta" : ["Poder Solar"],
     "estadisticas": {
       "hp": 78,
       "ataque": 84,
@@ -207,6 +213,7 @@
     "generacion": 1,
     "tipos": ["Agua"],
     "habilidades": ["Torrente"],
+    "habilidad_oculta" : ["Cara Lluvia"],
     "estadisticas": {
       "hp": 44,
       "ataque": 48,
@@ -243,6 +250,7 @@
     "generacion": 1,
     "tipos": ["Agua"],
     "habilidades": ["Torrente"],
+    "habilidad_oculta" : ["Cara Lluvia"],
     "estadisticas": {
       "hp": 59,
       "ataque": 63,
@@ -279,6 +287,7 @@
     "generacion": 1,
     "tipos": ["Agua"],
     "habilidades": ["Torrente"],
+    "habilidad_oculta" : ["Cara Lluvia"],
     "estadisticas": {
       "hp": 79,
       "ataque": 83,
@@ -344,6 +353,7 @@
     "generacion": 1,
     "tipos": ["Bicho"],
     "habilidades": ["Mudar"],
+    "habilidad_oculta" : ["Fuga"],
     "estadisticas": {
       "hp": 50,
       "ataque": 20,
@@ -380,6 +390,7 @@
     "generacion": 1,
     "tipos": ["Bicho", "Volador"],
     "habilidades": ["Ojo Compuesto"],
+    "habilidad_oculta" : ["Cromolente"],
     "estadisticas": {
       "hp": 60,
       "ataque": 45,
@@ -409,6 +420,7 @@
     "generacion": 1,
     "tipos": ["Bicho", "Veneno"],
     "habilidades": ["Polvo Escudo"],
+    "habilidad_oculta" : ["Fuga"],
     "estadisticas": {
       "hp": 40,
       "ataque": 35,
@@ -481,6 +493,7 @@
     "generacion": 1,
     "tipos": ["Bicho", "Veneno"],
     "habilidades": ["Enjambre"],
+    "habilidad_oculta" : ["Francotirador"],
     "estadisticas": {
       "hp": 65,
       "ataque": 90,
@@ -510,6 +523,7 @@
     "generacion": 1,
     "tipos": ["Normal", "Volador"],
     "habilidades": ["Vista Lince", "Tumbos"],
+    "habilidad_oculta" : ["Sacapecho"],
     "estadisticas": {
       "hp": 40,
       "ataque": 45,
@@ -546,6 +560,7 @@
     "generacion": 1,
     "tipos": ["Normal", "Volador"],
     "habilidades": ["Vista Lince", "Tumbos"],
+    "habilidad_oculta" : ["Sacapecho"],
     "estadisticas": {
       "hp": 63,
       "ataque": 60,
@@ -582,6 +597,7 @@
     "generacion": 1,
     "tipos": ["Normal", "Volador"],
     "habilidades": ["Vista Lince", "Tumbos"],
+    "habilidad_oculta" : ["Sacapecho"],
     "estadisticas": {
       "hp": 83,
       "ataque": 80,
@@ -610,7 +626,8 @@
     "nombre": "Rattata",
     "generacion": 1,
     "tipos": ["Normal"],
-    "habilidades": ["Fuga", "Agallas"],
+    "habilidades": ["Fuga", "Agallas"],    
+    "habilidad_oculta" : ["Entusiasmo"],
     "estadisticas": {
       "hp": 30,
       "ataque": 56,
@@ -647,6 +664,7 @@
     "generacion": 1,
     "tipos": ["Normal"],
     "habilidades": ["Fuga", "Agallas"],
+    "habilidad_oculta" : ["Entusiasmo"],
     "estadisticas": {
       "hp": 55,
       "ataque": 81,
@@ -676,6 +694,7 @@
     "generacion": 1,
     "tipos": ["Normal", "Volador"],
     "habilidades": ["Vista Lince"],
+    "habilidad_oculta" : ["Francotirador"],
     "estadisticas": {
       "hp": 40,
       "ataque": 60,
@@ -712,6 +731,7 @@
     "generacion": 1,
     "tipos": ["Normal", "Volador"],
     "habilidades": ["Vista Lince"],
+    "habilidad_oculta" : ["Francotirador"],
     "estadisticas": {
       "hp": 65,
       "ataque": 90,
@@ -741,6 +761,7 @@
     "generacion": 1,
     "tipos": ["Veneno"],
     "habilidades": ["Intimidación", "Mudar"],
+    "habilidad_oculta" : ["Nerviosismo"],
     "estadisticas": {
       "hp": 35,
       "ataque": 60,
@@ -777,6 +798,7 @@
     "generacion": 1,
     "tipos": ["Veneno"],
     "habilidades": ["Intimidación", "Mudar"],
+    "habilidad_oculta" : ["Nerviosismo"],
     "estadisticas": {
       "hp": 60,
       "ataque": 95,
@@ -806,6 +828,7 @@
     "generacion": 1,
     "tipos": ["Eléctrico"],
     "habilidades": ["Estática"],
+    "habilidad_oculta" : ["Pararrayos"],
     "estadisticas": {
       "hp": 35,
       "ataque": 55,
@@ -842,6 +865,7 @@
     "generacion": 1,
     "tipos": ["Eléctrico"],
     "habilidades": ["Estática"],
+    "habilidad_oculta" : ["Pararrayos"],
     "estadisticas": {
       "hp": 60,
       "ataque": 90,
@@ -864,47 +888,5 @@
     },
     "grupo_huevo": ["Campo", "Hada"],
     "evoluciones": []
-  },
-  {
-    "id": 25,
-    "nombre": "Pikachu",
-    "generacion": 1,
-    "tipos": ["Eléctrico"],
-    "habilidades": ["Electricidad Estática", "Pararrayos"],
-    "estadisticas": {
-      "hp": 35,
-      "ataque": 55,
-      "defensa": 40,
-      "ataque_especial": 50,
-      "defensa_especial": 50,
-      "velocidad": 90
-    },
-    "sprites": {
-      "front_default": "/images/25.webp",
-      "official_artwork": "/images/25.webp"
-    },
-    "descripcion": "Este Pokémon tiene unas bolsas en las mejillas que usa para almacenar electricidad. Cuando se siente amenazado, descarga electricidad.",
-    "cadena_evolucion": 10
-  },
-  {
-    "id": 151,
-    "nombre": "Mew",
-    "generacion": 1,
-    "tipos": ["Psíquico"],
-    "habilidades": ["Sincronía"],
-    "estadisticas": {
-      "hp": 100,
-      "ataque": 100,
-      "defensa": 100,
-      "ataque_especial": 100,
-      "defensa_especial": 100,
-      "velocidad": 100
-    },
-    "sprites": {
-      "front_default": "/images/151.webp",
-      "official_artwork": "/images/151.webp"
-    },
-    "descripcion": "Gracias a su capacidad para aprender cualquier movimiento, Mew es un Pokémon muy versátil. Se dice que contiene el ADN de todos los Pokémon.",
-    "cadena_evolucion": null
   }
 ]
