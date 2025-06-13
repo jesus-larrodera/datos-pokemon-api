@@ -36,6 +36,71 @@
     ]
   },
   {
+    "id": 2,
+    "nombre": "Ivysaur",
+    "generacion": 1,
+    "tipos": ["Planta", "Veneno"],
+    "habilidades": ["Espesura"],
+    "estadisticas": {
+      "hp": 60,
+      "ataque": 62,
+      "defensa": 63,
+      "ataque_especial": 80,
+      "defensa_especial": 80,
+      "velocidad": 60
+    },
+    "sprites": {
+      "front_default": "/images/2.webp",
+      "official_artwork": "/images/2.webp"
+    },
+    "descripcion": "Cuando el bulbo de su espalda crece, parece perder la habilidad de mantenerse en pie sobre sus patas traseras.",
+    "cadena_evolucion": 1,
+    "peso": 130,
+    "altura": 1.0,
+    "genero_ratio": {
+      "male": 0.875,
+      "female": 0.125
+    },
+    "grupo_huevo": ["Monstruo", "Planta"],
+    "evoluciones": [
+      {
+        "to_id": 3,
+        "to_nombre": "Venusaur",
+        "method": "nivel",
+        "level": 32
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Venusaur",
+    "generacion": 1,
+    "tipos": ["Planta", "Veneno"],
+    "habilidades": ["Espesura"],
+    "estadisticas": {
+      "hp": 80,
+      "ataque": 82,
+      "defensa": 83,
+      "ataque_especial": 100,
+      "defensa_especial": 100,
+      "velocidad": 80
+    },
+    "sprites": {
+      "front_default": "/images/3.webp",
+      "official_artwork": "/images/3.webp"
+    },
+    "descripcion": "La flor de su espalda adquiere colores vivos si recibe suficiente nutrición y luz solar. El aroma de la flor calma los ánimos de la gente.",
+    "cadena_evolucion": 1,
+    "peso": 1000,
+    "altura": 2.0,
+    "genero_ratio": {
+      "male": 0.875,
+      "female": 0.125
+    },
+    "grupo_huevo": ["Monstruo", "Planta"],
+    "evoluciones": []
+  }
+  {
     "id": 4,
     "nombre": "Charmander",
     "generacion": 1,
