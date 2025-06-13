@@ -1,41 +1,41 @@
 [
-{
-  "id": 1,
-  "nombre": "Bulbasaur",
-  "generacion": 1,
-  "tipos": ["Planta", "Veneno"],
-  "habilidades": ["Espesura"],
-  "estadisticas": {
-    "hp": 45,
-    "ataque": 49,
-    "defensa": 49,
-    "ataque_especial": 65,
-    "defensa_especial": 65,
-    "velocidad": 45
+  {
+    "id": 1,
+    "nombre": "Bulbasaur",
+    "generacion": 1,
+    "tipos": ["Planta", "Veneno"],
+    "habilidades": ["Espesura"],
+    "estadisticas": {
+      "hp": 45,
+      "ataque": 49,
+      "defensa": 49,
+      "ataque_especial": 65,
+      "defensa_especial": 65,
+      "velocidad": 45
+    },
+    "sprites": {
+      "front_default": "/images/1.webp",
+      "official_artwork": "/images/1.webp"
+    },
+    "descripcion": "Un Pokémon de tipo Planta/Veneno. Desde su nacimiento, una semilla crece en su espalda, acumulando nutrientes.",
+    "cadena_evolucion": 1,
+    "peso": 69,
+    "altura": 0.7,
+    "genero_ratio": {
+      "male": 0.875,
+      "female": 0.125
+    },
+    "grupo_huevo": ["Monstruo", "Planta"],
+    "evoluciones": [
+      {
+        "to_id": 2,
+        "to_nombre": "Ivysaur",
+        "method": "nivel",
+        "level": 16
+      }
+    ]
   },
-  "sprites": {
-    "front_default": "/images/1.webp",
-    "official_artwork": "/images/1.webp"
-  },
-  "descripcion": "Un Pokémon de tipo Planta/Veneno. Desde su nacimiento, una semilla crece en su espalda, acumulando nutrientes.",
-  "cadena_evolucion": 1,
-  "peso": 69,
-  "altura": 0.7,
-  "genero_ratio": {
-    "male": 0.875,
-    "female": 0.125
-  },
-  "grupo_huevo": ["Monstruo", "Planta"],
-  "evoluciones": [
-    {
-      "to_id": 2,
-      "to_nombre": "Ivysaur",
-      "method": "nivel",
-      "level": 16
-    }
-  ]
-}, <-- ¡COMA AÑADIDA AQUÍ!
-{
+  {
     "id": 4,
     "nombre": "Charmander",
     "generacion": 1,
