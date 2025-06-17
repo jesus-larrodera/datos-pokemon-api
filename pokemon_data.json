@@ -1359,5 +1359,357 @@
   },
   "grupo_huevo": ["Hada"],
   "evoluciones": []
+},
+  {
+  "id": 41,
+  "nombre": "Zubat",
+  "generacion": 1,
+  "tipos": ["Veneno", "Volador"],
+  "habilidades": ["Foco Interno"],
+  "habilidad_oculta": ["Allanamiento"],
+  "estadisticas": {
+    "hp": 40,
+    "ataque": 45,
+    "defensa": 35,
+    "ataque_especial": 30,
+    "defensa_especial": 40,
+    "velocidad": 55
+  },
+  "sprites": {
+    "front_default": "/images/41.webp",
+    "official_artwork": "/images/41.webp"
+  },
+  "descripcion": "Un Pokémon murciélago que vive en cuevas oscuras. Utiliza ondas ultrasónicas para orientarse.",
+  "cadena_evolucion": 18,
+  "peso": 7.5,
+  "altura": 0.8,
+  "genero_ratio": {
+    "male": 0.5,
+    "female": 0.5
+  },
+  "grupo_huevo": ["Volador"],
+  "evoluciones": [
+    {
+      "to_id": 42,
+      "to_nombre": "Golbat",
+      "method": "nivel",
+      "level": 22
+    }
+  ]
+},
+{
+  "id": 42,
+  "nombre": "Golbat",
+  "generacion": 1,
+  "tipos": ["Veneno", "Volador"],
+  "habilidades": ["Foco Interno"],
+  "habilidad_oculta": ["Allanamiento"],
+  "estadisticas": {
+    "hp": 75,
+    "ataque": 80,
+    "defensa": 70,
+    "ataque_especial": 65,
+    "defensa_especial": 75,
+    "velocidad": 90
+  },
+  "sprites": {
+    "front_default": "/images/42.webp",
+    "official_artwork": "/images/42.webp"
+  },
+  "descripcion": "Vuela velozmente en la oscuridad. Sus colmillos están afilados y se alimenta de sangre.",
+  "cadena_evolucion": 18,
+  "peso": 55.0,
+  "altura": 1.6,
+  "genero_ratio": {
+    "male": 0.5,
+    "female": 0.5
+  },
+  "grupo_huevo": ["Volador"],
+  "evoluciones": [
+    {
+      "to_id": 169,
+      "to_nombre": "Crobat",
+      "method": "felicidad"
+    }
+  ]
+},
+{
+  "id": 43,
+  "nombre": "Oddish",
+  "generacion": 1,
+  "tipos": ["Planta", "Veneno"],
+  "habilidades": ["Clorofila"],
+  "habilidad_oculta": ["Fuga"],
+  "estadisticas": {
+    "hp": 45,
+    "ataque": 50,
+    "defensa": 55,
+    "ataque_especial": 75,
+    "defensa_especial": 65,
+    "velocidad": 30
+  },
+  "sprites": {
+    "front_default": "/images/43.webp",
+    "official_artwork": "/images/43.webp"
+  },
+  "descripcion": "Durante el día, se entierra en el suelo dejando solo sus hojas al sol. Por la noche, vaga por ahí.",
+  "cadena_evolucion": 19,
+  "peso": 5.4,
+  "altura": 0.5,
+  "genero_ratio": {
+    "male": 0.5,
+    "female": 0.5
+  },
+  "grupo_huevo": ["Planta"],
+  "evoluciones": [
+    {
+      "to_id": 44,
+      "to_nombre": "Gloom",
+      "method": "nivel",
+      "level": 21
+    }
+  ]
+},
+{
+  "id": 44,
+  "nombre": "Gloom",
+  "generacion": 1,
+  "tipos": ["Planta", "Veneno"],
+  "habilidades": ["Clorofila"],
+  "habilidad_oculta": ["Fuga"],
+  "estadisticas": {
+    "hp": 60,
+    "ataque": 65,
+    "defensa": 70,
+    "ataque_especial": 85,
+    "defensa_especial": 75,
+    "velocidad": 40
+  },
+  "sprites": {
+    "front_default": "/images/44.webp",
+    "official_artwork": "/images/44.webp"
+  },
+  "descripcion": "El líquido que gotea de su boca es dulce y delicioso, pero puede desmayar a cualquiera que lo pruebe.",
+  "cadena_evolucion": 19,
+  "peso": 8.6,
+  "altura": 0.8,
+  "genero_ratio": {
+    "male": 0.5,
+    "female": 0.5
+  },
+  "grupo_huevo": ["Planta"],
+  "evoluciones": [
+    {
+      "to_id": 45,
+      "to_nombre": "Vileplume",
+      "method": "piedra_hoja"
+    },
+    {
+      "to_id": 182,
+      "to_nombre": "Bellossom",
+      "method": "piedra_solar"
+    }
+  ]
+},
+{
+  "id": 45,
+  "nombre": "Vileplume",
+  "generacion": 1,
+  "tipos": ["Planta", "Veneno"],
+  "habilidades": ["Clorofila"],
+  "habilidad_oculta": ["Efecto Espora"],
+  "estadisticas": {
+    "hp": 75,
+    "ataque": 80,
+    "defensa": 85,
+    "ataque_especial": 110,
+    "defensa_especial": 90,
+    "velocidad": 50
+  },
+  "sprites": {
+    "front_default": "/images/45.webp",
+    "official_artwork": "/images/45.webp"
+  },
+  "descripcion": "Las esporas tóxicas de sus pétalos pueden causar alergias y parálisis. Cuanto más grandes son los pétalos, más toxinas contiene.",
+  "cadena_evolucion": 19,
+  "peso": 18.6,
+  "altura": 1.2,
+  "genero_ratio": {
+    "male": 0.5,
+    "female": 0.5
+  },
+  "grupo_huevo": ["Planta"],
+  "evoluciones": []
+},
+{
+  "id": 46,
+  "nombre": "Paras",
+  "generacion": 1,
+  "tipos": ["Bicho", "Planta"],
+  "habilidades": ["Efecto Espora", "Piel Seca"],
+  "habilidad_oculta": ["Humedad"],
+  "estadisticas": {
+    "hp": 35,
+    "ataque": 70,
+    "defensa": 55,
+    "ataque_especial": 45,
+    "defensa_especial": 55,
+    "velocidad": 25
+  },
+  "sprites": {
+    "front_default": "/images/46.webp",
+    "official_artwork": "/images/46.webp"
+  },
+  "descripcion": "Un Pokémon con hongos parásitos en la espalda. Estos hongos crecen con el Pokémon.",
+  "cadena_evolucion": 20,
+  "peso": 5.4,
+  "altura": 0.3,
+  "genero_ratio": {
+    "male": 0.5,
+    "female": 0.5
+  },
+  "grupo_huevo": ["Bicho", "Planta"],
+  "evoluciones": [
+    {
+      "to_id": 47,
+      "to_nombre": "Parasect",
+      "method": "nivel",
+      "level": 24
+    }
+  ]
+},
+{
+  "id": 47,
+  "nombre": "Parasect",
+  "generacion": 1,
+  "tipos": ["Bicho", "Planta"],
+  "habilidades": ["Efecto Espora", "Piel Seca"],
+  "habilidad_oculta": ["Humedad"],
+  "estadisticas": {
+    "hp": 60,
+    "ataque": 95,
+    "defensa": 80,
+    "ataque_especial": 60,
+    "defensa_especial": 80,
+    "velocidad": 30
+  },
+  "sprites": {
+    "front_default": "/images/47.webp",
+    "official_artwork": "/images/47.webp"
+  },
+  "descripcion": "El hongo en la espalda de Parasect ha crecido tanto que domina su mente. Solo obedece al hongo.",
+  "cadena_evolucion": 20,
+  "peso": 29.5,
+  "altura": 1.0,
+  "genero_ratio": {
+    "male": 0.5,
+    "female": 0.5
+  },
+  "grupo_huevo": ["Bicho", "Planta"],
+  "evoluciones": []
+},
+{
+  "id": 48,
+  "nombre": "Venonat",
+  "generacion": 1,
+  "tipos": ["Bicho", "Veneno"],
+  "habilidades": ["Ojo Compuesto", "Cromolente"],
+  "habilidad_oculta": ["Fuga"],
+  "estadisticas": {
+    "hp": 60,
+    "ataque": 55,
+    "defensa": 50,
+    "ataque_especial": 40,
+    "defensa_especial": 55,
+    "velocidad": 45
+  },
+  "sprites": {
+    "front_default": "/images/48.webp",
+    "official_artwork": "/images/48.webp"
+  },
+  "descripcion": "Sus grandes ojos actúan como radares, detectando hasta la presa más pequeña en la oscuridad.",
+  "cadena_evolucion": 21,
+  "peso": 30.0,
+  "altura": 1.0,
+  "genero_ratio": {
+    "male": 0.5,
+    "female": 0.5
+  },
+  "grupo_huevo": ["Bicho"],
+  "evoluciones": [
+    {
+      "to_id": 49,
+      "to_nombre": "Venomoth",
+      "method": "nivel",
+      "level": 31
+    }
+  ]
+},
+{
+  "id": 49,
+  "nombre": "Venomoth",
+  "generacion": 1,
+  "tipos": ["Bicho", "Veneno"],
+  "habilidades": ["Ojo Compuesto", "Cromolente"],
+  "habilidad_oculta": ["Piel Seca"],
+  "estadisticas": {
+    "hp": 70,
+    "ataque": 65,
+    "defensa": 60,
+    "ataque_especial": 90,
+    "defensa_especial": 75,
+    "velocidad": 90
+  },
+  "sprites": {
+    "front_default": "/images/49.webp",
+    "official_artwork": "/images/49.webp"
+  },
+  "descripcion": "Las escamas en sus alas son extremadamente tóxicas y se esparcen al volar.",
+  "cadena_evolucion": 21,
+  "peso": 12.5,
+  "altura": 1.5,
+  "genero_ratio": {
+    "male": 0.5,
+    "female": 0.5
+  },
+  "grupo_huevo": ["Bicho"],
+  "evoluciones": []
+},
+{
+  "id": 50,
+  "nombre": "Diglett",
+  "generacion": 1,
+  "tipos": ["Tierra"],
+  "habilidades": ["Campo Arena", "Trampa Arena"],
+  "habilidad_oculta": ["Poder Arena"],
+  "estadisticas": {
+    "hp": 10,
+    "ataque": 55,
+    "defensa": 25,
+    "ataque_especial": 35,
+    "defensa_especial": 45,
+    "velocidad": 95
+  },
+  "sprites": {
+    "front_default": "/images/50.webp",
+    "official_artwork": "/images/50.webp"
+  },
+  "descripcion": "Vive bajo tierra, cavando túneles constantemente. Deja montículos de tierra donde pasa.",
+  "cadena_evolucion": 22,
+  "peso": 0.8,
+  "altura": 0.2,
+  "genero_ratio": {
+    "male": 0.5,
+    "female": 0.5
+  },
+  "grupo_huevo": ["Campo"],
+  "evoluciones": [
+    {
+      "to_id": 51,
+      "to_nombre": "Dugtrio",
+      "method": "nivel",
+      "level": 26
+    }
+  ]
 }
 ]
