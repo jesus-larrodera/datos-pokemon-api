@@ -888,5 +888,476 @@
     },
     "grupo_huevo": ["Campo", "Hada"],
     "evoluciones": []
-  }
+  },
+  {
+  "id": 27,
+  "nombre": "Sandshrew",
+  "generacion": 1,
+  "tipos": ["Tierra"],
+  "habilidades": ["Velo Arena"],
+  "habilidad_oculta": ["Ímpetu Arena"],
+  "estadisticas": {
+    "hp": 50,
+    "ataque": 75,
+    "defensa": 85,
+    "ataque_especial": 20,
+    "defensa_especial": 30,
+    "velocidad": 40
+  },
+  "sprites": {
+    "front_default": "/images/27.webp",
+    "official_artwork": "/images/27.webp"
+  },
+  "descripcion": "Prefiere los lugares secos y áridos. Puede enrollarse en una bola espinosa para protegerse o atacar.",
+  "cadena_evolucion": 12,
+  "peso": 120.0,
+  "altura": 0.6,
+  "genero_ratio": {
+    "male": 0.5,
+    "female": 0.5
+  },
+  "grupo_huevo": ["Campo"],
+  "evoluciones": [
+    {
+      "to_id": 28,
+      "to_nombre": "Sandslash",
+      "method": "nivel",
+      "level": 22
+    }
+  ]
+},
+{
+  "id": 28,
+  "nombre": "Sandslash",
+  "generacion": 1,
+  "tipos": ["Tierra"],
+  "habilidades": ["Velo Arena"],
+  "habilidad_oculta": ["Ímpetu Arena"],
+  "estadisticas": {
+    "hp": 75,
+    "ataque": 100,
+    "defensa": 110,
+    "ataque_especial": 45,
+    "defensa_especial": 55,
+    "velocidad": 65
+  },
+  "sprites": {
+    "front_default": "/images/28.webp",
+    "official_artwork": "/images/28.webp"
+  },
+  "descripcion": "Puede enrollarse y rodar a gran velocidad. Sus garras son afiladas y pueden cortar casi cualquier cosa.",
+  "cadena_evolucion": 12,
+  "peso": 295.0,
+  "altura": 1.0,
+  "genero_ratio": {
+    "male": 0.5,
+    "female": 0.5
+  },
+  "grupo_huevo": ["Campo"],
+  "evoluciones": []
+},
+{
+  "id": 29,
+  "nombre": "Nidoran♀",
+  "generacion": 1,
+  "tipos": ["Veneno"],
+  "habilidades": ["Punto Tóxico", "Rivalidad"],
+  "habilidad_oculta": ["Entusiasmo"],
+  "estadisticas": {
+    "hp": 55,
+    "ataque": 47,
+    "defensa": 52,
+    "ataque_especial": 40,
+    "defensa_especial": 40,
+    "velocidad": 41
+  },
+  "sprites": {
+    "front_default": "/images/29.webp",
+    "official_artwork": "/images/29.webp"
+  },
+  "descripcion": "Aunque es pequeña, sus púas contienen un veneno potente. Es una especie pacífica.",
+  "cadena_evolucion": 13,
+  "peso": 7.0,
+  "altura": 0.4,
+  "genero_ratio": {
+    "male": 0.0,
+    "female": 1.0
+  },
+  "grupo_huevo": ["Monstruo", "Campo"],
+  "evoluciones": [
+    {
+      "to_id": 30,
+      "to_nombre": "Nidorina",
+      "method": "nivel",
+      "level": 16
+    }
+  ]
+},
+{
+  "id": 30,
+  "nombre": "Nidorina",
+  "generacion": 1,
+  "tipos": ["Veneno"],
+  "habilidades": ["Punto Tóxico", "Rivalidad"],
+  "habilidad_oculta": ["Entusiasmo"],
+  "estadisticas": {
+    "hp": 70,
+    "ataque": 62,
+    "defensa": 67,
+    "ataque_especial": 55,
+    "defensa_especial": 55,
+    "velocidad": 56
+  },
+  "sprites": {
+    "front_default": "/images/30.webp",
+    "official_artwork": "/images/30.webp"
+  },
+  "descripcion": "El cuerno de Nidorina crece rápidamente. Es muy protectora con sus crías.",
+  "cadena_evolucion": 13,
+  "peso": 20.0,
+  "altura": 0.8,
+  "genero_ratio": {
+    "male": 0.0,
+    "female": 1.0
+  },
+  "grupo_huevo": ["Monstruo", "Campo"],
+  "evoluciones": [
+    {
+      "to_id": 31,
+      "to_nombre": "Nidoqueen",
+      "method": "piedra_lunar"
+    }
+  ]
+},
+{
+  "id": 31,
+  "nombre": "Nidoqueen",
+  "generacion": 1,
+  "tipos": ["Veneno", "Tierra"],
+  "habilidades": ["Punto Tóxico", "Rivalidad"],
+  "habilidad_oculta": ["Entusiasmo"],
+  "estadisticas": {
+    "hp": 90,
+    "ataque": 92,
+    "defensa": 87,
+    "ataque_especial": 75,
+    "defensa_especial": 85,
+    "velocidad": 76
+  },
+  "sprites": {
+    "front_default": "/images/31.webp",
+    "official_artwork": "/images/31.webp"
+  },
+  "descripcion": "Un Pokémon muy agresivo que protege su nido con ferocidad. Sus defensas son muy altas.",
+  "cadena_evolucion": 13,
+  "peso": 60.0,
+  "altura": 1.3,
+  "genero_ratio": {
+    "male": 0.0,
+    "female": 1.0
+  },
+  "grupo_huevo": ["Monstruo", "Campo"],
+  "evoluciones": []
+},
+{
+  "id": 32,
+  "nombre": "Nidoran♂",
+  "generacion": 1,
+  "tipos": ["Veneno"],
+  "habilidades": ["Punto Tóxico", "Rivalidad"],
+  "habilidad_oculta": ["Entusiasmo"],
+  "estadisticas": {
+    "hp": 46,
+    "ataque": 57,
+    "defensa": 40,
+    "ataque_especial": 40,
+    "defensa_especial": 40,
+    "velocidad": 50
+  },
+  "sprites": {
+    "front_default": "/images/32.webp",
+    "official_artwork": "/images/32.webp"
+  },
+  "descripcion": "Sus orejas grandes le permiten captar incluso el más leve sonido. Es un Pokémon cauteloso.",
+  "cadena_evolucion": 14,
+  "peso": 9.0,
+  "altura": 0.5,
+  "genero_ratio": {
+    "male": 1.0,
+    "female": 0.0
+  },
+  "grupo_huevo": ["Monstruo", "Campo"],
+  "evoluciones": [
+    {
+      "to_id": 33,
+      "to_nombre": "Nidorino",
+      "method": "nivel",
+      "level": 16
+    }
+  ]
+},
+{
+  "id": 33,
+  "nombre": "Nidorino",
+  "generacion": 1,
+  "tipos": ["Veneno"],
+  "habilidades": ["Punto Tóxico", "Rivalidad"],
+  "habilidad_oculta": ["Entusiasmo"],
+  "estadisticas": {
+    "hp": 61,
+    "ataque": 72,
+    "defensa": 57,
+    "ataque_especial": 55,
+    "defensa_especial": 55,
+    "velocidad": 65
+  },
+  "sprites": {
+    "front_default": "/images/33.webp",
+    "official_artwork": "/images/33.webp"
+  },
+  "descripcion": "El cuerno de Nidorino es más duro que el diamante. Puede atravesar materiales muy resistentes.",
+  "cadena_evolucion": 14,
+  "peso": 19.5,
+  "altura": 0.9,
+  "genero_ratio": {
+    "male": 1.0,
+    "female": 0.0
+  },
+  "grupo_huevo": ["Monstruo", "Campo"],
+  "evoluciones": [
+    {
+      "to_id": 34,
+      "to_nombre": "Nidoking",
+      "method": "piedra_lunar"
+    }
+  ]
+},
+{
+  "id": 34,
+  "nombre": "Nidoking",
+  "generacion": 1,
+  "tipos": ["Veneno", "Tierra"],
+  "habilidades": ["Punto Tóxico", "Rivalidad"],
+  "habilidad_oculta": ["Potencia Bruta"],
+  "estadisticas": {
+    "hp": 81,
+    "ataque": 102,
+    "defensa": 77,
+    "ataque_especial": 85,
+    "defensa_especial": 75,
+    "velocidad": 85
+  },
+  "sprites": {
+    "front_default": "/images/34.webp",
+    "official_artwork": "/images/34.webp"
+  },
+  "descripcion": "Un Pokémon muy fuerte con una cola poderosa que puede derrumbar edificios. Es territorial.",
+  "cadena_evolucion": 14,
+  "peso": 62.0,
+  "altura": 1.4,
+  "genero_ratio": {
+    "male": 1.0,
+    "female": 0.0
+  },
+  "grupo_huevo": ["Monstruo", "Campo"],
+  "evoluciones": []
+},
+{
+  "id": 35,
+  "nombre": "Clefairy",
+  "generacion": 1,
+  "tipos": ["Hada"],
+  "habilidades": ["Gran Encanto", "Cura Natural"],
+  "habilidad_oculta": ["Compiescolta"],
+  "estadisticas": {
+    "hp": 70,
+    "ataque": 45,
+    "defensa": 48,
+    "ataque_especial": 60,
+    "defensa_especial": 65,
+    "velocidad": 35
+  },
+  "sprites": {
+    "front_default": "/images/35.webp",
+    "official_artwork": "/images/35.webp"
+  },
+  "descripcion": "Un Pokémon hada que se dice que viene de la luna. Es muy tímido y se esconde de la gente.",
+  "cadena_evolucion": 15,
+  "peso": 7.5,
+  "altura": 0.6,
+  "genero_ratio": {
+    "male": 0.25,
+    "female": 0.75
+  },
+  "grupo_huevo": ["Hada"],
+  "evoluciones": [
+    {
+      "to_id": 36,
+      "to_nombre": "Clefable",
+      "method": "piedra_lunar"
+    }
+  ]
+},
+{
+  "id": 36,
+  "nombre": "Clefable",
+  "generacion": 1,
+  "tipos": ["Hada"],
+  "habilidades": ["Gran Encanto", "Cura Natural"],
+  "habilidad_oculta": ["Ignorante"],
+  "estadisticas": {
+    "hp": 95,
+    "ataque": 70,
+    "defensa": 73,
+    "ataque_especial": 95,
+    "defensa_especial": 90,
+    "velocidad": 60
+  },
+  "sprites": {
+    "front_default": "/images/36.webp",
+    "official_artwork": "/images/36.webp"
+  },
+  "descripcion": "Se dice que Clefable tiene la habilidad de volar y camina suavemente sobre el agua.",
+  "cadena_evolucion": 15,
+  "peso": 40.0,
+  "altura": 1.3,
+  "genero_ratio": {
+    "male": 0.25,
+    "female": 0.75
+  },
+  "grupo_huevo": ["Hada"],
+  "evoluciones": []
+},
+{
+  "id": 37,
+  "nombre": "Vulpix",
+  "generacion": 1,
+  "tipos": ["Fuego"],
+  "habilidades": ["Absorbe Fuego"],
+  "habilidad_oculta": ["Sequía"],
+  "estadisticas": {
+    "hp": 38,
+    "ataque": 41,
+    "defensa": 40,
+    "ataque_especial": 50,
+    "defensa_especial": 65,
+    "velocidad": 65
+  },
+  "sprites": {
+    "front_default": "/images/37.webp",
+    "official_artwork": "/images/37.webp"
+  },
+  "descripcion": "Desde que nace, posee seis hermosas colas. Conforme crece, sus colas se dividen y aumentan en número.",
+  "cadena_evolucion": 16,
+  "peso": 9.9,
+  "altura": 0.6,
+  "genero_ratio": {
+    "male": 0.25,
+    "female": 0.75
+  },
+  "grupo_huevo": ["Campo"],
+  "evoluciones": [
+    {
+      "to_id": 38,
+      "to_nombre": "Ninetales",
+      "method": "piedra_fuego"
+    }
+  ]
+},
+{
+  "id": 38,
+  "nombre": "Ninetales",
+  "generacion": 1,
+  "tipos": ["Fuego"],
+  "habilidades": ["Absorbe Fuego"],
+  "habilidad_oculta": ["Sequía"],
+  "estadisticas": {
+    "hp": 73,
+    "ataque": 76,
+    "defensa": 75,
+    "ataque_especial": 81,
+    "defensa_especial": 100,
+    "velocidad": 100
+  },
+  "sprites": {
+    "front_default": "/images/38.webp",
+    "official_artwork": "/images/38.webp"
+  },
+  "descripcion": "Las nueve hermosas colas de Ninetales poseen poderes místicos. Se dice que puede vivir mil años.",
+  "cadena_evolucion": 16,
+  "peso": 19.9,
+  "altura": 1.1,
+  "genero_ratio": {
+    "male": 0.25,
+    "female": 0.75
+  },
+  "grupo_huevo": ["Campo"],
+  "evoluciones": []
+},
+{
+  "id": 39,
+  "nombre": "Jigglypuff",
+  "generacion": 1,
+  "tipos": ["Normal", "Hada"],
+  "habilidades": ["Gran Encanto", "Tenacidad"],
+  "habilidad_oculta": ["Cacheo"],
+  "estadisticas": {
+    "hp": 115,
+    "ataque": 45,
+    "defensa": 20,
+    "ataque_especial": 45,
+    "defensa_especial": 25,
+    "velocidad": 20
+  },
+  "sprites": {
+    "front_default": "/images/39.webp",
+    "official_artwork": "/images/39.webp"
+  },
+  "descripcion": "Cuando canta, sus grandes ojos brillan. Si se enfada, puede usar una voz más fuerte y potente.",
+  "cadena_evolucion": 17,
+  "peso": 5.5,
+  "altura": 0.5,
+  "genero_ratio": {
+    "male": 0.25,
+    "female": 0.75
+  },
+  "grupo_huevo": ["Hada"],
+  "evoluciones": [
+    {
+      "to_id": 40,
+      "to_nombre": "Wigglytuff",
+      "method": "piedra_lunar"
+    }
+  ]
+},
+{
+  "id": 40,
+  "nombre": "Wigglytuff",
+  "generacion": 1,
+  "tipos": ["Normal", "Hada"],
+  "habilidades": ["Gran Encanto", "Tenacidad"],
+  "habilidad_oculta": ["Cacheo"],
+  "estadisticas": {
+    "hp": 140,
+    "ataque": 70,
+    "defensa": 45,
+    "ataque_especial": 85,
+    "defensa_especial": 50,
+    "velocidad": 45
+  },
+  "sprites": {
+    "front_default": "/images/40.webp",
+    "official_artwork": "/images/40.webp"
+  },
+  "descripcion": "El cuerpo de Wigglytuff es extremadamente elástico y suave. Es muy fácil dormir sobre él.",
+  "cadena_evolucion": 17,
+  "peso": 12.0,
+  "altura": 1.0,
+  "genero_ratio": {
+    "male": 0.25,
+    "female": 0.75
+  },
+  "grupo_huevo": ["Hada"],
+  "evoluciones": []
+}
 ]
