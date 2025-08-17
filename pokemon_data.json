@@ -1711,5 +1711,35 @@
       "level": 26
     }
   ]
+},
+{
+  "id": 51,
+  "nombre": "Dugtrio",
+  "generacion": 1,
+  "tipos": ["Tierra"],
+  "habilidades": ["Campo Arena", "Trampa Arena"],
+  "habilidad_oculta": ["Poder Arena"],
+  "estadisticas": {
+    "hp": 35,
+    "ataque": 100,
+    "defensa": 50,
+    "ataque_especial": 50,
+    "defensa_especial": 70,
+    "velocidad": 120
+  },
+  "sprites": {
+    "front_default": "/images/51.webp",
+    "official_artwork": "/images/51.webp"
+  },
+  "descripcion": "Un trío de Diglett que ha evolucionado. Cavar túneles a más de 100 km por hora es su especialidad.",
+  "cadena_evolucion": 22,
+  "peso": 333.0,
+  "altura": 0.7,
+  "genero_ratio": {
+    "male": 0.5,
+    "female": 0.5
+  },
+  "grupo_huevo": ["Campo"],
+  "evoluciones": []
 }
 ]
