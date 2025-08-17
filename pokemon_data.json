@@ -1741,5 +1741,977 @@
   },
   "grupo_huevo": ["Campo"],
   "evoluciones": []
-}
+},
+{
+  "id": 52,
+  "nombre": "Meowth",
+  "generacion": 1,
+  "tipos": ["Normal"],
+  "habilidades": ["Recogida", "Experto"],
+  "habilidad_oculta": ["Nerviosismo"],
+  "estadisticas": {
+    "hp": 40,
+    "ataque": 45,
+    "defensa": 35,
+    "ataque_especial": 40,
+    "defensa_especial": 40,
+    "velocidad": 90
+  },
+  "sprites": {
+    "front_default": "/images/52.webp",
+    "official_artwork": "/images/52.webp"
+  },
+  "descripcion": "Un Pokémon felino que adora los objetos redondos y brillantes. Se pasa el día durmiendo.",
+  "cadena_evolucion": 23,
+  "peso": 4.2,
+  "altura": 0.4,
+  "genero_ratio": {
+    "male": 0.5,
+    "female": 0.5
+  },
+  "grupo_huevo": ["Campo"],
+  "evoluciones": [
+    {
+      "to_id": 53,
+      "to_nombre": "Persian",
+      "method": "nivel",
+      "level": 28
+    }
+  ]
+},
+{
+  "id": 53,
+  "nombre": "Persian",
+  "generacion": 1,
+  "tipos": ["Normal"],
+  "habilidades": ["Flexibilidad", "Experto"],
+  "habilidad_oculta": ["Nerviosismo"],
+  "estadisticas": {
+    "hp": 65,
+    "ataque": 70,
+    "defensa": 60,
+    "ataque_especial": 65,
+    "defensa_especial": 65,
+    "velocidad": 115
+  },
+  "sprites": {
+    "front_default": "/images/53.webp",
+    "official_artwork": "/images/53.webp"
+  },
+  "descripcion": "Con su temperamento volátil, puede atacar sin previo aviso. Le gusta la comida brillante.",
+  "cadena_evolucion": 23,
+  "peso": 32.0,
+  "altura": 1.0,
+  "genero_ratio": {
+    "male": 0.5,
+    "female": 0.5
+  },
+  "grupo_huevo": ["Campo"],
+  "evoluciones": []
+},
+{
+  "id": 54,
+  "nombre": "Psyduck",
+  "generacion": 1,
+  "tipos": ["Agua"],
+  "habilidades": ["Humedad", "Despiste"],
+  "habilidad_oculta": ["Nado Rápido"],
+  "estadisticas": {
+    "hp": 50,
+    "ataque": 52,
+    "defensa": 48,
+    "ataque_especial": 65,
+    "defensa_especial": 50,
+    "velocidad": 55
+  },
+  "sprites": {
+    "front_default": "/images/54.webp",
+    "official_artwork": "/images/54.webp"
+  },
+  "descripcion": "Siempre le duele la cabeza, lo que le hace tener poderes psíquicos sin quererlo. Se olvida de todo lo que hace.",
+  "cadena_evolucion": 24,
+  "peso": 19.6,
+  "altura": 0.8,
+  "genero_ratio": {
+    "male": 0.5,
+    "female": 0.5
+  },
+  "grupo_huevo": ["Campo", "Agua 1"],
+  "evoluciones": [
+    {
+      "to_id": 55,
+      "to_nombre": "Golduck",
+      "method": "nivel",
+      "level": 33
+    }
+  ]
+},
+{
+  "id": 55,
+  "nombre": "Golduck",
+  "generacion": 1,
+  "tipos": ["Agua"],
+  "habilidades": ["Humedad", "Nado Rápido"],
+  "habilidad_oculta": ["Nube Nociva"],
+  "estadisticas": {
+    "hp": 80,
+    "ataque": 82,
+    "defensa": 78,
+    "ataque_especial": 95,
+    "defensa_especial": 80,
+    "velocidad": 85
+  },
+  "sprites": {
+    "front_default": "/images/55.webp",
+    "official_artwork": "/images/55.webp"
+  },
+  "descripcion": "Un excelente nadador. Se cree que su frente brilla con un poder místico.",
+  "cadena_evolucion": 24,
+  "peso": 76.6,
+  "altura": 1.7,
+  "genero_ratio": {
+    "male": 0.5,
+    "female": 0.5
+  },
+  "grupo_huevo": ["Campo", "Agua 1"],
+  "evoluciones": []
+},
+{
+  "id": 56,
+  "nombre": "Mankey",
+  "generacion": 1,
+  "tipos": ["Lucha"],
+  "habilidades": ["Espíritu Vital", "Irascible"],
+  "habilidad_oculta": ["Competitivo"],
+  "estadisticas": {
+    "hp": 40,
+    "ataque": 80,
+    "defensa": 35,
+    "ataque_especial": 35,
+    "defensa_especial": 45,
+    "velocidad": 70
+  },
+  "sprites": {
+    "front_default": "/images/56.webp",
+    "official_artwork": "/images/56.webp"
+  },
+  "descripcion": "Un Pokémon mono que puede entrar en un ataque de rabia sin motivo alguno.",
+  "cadena_evolucion": 25,
+  "peso": 28.0,
+  "altura": 0.5,
+  "genero_ratio": {
+    "male": 0.5,
+    "female": 0.5
+  },
+  "grupo_huevo": ["Campo"],
+  "evoluciones": [
+    {
+      "to_id": 57,
+      "to_nombre": "Primeape",
+      "method": "nivel",
+      "level": 28
+    }
+  ]
+},
+{
+  "id": 57,
+  "nombre": "Primeape",
+  "generacion": 1,
+  "tipos": ["Lucha"],
+  "habilidades": ["Espíritu Vital", "Irascible"],
+  "habilidad_oculta": ["Competitivo"],
+  "estadisticas": {
+    "hp": 65,
+    "ataque": 105,
+    "defensa": 60,
+    "ataque_especial": 60,
+    "defensa_especial": 70,
+    "velocidad": 95
+  },
+  "sprites": {
+    "front_default": "/images/57.webp",
+    "official_artwork": "/images/57.webp"
+  },
+  "descripcion": "Cuando Primeape se enfurece, su ritmo cardíaco aumenta. Esto le da una fuerza sobrehumana.",
+  "cadena_evolucion": 25,
+  "peso": 32.0,
+  "altura": 1.0,
+  "genero_ratio": {
+    "male": 0.5,
+    "female": 0.5
+  },
+  "grupo_huevo": ["Campo"],
+  "evoluciones": [
+    {
+      "to_id": 979,
+      "to_nombre": "Annihilape",
+      "method": "movimiento",
+      "move": "Puño Furia"
+    }
+  ]
+},
+{
+  "id": 58,
+  "nombre": "Growlithe",
+  "generacion": 1,
+  "tipos": ["Fuego"],
+  "habilidades": ["Intimidación", "Absorbe Fuego"],
+  "habilidad_oculta": ["Justiciero"],
+  "estadisticas": {
+    "hp": 55,
+    "ataque": 70,
+    "defensa": 45,
+    "ataque_especial": 70,
+    "defensa_especial": 50,
+    "velocidad": 60
+  },
+  "sprites": {
+    "front_default": "/images/58.webp",
+    "official_artwork": "/images/58.webp"
+  },
+  "descripcion": "Un Pokémon cachorro muy valiente y leal. Se defiende con potentes llamaradas.",
+  "cadena_evolucion": 26,
+  "peso": 19.0,
+  "altura": 0.7,
+  "genero_ratio": {
+    "male": 0.75,
+    "female": 0.25
+  },
+  "grupo_huevo": ["Campo"],
+  "evoluciones": [
+    {
+      "to_id": 59,
+      "to_nombre": "Arcanine",
+      "method": "piedra_fuego"
+    }
+  ]
+},
+{
+  "id": 59,
+  "nombre": "Arcanine",
+  "generacion": 1,
+  "tipos": ["Fuego"],
+  "habilidades": ["Intimidación", "Absorbe Fuego"],
+  "habilidad_oculta": ["Justiciero"],
+  "estadisticas": {
+    "hp": 90,
+    "ataque": 110,
+    "defensa": 80,
+    "ataque_especial": 100,
+    "defensa_especial": 80,
+    "velocidad": 95
+  },
+  "sprites": {
+    "front_default": "/images/59.webp",
+    "official_artwork": "/images/59.webp"
+  },
+  "descripcion": "Un Pokémon majestuoso y legendario. Es conocido por su velocidad, que se dice que es tan rápida como el viento.",
+  "cadena_evolucion": 26,
+  "peso": 155.0,
+  "altura": 1.9,
+  "genero_ratio": {
+    "male": 0.75,
+    "female": 0.25
+  },
+  "grupo_huevo": ["Campo"],
+  "evoluciones": []
+},
+{
+    "id": 60,
+    "nombre": "Poliwag",
+    "generacion": 1,
+    "tipos": ["Agua"],
+    "habilidades": ["Nado Rápido", "Absorbe Agua"],
+    "habilidad_oculta": ["Nado Rápido"],
+    "estadisticas": {
+      "hp": 40,
+      "ataque": 50,
+      "defensa": 40,
+      "ataque_especial": 40,
+      "defensa_especial": 40,
+      "velocidad": 90
+    },
+    "sprites": {
+      "front_default": "/images/60.webp",
+      "official_artwork": "/images/60.webp"
+    },
+    "descripcion": "La piel de Poliwag es tan delgada que su espiral interna es visible. La espiral gira en el sentido de las agujas del reloj en el hemisferio norte.",
+    "cadena_evolucion": 27,
+    "peso": 12.4,
+    "altura": 0.6,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Agua 1"],
+    "evoluciones": [
+      {
+        "to_id": 61,
+        "to_nombre": "Poliwhirl",
+        "method": "nivel",
+        "level": 25
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "nombre": "Poliwhirl",
+    "generacion": 1,
+    "tipos": ["Agua"],
+    "habilidades": ["Nado Rápido", "Absorbe Agua"],
+    "habilidad_oculta": ["Nado Rápido"],
+    "estadisticas": {
+      "hp": 65,
+      "ataque": 65,
+      "defensa": 65,
+      "ataque_especial": 50,
+      "defensa_especial": 50,
+      "velocidad": 90
+    },
+    "sprites": {
+      "front_default": "/images/61.webp",
+      "official_artwork": "/images/61.webp"
+    },
+    "descripcion": "El cuerpo de Poliwhirl es liso y resbaladizo. Cuando se le provoca, puede usar el sudor para pegarse al oponente.",
+    "cadena_evolucion": 27,
+    "peso": 20.0,
+    "altura": 1.0,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Agua 1"],
+    "evoluciones": [
+      {
+        "to_id": 62,
+        "to_nombre": "Poliwrath",
+        "method": "piedra_agua"
+      },
+      {
+        "to_id": 186,
+        "to_nombre": "Politoed",
+        "method": "intercambio_item",
+        "item": "Roca del Rey"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "nombre": "Poliwrath",
+    "generacion": 1,
+    "tipos": ["Agua", "Lucha"],
+    "habilidades": ["Nado Rápido", "Absorbe Agua"],
+    "habilidad_oculta": ["Nado Rápido"],
+    "estadisticas": {
+      "hp": 90,
+      "ataque": 95,
+      "defensa": 95,
+      "ataque_especial": 70,
+      "defensa_especial": 90,
+      "velocidad": 70
+    },
+    "sprites": {
+      "front_default": "/images/62.webp",
+      "official_artwork": "/images/62.webp"
+    },
+    "descripcion": "La natación y el boxeo son los puntos fuertes de Poliwrath. Su cuerpo es musculoso y muy fuerte.",
+    "cadena_evolucion": 27,
+    "peso": 54.0,
+    "altura": 1.3,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Agua 1"],
+    "evoluciones": []
+  },
+  {
+    "id": 63,
+    "nombre": "Abra",
+    "generacion": 1,
+    "tipos": ["Psíquico"],
+    "habilidades": ["Sincronía", "Foco Interno"],
+    "habilidad_oculta": ["Muro Mágico"],
+    "estadisticas": {
+      "hp": 25,
+      "ataque": 20,
+      "defensa": 15,
+      "ataque_especial": 105,
+      "defensa_especial": 55,
+      "velocidad": 90
+    },
+    "sprites": {
+      "front_default": "/images/63.webp",
+      "official_artwork": "/images/63.webp"
+    },
+    "descripcion": "Duerme más de 18 horas al día. Emite ondas psíquicas mientras duerme, teleportándose si se siente amenazado.",
+    "cadena_evolucion": 28,
+    "peso": 19.5,
+    "altura": 0.9,
+    "genero_ratio": {
+      "male": 0.75,
+      "female": 0.25
+    },
+    "grupo_huevo": ["Humanoid"],
+    "evoluciones": [
+      {
+        "to_id": 64,
+        "to_nombre": "Kadabra",
+        "method": "nivel",
+        "level": 16
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "nombre": "Kadabra",
+    "generacion": 1,
+    "tipos": ["Psíquico"],
+    "habilidades": ["Sincronía", "Foco Interno"],
+    "habilidad_oculta": ["Muro Mágico"],
+    "estadisticas": {
+      "hp": 40,
+      "ataque": 35,
+      "defensa": 30,
+      "ataque_especial": 120,
+      "defensa_especial": 70,
+      "velocidad": 105
+    },
+    "sprites": {
+      "front_default": "/images/64.webp",
+      "official_artwork": "/images/64.webp"
+    },
+    "descripcion": "Emite ondas alfa que causan dolor de cabeza a quienes lo rodean. Su cuchara es una amplificación de sus poderes psíquicos.",
+    "cadena_evolucion": 28,
+    "peso": 56.5,
+    "altura": 1.3,
+    "genero_ratio": {
+      "male": 0.75,
+      "female": 0.25
+    },
+    "grupo_huevo": ["Humanoid"],
+    "evoluciones": [
+      {
+        "to_id": 65,
+        "to_nombre": "Alakazam",
+        "method": "intercambio"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "nombre": "Alakazam",
+    "generacion": 1,
+    "tipos": ["Psíquico"],
+    "habilidades": ["Sincronía", "Foco Interno"],
+    "habilidad_oculta": ["Muro Mágico"],
+    "estadisticas": {
+      "hp": 55,
+      "ataque": 50,
+      "defensa": 45,
+      "ataque_especial": 135,
+      "defensa_especial": 95,
+      "velocidad": 120
+    },
+    "sprites": {
+      "front_default": "/images/65.webp",
+      "official_artwork": "/images/65.webp"
+    },
+    "descripcion": "El cerebro de Alakazam crece continuamente, haciendo que su cabeza sea demasiado pesada para su cuello. Usa sus poderes psíquicos para sostenerla.",
+    "cadena_evolucion": 28,
+    "peso": 48.0,
+    "altura": 1.5,
+    "genero_ratio": {
+      "male": 0.75,
+      "female": 0.25
+    },
+    "grupo_huevo": ["Humanoid"],
+    "evoluciones": []
+  },
+  {
+    "id": 66,
+    "nombre": "Machop",
+    "generacion": 1,
+    "tipos": ["Lucha"],
+    "habilidades": ["Agallas", "Indefenso"],
+    "habilidad_oculta": ["Impasible"],
+    "estadisticas": {
+      "hp": 70,
+      "ataque": 80,
+      "defensa": 50,
+      "ataque_especial": 35,
+      "defensa_especial": 35,
+      "velocidad": 35
+    },
+    "sprites": {
+      "front_default": "/images/66.webp",
+      "official_artwork": "/images/66.webp"
+    },
+    "descripcion": "Un Pokémon con músculos de acero. Es capaz de levantar rocas enormes y entrenar en las montañas.",
+    "cadena_evolucion": 29,
+    "peso": 19.5,
+    "altura": 0.8,
+    "genero_ratio": {
+      "male": 0.75,
+      "female": 0.25
+    },
+    "grupo_huevo": ["Humanoid"],
+    "evoluciones": [
+      {
+        "to_id": 67,
+        "to_nombre": "Machoke",
+        "method": "nivel",
+        "level": 28
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "nombre": "Machoke",
+    "generacion": 1,
+    "tipos": ["Lucha"],
+    "habilidades": ["Agallas", "Indefenso"],
+    "habilidad_oculta": ["Impasible"],
+    "estadisticas": {
+      "hp": 80,
+      "ataque": 100,
+      "defensa": 70,
+      "ataque_especial": 50,
+      "defensa_especial": 60,
+      "velocidad": 45
+    },
+    "sprites": {
+      "front_default": "/images/67.webp",
+      "official_artwork": "/images/67.webp"
+    },
+    "descripcion": "Sus músculos son tan fuertes que puede levantar un camión con una sola mano. Lleva un cinturón para controlar su fuerza.",
+    "cadena_evolucion": 29,
+    "peso": 70.5,
+    "altura": 1.5,
+    "genero_ratio": {
+      "male": 0.75,
+      "female": 0.25
+    },
+    "grupo_huevo": ["Humanoid"],
+    "evoluciones": [
+      {
+        "to_id": 68,
+        "to_nombre": "Machamp",
+        "method": "intercambio"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "nombre": "Machamp",
+    "generacion": 1,
+    "tipos": ["Lucha"],
+    "habilidades": ["Agallas", "Indefenso"],
+    "habilidad_oculta": ["Impasible"],
+    "estadisticas": {
+      "hp": 90,
+      "ataque": 130,
+      "defensa": 80,
+      "ataque_especial": 65,
+      "defensa_especial": 85,
+      "velocidad": 55
+    },
+    "sprites": {
+      "front_default": "/images/68.webp",
+      "official_artwork": "/images/68.webp"
+    },
+    "descripcion": "Con sus cuatro brazos, puede golpear a un oponente hasta mil veces en dos segundos.",
+    "cadena_evolucion": 29,
+    "peso": 130.0,
+    "altura": 1.6,
+    "genero_ratio": {
+      "male": 0.75,
+      "female": 0.25
+    },
+    "grupo_huevo": ["Humanoid"],
+    "evoluciones": []
+  },
+  {
+    "id": 69,
+    "nombre": "Bellsprout",
+    "generacion": 1,
+    "tipos": ["Planta", "Veneno"],
+    "habilidades": ["Clorofila"],
+    "habilidad_oculta": ["Gula"],
+    "estadisticas": {
+      "hp": 50,
+      "ataque": 75,
+      "defensa": 35,
+      "ataque_especial": 70,
+      "defensa_especial": 30,
+      "velocidad": 40
+    },
+    "sprites": {
+      "front_default": "/images/69.webp",
+      "official_artwork": "/images/69.webp"
+    },
+    "descripcion": "Prefiere lugares cálidos y húmedos. Puede usar su tallo para caminar o para succionar líquidos de su presa.",
+    "cadena_evolucion": 30,
+    "peso": 4.0,
+    "altura": 0.7,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Planta"],
+    "evoluciones": [
+      {
+        "to_id": 70,
+        "to_nombre": "Weepinbell",
+        "method": "nivel",
+        "level": 21
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "nombre": "Weepinbell",
+    "generacion": 1,
+    "tipos": ["Planta", "Veneno"],
+    "habilidades": ["Clorofila"],
+    "habilidad_oculta": ["Gula"],
+    "estadisticas": {
+      "hp": 65,
+      "ataque": 90,
+      "defensa": 50,
+      "ataque_especial": 85,
+      "defensa_especial": 45,
+      "velocidad": 55
+    },
+    "sprites": {
+      "front_default": "/images/70.webp",
+      "official_artwork": "/images/70.webp"
+    },
+    "descripcion": "Weepinbell está equipado con una punta venenosa. Si su presa es demasiado grande, la paraliza con el veneno y la digiere lentamente.",
+    "cadena_evolucion": 30,
+    "peso": 6.4,
+    "altura": 1.0,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Planta"],
+    "evoluciones": [
+      {
+        "to_id": 71,
+        "to_nombre": "Victreebel",
+        "method": "piedra_hoja"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "nombre": "Victreebel",
+    "generacion": 1,
+    "tipos": ["Planta", "Veneno"],
+    "habilidades": ["Clorofila"],
+    "habilidad_oculta": ["Gula"],
+    "estadisticas": {
+      "hp": 80,
+      "ataque": 105,
+      "defensa": 65,
+      "ataque_especial": 100,
+      "defensa_especial": 70,
+      "velocidad": 70
+    },
+    "sprites": {
+      "front_default": "/images/71.webp",
+      "official_artwork": "/images/71.webp"
+    },
+    "descripcion": "Un Pokémon carnívoro. Atrae a sus presas con un aroma dulce y las digiere por completo.",
+    "cadena_evolucion": 30,
+    "peso": 15.5,
+    "altura": 1.7,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Planta"],
+    "evoluciones": []
+  },
+  {
+    "id": 72,
+    "nombre": "Tentacool",
+    "generacion": 1,
+    "tipos": ["Agua", "Veneno"],
+    "habilidades": ["Cuerpo Puro", "Viscosidad"],
+    "habilidad_oculta": ["Lluvia"],
+    "estadisticas": {
+      "hp": 40,
+      "ataque": 40,
+      "defensa": 35,
+      "ataque_especial": 50,
+      "defensa_especial": 100,
+      "velocidad": 70
+    },
+    "sprites": {
+      "front_default": "/images/72.webp",
+      "official_artwork": "/images/72.webp"
+    },
+    "descripcion": "Tiene un cuerpo gelatinoso y vive en el mar. Sus tentáculos son venenosos y se estiran para atrapar a sus presas.",
+    "cadena_evolucion": 31,
+    "peso": 45.5,
+    "altura": 0.9,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Agua 3"],
+    "evoluciones": [
+      {
+        "to_id": 73,
+        "to_nombre": "Tentacruel",
+        "method": "nivel",
+        "level": 30
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "nombre": "Tentacruel",
+    "generacion": 1,
+    "tipos": ["Agua", "Veneno"],
+    "habilidades": ["Cuerpo Puro", "Viscosidad"],
+    "habilidad_oculta": ["Lluvia"],
+    "estadisticas": {
+      "hp": 80,
+      "ataque": 70,
+      "defensa": 65,
+      "ataque_especial": 80,
+      "defensa_especial": 120,
+      "velocidad": 100
+    },
+    "sprites": {
+      "front_default": "/images/73.webp",
+      "official_artwork": "/images/73.webp"
+    },
+    "descripcion": "Sus tentáculos son un arma mortal. Con ellos, puede atrapar a sus enemigos y envenenarlos con una gran velocidad.",
+    "cadena_evolucion": 31,
+    "peso": 55.0,
+    "altura": 1.6,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Agua 3"],
+    "evoluciones": []
+  },
+  {
+    "id": 74,
+    "nombre": "Geodude",
+    "generacion": 1,
+    "tipos": ["Roca", "Tierra"],
+    "habilidades": ["Cabeza Roca", "Robustez"],
+    "habilidad_oculta": ["Velo Arena"],
+    "estadisticas": {
+      "hp": 40,
+      "ataque": 80,
+      "defensa": 100,
+      "ataque_especial": 30,
+      "defensa_especial": 30,
+      "velocidad": 20
+    },
+    "sprites": {
+      "front_default": "/images/74.webp",
+      "official_artwork": "/images/74.webp"
+    },
+    "descripcion": "Se le encuentra en senderos de montaña y cuevas. Se camufla perfectamente con las rocas y ataca a los que pasan.",
+    "cadena_evolucion": 32,
+    "peso": 20.0,
+    "altura": 0.4,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Mineral"],
+    "evoluciones": [
+      {
+        "to_id": 75,
+        "to_nombre": "Graveler",
+        "method": "nivel",
+        "level": 25
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "nombre": "Graveler",
+    "generacion": 1,
+    "tipos": ["Roca", "Tierra"],
+    "habilidades": ["Cabeza Roca", "Robustez"],
+    "habilidad_oculta": ["Velo Arena"],
+    "estadisticas": {
+      "hp": 55,
+      "ataque": 95,
+      "defensa": 115,
+      "ataque_especial": 45,
+      "defensa_especial": 45,
+      "velocidad": 35
+    },
+    "sprites": {
+      "front_default": "/images/75.webp",
+      "official_artwork": "/images/75.webp"
+    },
+    "descripcion": "Puede rodar por las pendientes de las montañas a gran velocidad. No se detendrá hasta el pie de la montaña.",
+    "cadena_evolucion": 32,
+    "peso": 105.0,
+    "altura": 1.0,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Mineral"],
+    "evoluciones": [
+      {
+        "to_id": 76,
+        "to_nombre": "Golem",
+        "method": "intercambio"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "nombre": "Golem",
+    "generacion": 1,
+    "tipos": ["Roca", "Tierra"],
+    "habilidades": ["Cabeza Roca", "Robustez"],
+    "habilidad_oculta": ["Velo Arena"],
+    "estadisticas": {
+      "hp": 80,
+      "ataque": 120,
+      "defensa": 130,
+      "ataque_especial": 55,
+      "defensa_especial": 65,
+      "velocidad": 45
+    },
+    "sprites": {
+      "front_default": "/images/76.webp",
+      "official_artwork": "/images/76.webp"
+    },
+    "descripcion": "El cuerpo de Golem es muy resistente, se puede enrollar en una bola para protegerse de ataques o rodar sobre los enemigos.",
+    "cadena_evolucion": 32,
+    "peso": 300.0,
+    "altura": 1.4,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Mineral"],
+    "evoluciones": []
+  },
+  {
+    "id": 77,
+    "nombre": "Ponyta",
+    "generacion": 1,
+    "tipos": ["Fuego"],
+    "habilidades": ["Fuga", "Cuerpo Llama"],
+    "habilidad_oculta": ["Absorbe Fuego"],
+    "estadisticas": {
+      "hp": 50,
+      "ataque": 85,
+      "defensa": 55,
+      "ataque_especial": 65,
+      "defensa_especial": 65,
+      "velocidad": 90
+    },
+    "sprites": {
+      "front_default": "/images/77.webp",
+      "official_artwork": "/images/77.webp"
+    },
+    "descripcion": "Sus patas son muy fuertes, puede saltar por encima de cualquier obstáculo sin problema.",
+    "cadena_evolucion": 33,
+    "peso": 30.0,
+    "altura": 1.0,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Campo"],
+    "evoluciones": [
+      {
+        "to_id": 78,
+        "to_nombre": "Rapidash",
+        "method": "nivel",
+        "level": 40
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "nombre": "Rapidash",
+    "generacion": 1,
+    "tipos": ["Fuego"],
+    "habilidades": ["Fuga", "Cuerpo Llama"],
+    "habilidad_oculta": ["Absorbe Fuego"],
+    "estadisticas": {
+      "hp": 65,
+      "ataque": 100,
+      "defensa": 70,
+      "ataque_especial": 80,
+      "defensa_especial": 80,
+      "velocidad": 105
+    },
+    "sprites": {
+      "front_default": "/images/78.webp",
+      "official_artwork": "/images/78.webp"
+    },
+    "descripcion": "Puede correr a una velocidad de hasta 240 km/h. La llama de su crin y cola arde intensamente.",
+    "cadena_evolucion": 33,
+    "peso": 95.0,
+    "altura": 1.7,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Campo"],
+    "evoluciones": []
+  },
+  {
+    "id": 79,
+    "nombre": "Slowpoke",
+    "generacion": 1,
+    "tipos": ["Agua", "Psíquico"],
+    "habilidades": ["Despiste", "Ritmo Propio"],
+    "habilidad_oculta": ["Regeneración"],
+    "estadisticas": {
+      "hp": 90,
+      "ataque": 65,
+      "defensa": 65,
+      "ataque_especial": 40,
+      "defensa_especial": 40,
+      "velocidad": 15
+    },
+    "sprites": {
+      "front_default": "/images/79.webp",
+      "official_artwork": "/images/79.webp"
+    },
+    "descripcion": "Un Pokémon muy lento. Le toma mucho tiempo procesar información y reaccionar. Su cola es dulce y se regenera.",
+    "cadena_evolucion": 34,
+    "peso": 36.0,
+    "altura": 1.2,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Monstruo", "Agua 1"],
+    "evoluciones": [
+      {
+        "to_id": 80,
+        "to_nombre": "Slowbro",
+        "method": "nivel",
+        "level": 37
+      },
+      {
+        "to_id": 199,
+        "to_nombre": "Slowking",
+        "method": "intercambio_item",
+        "item": "Roca del Rey"
+      }
+    ]
+  }
 ]
