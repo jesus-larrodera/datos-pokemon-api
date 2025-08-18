@@ -2713,5 +2713,2408 @@
         "item": "Roca del Rey"
       }
     ]
+  },
+  {
+    "id": 80,
+    "nombre": "Slowbro",
+    "generacion": 1,
+    "tipos": ["Agua", "Psíquico"],
+    "habilidades": ["Despiste", "Ritmo Propio"],
+    "habilidad_oculta": ["Regeneración"],
+    "estadisticas": {
+      "hp": 95,
+      "ataque": 75,
+      "defensa": 110,
+      "ataque_especial": 100,
+      "defensa_especial": 80,
+      "velocidad": 30
+    },
+    "sprites": {
+      "front_default": "/images/80.webp",
+      "official_artwork": "/images/80.webp"
+    },
+    "descripcion": "Un Shellder se ha unido a su cola y ahora es muy inteligente. Si el Shellder se desprende, volverá a ser un Slowpoke.",
+    "cadena_evolucion": 34,
+    "peso": 78.5,
+    "altura": 1.6,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Monstruo", "Agua 1"],
+    "evoluciones": []
+  },
+  {
+    "id": 81,
+    "nombre": "Magnemite",
+    "generacion": 1,
+    "tipos": ["Eléctrico", "Acero"],
+    "habilidades": ["Imán", "Robustez"],
+    "habilidad_oculta": ["Cuerpo Magnético"],
+    "estadisticas": {
+      "hp": 25,
+      "ataque": 35,
+      "defensa": 70,
+      "ataque_especial": 95,
+      "defensa_especial": 55,
+      "velocidad": 45
+    },
+    "sprites": {
+      "front_default": "/images/81.webp",
+      "official_artwork": "/images/81.webp"
+    },
+    "descripcion": "Se alimenta de energía eléctrica. Los polos magnéticos a los lados de su cuerpo generan electricidad.",
+    "cadena_evolucion": 35,
+    "peso": 6.0,
+    "altura": 0.3,
+    "genero_ratio": {
+      "male": 0.0,
+      "female": 0.0
+    },
+    "grupo_huevo": ["Mineral"],
+    "evoluciones": [
+      {
+        "to_id": 82,
+        "to_nombre": "Magneton",
+        "method": "nivel",
+        "level": 30
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "nombre": "Magneton",
+    "generacion": 1,
+    "tipos": ["Eléctrico", "Acero"],
+    "habilidades": ["Imán", "Robustez"],
+    "habilidad_oculta": ["Cuerpo Magnético"],
+    "estadisticas": {
+      "hp": 50,
+      "ataque": 60,
+      "defensa": 95,
+      "ataque_especial": 120,
+      "defensa_especial": 70,
+      "velocidad": 70
+    },
+    "sprites": {
+      "front_default": "/images/82.webp",
+      "official_artwork": "/images/82.webp"
+    },
+    "descripcion": "Tres Magnemite se unen para formar un Magneton. Las fuerzas magnéticas que emite son increíblemente fuertes.",
+    "cadena_evolucion": 35,
+    "peso": 60.0,
+    "altura": 1.0,
+    "genero_ratio": {
+      "male": 0.0,
+      "female": 0.0
+    },
+    "grupo_huevo": ["Mineral"],
+    "evoluciones": [
+      {
+        "to_id": 462,
+        "to_nombre": "Magnezone",
+        "method": "zona_magnetica"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "nombre": "Farfetch'd",
+    "generacion": 1,
+    "tipos": ["Normal", "Volador"],
+    "habilidades": ["Vista Lince", "Foco Interno"],
+    "habilidad_oculta": ["Competitivo"],
+    "estadisticas": {
+      "hp": 52,
+      "ataque": 90,
+      "defensa": 55,
+      "ataque_especial": 58,
+      "defensa_especial": 62,
+      "velocidad": 60
+    },
+    "sprites": {
+      "front_default": "/images/83.webp",
+      "official_artwork": "/images/83.webp"
+    },
+    "descripcion": "Un Pokémon pato que siempre lleva un puerro. Lo usa como si fuera una espada para luchar o construir su nido.",
+    "cadena_evolucion": 36,
+    "peso": 15.0,
+    "altura": 0.8,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Volador", "Campo"],
+    "evoluciones": []
+  },
+  {
+    "id": 84,
+    "nombre": "Doduo",
+    "generacion": 1,
+    "tipos": ["Normal", "Volador"],
+    "habilidades": ["Fuga", "Madrugar"],
+    "habilidad_oculta": ["Tumbos"],
+    "estadisticas": {
+      "hp": 35,
+      "ataque": 85,
+      "defensa": 45,
+      "ataque_especial": 35,
+      "defensa_especial": 45,
+      "velocidad": 75
+    },
+    "sprites": {
+      "front_default": "/images/84.webp",
+      "official_artwork": "/images/84.webp"
+    },
+    "descripcion": "Sus dos cabezas se turnan para descansar, lo que le permite estar siempre alerta. Es un corredor rápido.",
+    "cadena_evolucion": 37,
+    "peso": 39.2,
+    "altura": 1.4,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Volador"],
+    "evoluciones": [
+      {
+        "to_id": 85,
+        "to_nombre": "Dodrio",
+        "method": "nivel",
+        "level": 31
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "nombre": "Dodrio",
+    "generacion": 1,
+    "tipos": ["Normal", "Volador"],
+    "habilidades": ["Fuga", "Madrugar"],
+    "habilidad_oculta": ["Tumbos"],
+    "estadisticas": {
+      "hp": 60,
+      "ataque": 110,
+      "defensa": 70,
+      "ataque_especial": 60,
+      "defensa_especial": 60,
+      "velocidad": 100
+    },
+    "sprites": {
+      "front_default": "/images/85.webp",
+      "official_artwork": "/images/85.webp"
+    },
+    "descripcion": "Sus tres cabezas representan la alegría, la tristeza y la ira. Puede correr a más de 60 km/h.",
+    "cadena_evolucion": 37,
+    "peso": 85.2,
+    "altura": 1.8,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Volador"],
+    "evoluciones": []
+  },
+  {
+    "id": 86,
+    "nombre": "Seel",
+    "generacion": 1,
+    "tipos": ["Agua"],
+    "habilidades": ["Sebo", "Hidratación"],
+    "habilidad_oculta": ["Gélido"],
+    "estadisticas": {
+      "hp": 65,
+      "ataque": 45,
+      "defensa": 55,
+      "ataque_especial": 45,
+      "defensa_especial": 70,
+      "velocidad": 45
+    },
+    "sprites": {
+      "front_default": "/images/86.webp",
+      "official_artwork": "/images/86.webp"
+    },
+    "descripcion": "Vive en aguas heladas. Su cuerno puede romper bloques de hielo y su pelaje le ayuda a no sentir frío.",
+    "cadena_evolucion": 38,
+    "peso": 90.0,
+    "altura": 1.1,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Agua 1", "Campo"],
+    "evoluciones": [
+      {
+        "to_id": 87,
+        "to_nombre": "Dewgong",
+        "method": "nivel",
+        "level": 34
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "nombre": "Dewgong",
+    "generacion": 1,
+    "tipos": ["Agua", "Hielo"],
+    "habilidades": ["Sebo", "Hidratación"],
+    "habilidad_oculta": ["Gélido"],
+    "estadisticas": {
+      "hp": 90,
+      "ataque": 70,
+      "defensa": 80,
+      "ataque_especial": 70,
+      "defensa_especial": 95,
+      "velocidad": 70
+    },
+    "sprites": {
+      "front_default": "/images/87.webp",
+      "official_artwork": "/images/87.webp"
+    },
+    "descripcion": "Un maestro del frío. Puede nadar en aguas heladas sin ningún problema. Su cuerpo le permite soportar el frío extremo.",
+    "cadena_evolucion": 38,
+    "peso": 120.0,
+    "altura": 1.7,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Agua 1", "Campo"],
+    "evoluciones": []
+  },
+  {
+    "id": 88,
+    "nombre": "Grimer",
+    "generacion": 1,
+    "tipos": ["Veneno"],
+    "habilidades": ["Hedor", "Viscosidad"],
+    "habilidad_oculta": ["Toque Tóxico"],
+    "estadisticas": {
+      "hp": 80,
+      "ataque": 80,
+      "defensa": 50,
+      "ataque_especial": 40,
+      "defensa_especial": 50,
+      "velocidad": 25
+    },
+    "sprites": {
+      "front_default": "/images/88.webp",
+      "official_artwork": "/images/88.webp"
+    },
+    "descripcion": "Un Pokémon de lodo tóxico. Nace de las aguas contaminadas de la ciudad y se alimenta de basura.",
+    "cadena_evolucion": 39,
+    "peso": 30.0,
+    "altura": 0.9,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Amorfo"],
+    "evoluciones": [
+      {
+        "to_id": 89,
+        "to_nombre": "Muk",
+        "method": "nivel",
+        "level": 38
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "nombre": "Muk",
+    "generacion": 1,
+    "tipos": ["Veneno"],
+    "habilidades": ["Hedor", "Viscosidad"],
+    "habilidad_oculta": ["Toque Tóxico"],
+    "estadisticas": {
+      "hp": 105,
+      "ataque": 105,
+      "defensa": 75,
+      "ataque_especial": 65,
+      "defensa_especial": 100,
+      "velocidad": 50
+    },
+    "sprites": {
+      "front_default": "/images/89.webp",
+      "official_artwork": "/images/89.webp"
+    },
+    "descripcion": "Es un Pokémon de lodo tóxico y hediondo. Su olor es tan repugnante que puede desmayar a las personas.",
+    "cadena_evolucion": 39,
+    "peso": 30.0,
+    "altura": 1.2,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Amorfo"],
+    "evoluciones": []
+  },
+  {
+    "id": 90,
+    "nombre": "Shellder",
+    "generacion": 1,
+    "tipos": ["Agua"],
+    "habilidades": ["Caparazón", "Habilidad"],
+    "habilidad_oculta": ["Encadenado"],
+    "estadisticas": {
+      "hp": 30,
+      "ataque": 65,
+      "defensa": 100,
+      "ataque_especial": 45,
+      "defensa_especial": 25,
+      "velocidad": 40
+    },
+    "sprites": {
+      "front_default": "/images/90.webp",
+      "official_artwork": "/images/90.webp"
+    },
+    "descripcion": "Tiene un caparazón increíblemente duro. Si no puede cerrarlo, su interior blando queda expuesto.",
+    "cadena_evolucion": 40,
+    "peso": 4.0,
+    "altura": 0.3,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Agua 3"],
+    "evoluciones": [
+      {
+        "to_id": 91,
+        "to_nombre": "Cloyster",
+        "method": "piedra_agua"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "nombre": "Cloyster",
+    "generacion": 1,
+    "tipos": ["Agua", "Hielo"],
+    "habilidades": ["Caparazón", "Habilidad"],
+    "habilidad_oculta": ["Encadenado"],
+    "estadisticas": {
+      "hp": 50,
+      "ataque": 95,
+      "defensa": 180,
+      "ataque_especial": 85,
+      "defensa_especial": 45,
+      "velocidad": 70
+    },
+    "sprites": {
+      "front_default": "/images/91.webp",
+      "official_artwork": "/images/91.webp"
+    },
+    "descripcion": "Un Pokémon muy resistente. Su caparazón es más duro que el diamante y puede disparar proyectiles a alta velocidad.",
+    "cadena_evolucion": 40,
+    "peso": 132.5,
+    "altura": 1.5,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Agua 3"],
+    "evoluciones": []
+  },
+  {
+    "id": 92,
+    "nombre": "Gastly",
+    "generacion": 1,
+    "tipos": ["Fantasma", "Veneno"],
+    "habilidades": ["Levitación"],
+    "habilidad_oculta": ["Ninguna"],
+    "estadisticas": {
+      "hp": 30,
+      "ataque": 35,
+      "defensa": 30,
+      "ataque_especial": 100,
+      "defensa_especial": 35,
+      "velocidad": 80
+    },
+    "sprites": {
+      "front_default": "/images/92.webp",
+      "official_artwork": "/images/92.webp"
+    },
+    "descripcion": "Un Pokémon compuesto de gas. Su cuerpo es casi invisible y puede flotar por el aire.",
+    "cadena_evolucion": 41,
+    "peso": 0.1,
+    "altura": 1.3,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Amorfo"],
+    "evoluciones": [
+      {
+        "to_id": 93,
+        "to_nombre": "Haunter",
+        "method": "nivel",
+        "level": 25
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "nombre": "Haunter",
+    "generacion": 1,
+    "tipos": ["Fantasma", "Veneno"],
+    "habilidades": ["Levitación"],
+    "habilidad_oculta": ["Ninguna"],
+    "estadisticas": {
+      "hp": 45,
+      "ataque": 50,
+      "defensa": 45,
+      "ataque_especial": 115,
+      "defensa_especial": 55,
+      "velocidad": 95
+    },
+    "sprites": {
+      "front_default": "/images/93.webp",
+      "official_artwork": "/images/93.webp"
+    },
+    "descripcion": "Le gusta esconderse en la oscuridad y asustar a la gente. Con su lengua de gas venenoso, puede robar la vida de los enemigos.",
+    "cadena_evolucion": 41,
+    "peso": 0.1,
+    "altura": 1.6,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Amorfo"],
+    "evoluciones": [
+      {
+        "to_id": 94,
+        "to_nombre": "Gengar",
+        "method": "intercambio"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "nombre": "Gengar",
+    "generacion": 1,
+    "tipos": ["Fantasma", "Veneno"],
+    "habilidades": ["Cuerpo Maldito"],
+    "habilidad_oculta": ["Ninguna"],
+    "estadisticas": {
+      "hp": 60,
+      "ataque": 65,
+      "defensa": 60,
+      "ataque_especial": 130,
+      "defensa_especial": 75,
+      "velocidad": 110
+    },
+    "sprites": {
+      "front_default": "/images/94.webp",
+      "official_artwork": "/images/94.webp"
+    },
+    "descripcion": "El Pokémon Sombra. Se esconde en las sombras y se ríe de las personas que se asustan. Si sientes un escalofrío, es Gengar.",
+    "cadena_evolucion": 41,
+    "peso": 40.5,
+    "altura": 1.5,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Amorfo"],
+    "evoluciones": []
+  },
+  {
+    "id": 95,
+    "nombre": "Onix",
+    "generacion": 1,
+    "tipos": ["Roca", "Tierra"],
+    "habilidades": ["Cabeza Roca", "Robustez"],
+    "habilidad_oculta": ["Armadura Frágil"],
+    "estadisticas": {
+      "hp": 35,
+      "ataque": 45,
+      "defensa": 160,
+      "ataque_especial": 30,
+      "defensa_especial": 45,
+      "velocidad": 70
+    },
+    "sprites": {
+      "front_default": "/images/95.webp",
+      "official_artwork": "/images/95.webp"
+    },
+    "descripcion": "Vive bajo tierra. Su cuerpo está hecho de rocas muy duras y se fortalece con el tiempo.",
+    "cadena_evolucion": 42,
+    "peso": 210.0,
+    "altura": 8.8,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Mineral"],
+    "evoluciones": [
+      {
+        "to_id": 208,
+        "to_nombre": "Steelix",
+        "method": "intercambio_item",
+        "item": "Revestimiento Metálico"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "nombre": "Drowzee",
+    "generacion": 1,
+    "tipos": ["Psíquico"],
+    "habilidades": ["Insomnio", "Alerta"],
+    "habilidad_oculta": ["Fuerza Mental"],
+    "estadisticas": {
+      "hp": 60,
+      "ataque": 48,
+      "defensa": 45,
+      "ataque_especial": 43,
+      "defensa_especial": 90,
+      "velocidad": 42
+    },
+    "sprites": {
+      "front_default": "/images/96.webp",
+      "official_artwork": "/images/96.webp"
+    },
+    "descripcion": "Se alimenta de los sueños de la gente. Puede poner a dormir a sus enemigos con sus poderes psíquicos.",
+    "cadena_evolucion": 43,
+    "peso": 32.4,
+    "altura": 1.0,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Humanoid"],
+    "evoluciones": [
+      {
+        "to_id": 97,
+        "to_nombre": "Hypno",
+        "method": "nivel",
+        "level": 26
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "nombre": "Hypno",
+    "generacion": 1,
+    "tipos": ["Psíquico"],
+    "habilidades": ["Insomnio", "Alerta"],
+    "habilidad_oculta": ["Fuerza Mental"],
+    "estadisticas": {
+      "hp": 85,
+      "ataque": 73,
+      "defensa": 70,
+      "ataque_especial": 73,
+      "defensa_especial": 115,
+      "velocidad": 67
+    },
+    "sprites": {
+      "front_default": "/images/97.webp",
+      "official_artwork": "/images/97.webp"
+    },
+    "descripcion": "Usa un péndulo para hipnotizar a sus enemigos. Se dice que puede poner a dormir a la gente y hacerles soñar lo que quiera.",
+    "cadena_evolucion": 43,
+    "peso": 75.6,
+    "altura": 1.6,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Humanoid"],
+    "evoluciones": []
+  },
+  {
+    "id": 98,
+    "nombre": "Krabby",
+    "generacion": 1,
+    "tipos": ["Agua"],
+    "habilidades": ["Cuerpo Puro", "Corte Fuerte"],
+    "habilidad_oculta": ["Potencia Bruta"],
+    "estadisticas": {
+      "hp": 30,
+      "ataque": 105,
+      "defensa": 90,
+      "ataque_especial": 25,
+      "defensa_especial": 25,
+      "velocidad": 50
+    },
+    "sprites": {
+      "front_default": "/images/98.webp",
+      "official_artwork": "/images/98.webp"
+    },
+    "descripcion": "Vive en las orillas de los mares. Sus pinzas son muy fuertes y pueden romper rocas fácilmente.",
+    "cadena_evolucion": 44,
+    "peso": 6.5,
+    "altura": 0.4,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Agua 3"],
+    "evoluciones": [
+      {
+        "to_id": 99,
+        "to_nombre": "Kingler",
+        "method": "nivel",
+        "level": 28
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "nombre": "Kingler",
+    "generacion": 1,
+    "tipos": ["Agua"],
+    "habilidades": ["Cuerpo Puro", "Corte Fuerte"],
+    "habilidad_oculta": ["Potencia Bruta"],
+    "estadisticas": {
+      "hp": 55,
+      "ataque": 130,
+      "defensa": 115,
+      "ataque_especial": 50,
+      "defensa_especial": 50,
+      "velocidad": 75
+    },
+    "sprites": {
+      "front_default": "/images/99.webp",
+      "official_artwork": "/images/99.webp"
+    },
+    "descripcion": "Una de sus pinzas es enorme y puede aplastar casi cualquier cosa. La usan como martillo para atacar.",
+    "cadena_evolucion": 44,
+    "peso": 60.0,
+    "altura": 1.3,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Agua 3"],
+    "evoluciones": []
+  },
+  {
+    "id": 100,
+    "nombre": "Voltorb",
+    "generacion": 1,
+    "tipos": ["Eléctrico"],
+    "habilidades": ["Insonorizar", "Electrificación"],
+    "habilidad_oculta": ["Resquicio"],
+    "estadisticas": {
+      "hp": 40,
+      "ataque": 30,
+      "defensa": 50,
+      "ataque_especial": 55,
+      "defensa_especial": 55,
+      "velocidad": 100
+    },
+    "sprites": {
+      "front_default": "/images/100.webp",
+      "official_artwork": "/images/100.webp"
+    },
+    "descripcion": "Un Pokémon con forma de Poké Ball que puede explotar. Se dice que se siente atraído por las centrales eléctricas.",
+    "cadena_evolucion": 45,
+    "peso": 10.4,
+    "altura": 0.5,
+    "genero_ratio": {
+      "male": 0.0,
+      "female": 0.0
+    },
+    "grupo_huevo": ["Mineral"],
+    "evoluciones": [
+      {
+        "to_id": 101,
+        "to_nombre": "Electrode",
+        "method": "nivel",
+        "level": 30
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "nombre": "Electrode",
+    "generacion": 1,
+    "tipos": ["Eléctrico"],
+    "habilidades": ["Insonorizar", "Electrificación"],
+    "habilidad_oculta": ["Resquicio"],
+    "estadisticas": {
+      "hp": 60,
+      "ataque": 50,
+      "defensa": 70,
+      "ataque_especial": 80,
+      "defensa_especial": 80,
+      "velocidad": 150
+    },
+    "sprites": {
+      "front_default": "/images/101.webp",
+      "official_artwork": "/images/101.webp"
+    },
+    "descripcion": "La versión evolucionada de Voltorb. Es extremadamente rápido y se sabe que causa grandes explosiones sin previo aviso.",
+    "cadena_evolucion": 45,
+    "peso": 66.6,
+    "altura": 1.2,
+    "genero_ratio": {
+      "male": 0.0,
+      "female": 0.0
+    },
+    "grupo_huevo": ["Mineral"],
+    "evoluciones": []
+  },
+  {
+    "id": 102,
+    "nombre": "Exeggcute",
+    "generacion": 1,
+    "tipos": ["Planta", "Psíquico"],
+    "habilidades": ["Clorofila"],
+    "habilidad_oculta": ["Cosecha"],
+    "estadisticas": {
+      "hp": 60,
+      "ataque": 40,
+      "defensa": 80,
+      "ataque_especial": 60,
+      "defensa_especial": 45,
+      "velocidad": 40
+    },
+    "sprites": {
+      "front_default": "/images/102.webp",
+      "official_artwork": "/images/102.webp"
+    },
+    "descripcion": "Un grupo de seis huevos con propiedades psíquicas. Si uno se separa, los demás lo buscarán hasta encontrarlo.",
+    "cadena_evolucion": 46,
+    "peso": 2.5,
+    "altura": 0.4,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Planta"],
+    "evoluciones": [
+      {
+        "to_id": 103,
+        "to_nombre": "Exeggutor",
+        "method": "piedra_hoja"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "nombre": "Exeggutor",
+    "generacion": 1,
+    "tipos": ["Planta", "Psíquico"],
+    "habilidades": ["Clorofila"],
+    "habilidad_oculta": ["Cosecha"],
+    "estadisticas": {
+      "hp": 95,
+      "ataque": 95,
+      "defensa": 85,
+      "ataque_especial": 125,
+      "defensa_especial": 75,
+      "velocidad": 45
+    },
+    "sprites": {
+      "front_default": "/images/103.webp",
+      "official_artwork": "/images/103.webp"
+    },
+    "descripcion": "Cada una de sus tres cabezas piensa de forma independiente. Si se le cae una, se convertirá en un Exeggcute.",
+    "cadena_evolucion": 46,
+    "peso": 120.0,
+    "altura": 2.0,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Planta"],
+    "evoluciones": []
+  },
+  {
+    "id": 104,
+    "nombre": "Cubone",
+    "generacion": 1,
+    "tipos": ["Tierra"],
+    "habilidades": ["Cabeza Roca", "Pararrayos"],
+    "habilidad_oculta": ["Lucha Interna"],
+    "estadisticas": {
+      "hp": 50,
+      "ataque": 50,
+      "defensa": 95,
+      "ataque_especial": 40,
+      "defensa_especial": 50,
+      "velocidad": 35
+    },
+    "sprites": {
+      "front_default": "/images/104.webp",
+      "official_artwork": "/images/104.webp"
+    },
+    "descripcion": "Siempre lleva el cráneo de su madre muerta. Se dice que sus lágrimas caen sobre él, creando un doloroso lamento.",
+    "cadena_evolucion": 47,
+    "peso": 6.5,
+    "altura": 0.4,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Monstruo"],
+    "evoluciones": [
+      {
+        "to_id": 105,
+        "to_nombre": "Marowak",
+        "method": "nivel",
+        "level": 28
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "nombre": "Marowak",
+    "generacion": 1,
+    "tipos": ["Tierra"],
+    "habilidades": ["Cabeza Roca", "Pararrayos"],
+    "habilidad_oculta": ["Lucha Interna"],
+    "estadisticas": {
+      "hp": 60,
+      "ataque": 80,
+      "defensa": 110,
+      "ataque_especial": 50,
+      "defensa_especial": 80,
+      "velocidad": 45
+    },
+    "sprites": {
+      "front_default": "/images/105.webp",
+      "official_artwork": "/images/105.webp"
+    },
+    "descripcion": "Un Pokémon que ha superado el dolor de la muerte de su madre. Es fuerte y agresivo.",
+    "cadena_evolucion": 47,
+    "peso": 45.0,
+    "altura": 1.0,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Monstruo"],
+    "evoluciones": []
+  },
+  {
+    "id": 106,
+    "nombre": "Hitmonlee",
+    "generacion": 1,
+    "tipos": ["Lucha"],
+    "habilidades": ["Flexibilidad", "Liviano"],
+    "habilidad_oculta": ["Impasible"],
+    "estadisticas": {
+      "hp": 50,
+      "ataque": 120,
+      "defensa": 53,
+      "ataque_especial": 35,
+      "defensa_especial": 110,
+      "velocidad": 87
+    },
+    "sprites": {
+      "front_default": "/images/106.webp",
+      "official_artwork": "/images/106.webp"
+    },
+    "descripcion": "Evoluciona de Tyrogue. Sus piernas pueden estirarse y contraerse como un resorte, lo que le permite dar patadas poderosas.",
+    "cadena_evolucion": 48,
+    "peso": 49.8,
+    "altura": 1.5,
+    "genero_ratio": {
+      "male": 1.0,
+      "female": 0.0
+    },
+    "grupo_huevo": ["Humanoid"],
+    "evoluciones": []
+  },
+  {
+    "id": 107,
+    "nombre": "Hitmonchan",
+    "generacion": 1,
+    "tipos": ["Lucha"],
+    "habilidades": ["Foco Interno", "Puño Férreo"],
+    "habilidad_oculta": ["Puño Certero"],
+    "estadisticas": {
+      "hp": 50,
+      "ataque": 105,
+      "defensa": 79,
+      "ataque_especial": 35,
+      "defensa_especial": 110,
+      "velocidad": 76
+    },
+    "sprites": {
+      "front_default": "/images/107.webp",
+      "official_artwork": "/images/107.webp"
+    },
+    "descripcion": "Evoluciona de Tyrogue. Sus puños son como cohetes y pueden girar para dar golpes extremadamente rápidos.",
+    "cadena_evolucion": 48,
+    "peso": 50.2,
+    "altura": 1.4,
+    "genero_ratio": {
+      "male": 1.0,
+      "female": 0.0
+    },
+    "grupo_huevo": ["Humanoid"],
+    "evoluciones": []
+  },
+  {
+    "id": 108,
+    "nombre": "Lickitung",
+    "generacion": 1,
+    "tipos": ["Normal"],
+    "habilidades": ["Despiste", "Ritmo Propio"],
+    "habilidad_oculta": ["Nube"],
+    "estadisticas": {
+      "hp": 90,
+      "ataque": 55,
+      "defensa": 75,
+      "ataque_especial": 60,
+      "defensa_especial": 75,
+      "velocidad": 30
+    },
+    "sprites": {
+      "front_default": "/images/108.webp",
+      "official_artwork": "/images/108.webp"
+    },
+    "descripcion": "Su lengua es dos veces más larga que su cuerpo. La utiliza para explorar, atrapar comida y lamer objetos.",
+    "cadena_evolucion": 49,
+    "peso": 65.5,
+    "altura": 1.2,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Monstruo"],
+    "evoluciones": [
+      {
+        "to_id": 463,
+        "to_nombre": "Lickilicky",
+        "method": "movimiento",
+        "movement": "Danza Lluvia"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "nombre": "Koffing",
+    "generacion": 1,
+    "tipos": ["Veneno"],
+    "habilidades": ["Levitación"],
+    "habilidad_oculta": ["Fuego"],
+    "estadisticas": {
+      "hp": 40,
+      "ataque": 65,
+      "defensa": 95,
+      "ataque_especial": 60,
+      "defensa_especial": 45,
+      "velocidad": 35
+    },
+    "sprites": {
+      "front_default": "/images/109.webp",
+      "official_artwork": "/images/109.webp"
+    },
+    "descripcion": "Un Pokémon de gas tóxico. Emite un gas horrible que causa mareos y náuseas. Se alimenta de basura.",
+    "cadena_evolucion": 50,
+    "peso": 1.0,
+    "altura": 0.6,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Amorfo"],
+    "evoluciones": [
+      {
+        "to_id": 110,
+        "to_nombre": "Weezing",
+        "method": "nivel",
+        "level": 35
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "nombre": "Weezing",
+    "generacion": 1,
+    "tipos": ["Veneno"],
+    "habilidades": ["Levitación"],
+    "habilidad_oculta": ["Fuego"],
+    "estadisticas": {
+      "hp": 65,
+      "ataque": 90,
+      "defensa": 120,
+      "ataque_especial": 85,
+      "defensa_especial": 70,
+      "velocidad": 60
+    },
+    "sprites": {
+      "front_default": "/images/110.webp",
+      "official_artwork": "/images/110.webp"
+    },
+    "descripcion": "Dos Koffing se fusionan para formar un Weezing. Cuando se enfada, emite un gas tan tóxico que puede causar la muerte.",
+    "cadena_evolucion": 50,
+    "peso": 9.5,
+    "altura": 1.2,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Amorfo"],
+    "evoluciones": []
+  },
+  {
+    "id": 111,
+    "nombre": "Rhyhorn",
+    "generacion": 1,
+    "tipos": ["Tierra", "Roca"],
+    "habilidades": ["Pararrayos", "Cabeza Roca"],
+    "habilidad_oculta": ["Robustez"],
+    "estadisticas": {
+      "hp": 80,
+      "ataque": 85,
+      "defensa": 95,
+      "ataque_especial": 30,
+      "defensa_especial": 30,
+      "velocidad": 25
+    },
+    "sprites": {
+      "front_default": "/images/111.webp",
+      "official_artwork": "/images/111.webp"
+    },
+    "descripcion": "Tiene un cuerno muy duro en la nariz. Puede derribar árboles y rocas con él. Es muy torpe.",
+    "cadena_evolucion": 51,
+    "peso": 115.0,
+    "altura": 1.0,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Monstruo", "Campo"],
+    "evoluciones": [
+      {
+        "to_id": 112,
+        "to_nombre": "Rhydon",
+        "method": "nivel",
+        "level": 42
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "nombre": "Rhydon",
+    "generacion": 1,
+    "tipos": ["Tierra", "Roca"],
+    "habilidades": ["Pararrayos", "Cabeza Roca"],
+    "habilidad_oculta": ["Robustez"],
+    "estadisticas": {
+      "hp": 105,
+      "ataque": 130,
+      "defensa": 120,
+      "ataque_especial": 45,
+      "defensa_especial": 45,
+      "velocidad": 40
+    },
+    "sprites": {
+      "front_default": "/images/112.webp",
+      "official_artwork": "/images/112.webp"
+    },
+    "descripcion": "Su cuerno puede perforar incluso un diamante. Su piel es tan dura que puede soportar el calor de la lava.",
+    "cadena_evolucion": 51,
+    "peso": 120.0,
+    "altura": 1.9,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Monstruo", "Campo"],
+    "evoluciones": [
+      {
+        "to_id": 464,
+        "to_nombre": "Rhyperior",
+        "method": "intercambio_item",
+        "item": "Protector"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "nombre": "Chansey",
+    "generacion": 1,
+    "tipos": ["Normal"],
+    "habilidades": ["Cura Natural", "Dicha"],
+    "habilidad_oculta": ["Alma"],
+    "estadisticas": {
+      "hp": 250,
+      "ataque": 5,
+      "defensa": 5,
+      "ataque_especial": 35,
+      "defensa_especial": 105,
+      "velocidad": 50
+    },
+    "sprites": {
+      "front_default": "/images/113.webp",
+      "official_artwork": "/images/113.webp"
+    },
+    "descripcion": "Un Pokémon muy raro y servicial. Su huevo es nutritivo y se utiliza como un manjar para los enfermos.",
+    "cadena_evolucion": 52,
+    "peso": 34.6,
+    "altura": 1.1,
+    "genero_ratio": {
+      "male": 0.0,
+      "female": 1.0
+    },
+    "grupo_huevo": ["Hada"],
+    "evoluciones": [
+      {
+        "to_id": 242,
+        "to_nombre": "Blissey",
+        "method": "felicidad"
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "nombre": "Tangela",
+    "generacion": 1,
+    "tipos": ["Planta"],
+    "habilidades": ["Clorofila", "Fuerza"],
+    "habilidad_oculta": ["Regeneración"],
+    "estadisticas": {
+      "hp": 65,
+      "ataque": 55,
+      "defensa": 115,
+      "ataque_especial": 100,
+      "defensa_especial": 40,
+      "velocidad": 60
+    },
+    "sprites": {
+      "front_default": "/images/114.webp",
+      "official_artwork": "/images/114.webp"
+    },
+    "descripcion": "Está cubierto de enredaderas azules que se mueven constantemente. Si una se rompe, se regenera rápidamente.",
+    "cadena_evolucion": 53,
+    "peso": 35.0,
+    "altura": 1.0,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Planta"],
+    "evoluciones": [
+      {
+        "to_id": 465,
+        "to_nombre": "Tangrowth",
+        "method": "movimiento",
+        "movement": "Poder Pasado"
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "nombre": "Kangaskhan",
+    "generacion": 1,
+    "tipos": ["Normal"],
+    "habilidades": ["Madrugar", "Intrépido"],
+    "habilidad_oculta": ["Foco Interno"],
+    "estadisticas": {
+      "hp": 105,
+      "ataque": 95,
+      "defensa": 80,
+      "ataque_especial": 40,
+      "defensa_especial": 80,
+      "velocidad": 90
+    },
+    "sprites": {
+      "front_default": "/images/115.webp",
+      "official_artwork": "/images/115.webp"
+    },
+    "descripcion": "Siempre lleva a su cría en una bolsa. Lucha para protegerla. El bebé rara vez sale de la bolsa.",
+    "cadena_evolucion": 54,
+    "peso": 80.0,
+    "altura": 2.2,
+    "genero_ratio": {
+      "male": 0.0,
+      "female": 1.0
+    },
+    "grupo_huevo": ["Monstruo"],
+    "evoluciones": []
+  },
+  {
+    "id": 116,
+    "nombre": "Horsea",
+    "generacion": 1,
+    "tipos": ["Agua"],
+    "habilidades": ["Nado Rápido", "Francotirador"],
+    "habilidad_oculta": ["Humedad"],
+    "estadisticas": {
+      "hp": 30,
+      "ataque": 40,
+      "defensa": 70,
+      "ataque_especial": 70,
+      "defensa_especial": 25,
+      "velocidad": 60
+    },
+    "sprites": {
+      "front_default": "/images/116.webp",
+      "official_artwork": "/images/116.webp"
+    },
+    "descripcion": "Un Pokémon caballito de mar. Vive en el mar y se defiende con chorros de tinta para escapar.",
+    "cadena_evolucion": 55,
+    "peso": 8.0,
+    "altura": 0.4,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Agua 1", "Dragón"],
+    "evoluciones": [
+      {
+        "to_id": 117,
+        "to_nombre": "Seadra",
+        "method": "nivel",
+        "level": 32
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "nombre": "Seadra",
+    "generacion": 1,
+    "tipos": ["Agua"],
+    "habilidades": ["Nado Rápido", "Francotirador"],
+    "habilidad_oculta": ["Humedad"],
+    "estadisticas": {
+      "hp": 55,
+      "ataque": 65,
+      "defensa": 95,
+      "ataque_especial": 95,
+      "defensa_especial": 45,
+      "velocidad": 85
+    },
+    "sprites": {
+      "front_default": "/images/117.webp",
+      "official_artwork": "/images/117.webp"
+    },
+    "descripcion": "El cuerpo de Seadra está cubierto de espinas. Se defiende de los depredadores con su cuerpo lleno de púas venenosas.",
+    "cadena_evolucion": 55,
+    "peso": 25.0,
+    "altura": 1.2,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Agua 1", "Dragón"],
+    "evoluciones": [
+      {
+        "to_id": 230,
+        "to_nombre": "Kingdra",
+        "method": "intercambio_item",
+        "item": "Escama Dragón"
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "nombre": "Goldeen",
+    "generacion": 1,
+    "tipos": ["Agua"],
+    "habilidades": ["Nado Rápido", "Punto"],
+    "habilidad_oculta": ["Pararrayos"],
+    "estadisticas": {
+      "hp": 45,
+      "ataque": 67,
+      "defensa": 60,
+      "ataque_especial": 35,
+      "defensa_especial": 50,
+      "velocidad": 63
+    },
+    "sprites": {
+      "front_default": "/images/118.webp",
+      "official_artwork": "/images/118.webp"
+    },
+    "descripcion": "Un Pokémon con una hermosa aleta. Puede nadar contra la corriente del río más fuerte.",
+    "cadena_evolucion": 56,
+    "peso": 15.0,
+    "altura": 0.6,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Agua 2"],
+    "evoluciones": [
+      {
+        "to_id": 119,
+        "to_nombre": "Seaking",
+        "method": "nivel",
+        "level": 33
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "nombre": "Seaking",
+    "generacion": 1,
+    "tipos": ["Agua"],
+    "habilidades": ["Nado Rápido", "Punto"],
+    "habilidad_oculta": ["Pararrayos"],
+    "estadisticas": {
+      "hp": 80,
+      "ataque": 92,
+      "defensa": 65,
+      "ataque_especial": 65,
+      "defensa_especial": 80,
+      "velocidad": 68
+    },
+    "sprites": {
+      "front_default": "/images/119.webp",
+      "official_artwork": "/images/119.webp"
+    },
+    "descripcion": "Un pez Pokémon con un cuerno afilado. Puede perforar rocas con él y hacer un nido para sus huevos.",
+    "cadena_evolucion": 56,
+    "peso": 39.0,
+    "altura": 1.3,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Agua 2"],
+    "evoluciones": []
+  },
+  {
+    "id": 120,
+    "nombre": "Staryu",
+    "generacion": 1,
+    "tipos": ["Agua"],
+    "habilidades": ["Iluminación", "Cuerpo Vital"],
+    "habilidad_oculta": ["Rastreo"],
+    "estadisticas": {
+      "hp": 30,
+      "ataque": 45,
+      "defensa": 55,
+      "ataque_especial": 70,
+      "defensa_especial": 55,
+      "velocidad": 85
+    },
+    "sprites": {
+      "front_default": "/images/120.webp",
+      "official_artwork": "/images/120.webp"
+    },
+    "descripcion": "Un Pokémon estrella de mar. El núcleo rojo en el centro de su cuerpo brilla en la oscuridad y emite ondas de radio.",
+    "cadena_evolucion": 57,
+    "peso": 34.5,
+    "altura": 0.8,
+    "genero_ratio": {
+      "male": 0.0,
+      "female": 0.0
+    },
+    "grupo_huevo": ["Agua 3"],
+    "evoluciones": [
+      {
+        "to_id": 121,
+        "to_nombre": "Starmie",
+        "method": "piedra_agua"
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "nombre": "Starmie",
+    "generacion": 1,
+    "tipos": ["Agua", "Psíquico"],
+    "habilidades": ["Iluminación", "Cuerpo Vital"],
+    "habilidad_oculta": ["Rastreo"],
+    "estadisticas": {
+      "hp": 60,
+      "ataque": 75,
+      "defensa": 85,
+      "ataque_especial": 100,
+      "defensa_especial": 85,
+      "velocidad": 115
+    },
+    "sprites": {
+      "front_default": "/images/121.webp",
+      "official_artwork": "/images/121.webp"
+    },
+    "descripcion": "El núcleo de Starmie brilla con siete colores. Se dice que sus ondas de radio son capaces de curar enfermedades.",
+    "cadena_evolucion": 57,
+    "peso": 80.0,
+    "altura": 1.1,
+    "genero_ratio": {
+      "male": 0.0,
+      "female": 0.0
+    },
+    "grupo_huevo": ["Agua 3"],
+    "evoluciones": []
+  },
+  {
+    "id": 122,
+    "nombre": "Mr. Mime",
+    "generacion": 1,
+    "tipos": ["Psíquico", "Hada"],
+    "habilidades": ["Insonorizar", "Filtro"],
+    "habilidad_oculta": ["Tiempos muertos"],
+    "estadisticas": {
+      "hp": 40,
+      "ataque": 45,
+      "defensa": 65,
+      "ataque_especial": 100,
+      "defensa_especial": 120,
+      "velocidad": 90
+    },
+    "sprites": {
+      "front_default": "/images/122.webp",
+      "official_artwork": "/images/122.webp"
+    },
+    "descripcion": "Es un maestro del mimo y puede crear objetos invisibles. Se dice que puede atrapar a sus enemigos en una pared invisible.",
+    "cadena_evolucion": 58,
+    "peso": 54.5,
+    "altura": 1.3,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Humanoid", "Hada"],
+    "evoluciones": []
+  },
+  {
+    "id": 123,
+    "nombre": "Scyther",
+    "generacion": 1,
+    "tipos": ["Bicho", "Volador"],
+    "habilidades": ["Enjambre", "Corte Fuerte"],
+    "habilidad_oculta": ["Experto"],
+    "estadisticas": {
+      "hp": 70,
+      "ataque": 110,
+      "defensa": 80,
+      "ataque_especial": 55,
+      "defensa_especial": 80,
+      "velocidad": 105
+    },
+    "sprites": {
+      "front_default": "/images/123.webp",
+      "official_artwork": "/images/123.webp"
+    },
+    "descripcion": "Un Pokémon insecto que es muy rápido. Sus brazos son como guadañas afiladas que pueden cortar árboles fácilmente.",
+    "cadena_evolucion": 59,
+    "peso": 56.0,
+    "altura": 1.5,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Bicho"],
+    "evoluciones": [
+      {
+        "to_id": 212,
+        "to_nombre": "Scizor",
+        "method": "intercambio_item",
+        "item": "Revestimiento Metálico"
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "nombre": "Jynx",
+    "generacion": 1,
+    "tipos": ["Hielo", "Psíquico"],
+    "habilidades": ["Despiste", "Alerta"],
+    "habilidad_oculta": ["Piel seca"],
+    "estadisticas": {
+      "hp": 65,
+      "ataque": 50,
+      "defensa": 35,
+      "ataque_especial": 115,
+      "defensa_especial": 95,
+      "velocidad": 95
+    },
+    "sprites": {
+      "front_default": "/images/124.webp",
+      "official_artwork": "/images/124.webp"
+    },
+    "descripcion": "Un Pokémon humanoide que baila para comunicar sus sentimientos. Se dice que puede dormir a la gente con su canto.",
+    "cadena_evolucion": 60,
+    "peso": 40.6,
+    "altura": 1.4,
+    "genero_ratio": {
+      "male": 0.0,
+      "female": 1.0
+    },
+    "grupo_huevo": ["Humanoid"],
+    "evoluciones": []
+  },
+  {
+    "id": 125,
+    "nombre": "Electabuzz",
+    "generacion": 1,
+    "tipos": ["Eléctrico"],
+    "habilidades": ["Pararrayos"],
+    "habilidad_oculta": ["Vitalidad"],
+    "estadisticas": {
+      "hp": 65,
+      "ataque": 83,
+      "defensa": 57,
+      "ataque_especial": 95,
+      "defensa_especial": 85,
+      "velocidad": 105
+    },
+    "sprites": {
+      "front_default": "/images/125.webp",
+      "official_artwork": "/images/125.webp"
+    },
+    "descripcion": "Un Pokémon eléctrico que genera energía. Se le puede ver en las centrales eléctricas buscando electricidad.",
+    "cadena_evolucion": 61,
+    "peso": 30.0,
+    "altura": 1.1,
+    "genero_ratio": {
+      "male": 0.75,
+      "female": 0.25
+    },
+    "grupo_huevo": ["Humanoid"],
+    "evoluciones": [
+      {
+        "to_id": 466,
+        "to_nombre": "Electivire",
+        "method": "intercambio_item",
+        "item": "Electrizador"
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "nombre": "Magmar",
+    "generacion": 1,
+    "tipos": ["Fuego"],
+    "habilidades": ["Cuerpo Llama"],
+    "habilidad_oculta": ["Espíritu"],
+    "estadisticas": {
+      "hp": 65,
+      "ataque": 95,
+      "defensa": 57,
+      "ataque_especial": 100,
+      "defensa_especial": 85,
+      "velocidad": 93
+    },
+    "sprites": {
+      "front_default": "/images/126.webp",
+      "official_artwork": "/images/126.webp"
+    },
+    "descripcion": "Un Pokémon de fuego. Su cuerpo emite un calor tan intenso que se puede ver como vapor.",
+    "cadena_evolucion": 62,
+    "peso": 44.5,
+    "altura": 1.3,
+    "genero_ratio": {
+      "male": 0.75,
+      "female": 0.25
+    },
+    "grupo_huevo": ["Humanoid"],
+    "evoluciones": [
+      {
+        "to_id": 467,
+        "to_nombre": "Magmortar",
+        "method": "intercambio_item",
+        "item": "Magmatizador"
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "nombre": "Pinsir",
+    "generacion": 1,
+    "tipos": ["Bicho"],
+    "habilidades": ["Corte Fuerte", "Rivalidad"],
+    "habilidad_oculta": ["Moxie"],
+    "estadisticas": {
+      "hp": 65,
+      "ataque": 125,
+      "defensa": 100,
+      "ataque_especial": 55,
+      "defensa_especial": 70,
+      "velocidad": 85
+    },
+    "sprites": {
+      "front_default": "/images/127.webp",
+      "official_artwork": "/images/127.webp"
+    },
+    "descripcion": "Sus cuernos pueden romper troncos de árboles. Vive en los bosques y ataca a sus enemigos con sus enormes pinzas.",
+    "cadena_evolucion": 63,
+    "peso": 55.0,
+    "altura": 1.5,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Bicho"],
+    "evoluciones": []
+  },
+  {
+    "id": 128,
+    "nombre": "Tauros",
+    "generacion": 1,
+    "tipos": ["Normal"],
+    "habilidades": ["Intimidación", "Ira"],
+    "habilidad_oculta": ["Potencia"],
+    "estadisticas": {
+      "hp": 75,
+      "ataque": 100,
+      "defensa": 95,
+      "ataque_especial": 40,
+      "defensa_especial": 70,
+      "velocidad": 110
+    },
+    "sprites": {
+      "front_default": "/images/128.webp",
+      "official_artwork": "/images/128.webp"
+    },
+    "descripcion": "Un Pokémon toro salvaje y agresivo. Se enfurece cuando es provocado y embiste sin control.",
+    "cadena_evolucion": 64,
+    "peso": 88.4,
+    "altura": 1.4,
+    "genero_ratio": {
+      "male": 1.0,
+      "female": 0.0
+    },
+    "grupo_huevo": ["Campo"],
+    "evoluciones": []
+  },
+  {
+    "id": 129,
+    "nombre": "Magikarp",
+    "generacion": 1,
+    "tipos": ["Agua"],
+    "habilidades": ["Nado Rápido"],
+    "habilidad_oculta": ["Nerviosismo"],
+    "estadisticas": {
+      "hp": 20,
+      "ataque": 10,
+      "defensa": 55,
+      "ataque_especial": 15,
+      "defensa_especial": 20,
+      "velocidad": 80
+    },
+    "sprites": {
+      "front_default": "/images/129.webp",
+      "official_artwork": "/images/129.webp"
+    },
+    "descripcion": "Un Pokémon muy débil que solo salpica. Es inútil en la batalla, pero es muy resistente.",
+    "cadena_evolucion": 65,
+    "peso": 10.0,
+    "altura": 0.9,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Agua 2", "Dragón"],
+    "evoluciones": [
+      {
+        "to_id": 130,
+        "to_nombre": "Gyarados",
+        "method": "nivel",
+        "level": 20
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "nombre": "Gyarados",
+    "generacion": 1,
+    "tipos": ["Agua", "Volador"],
+    "habilidades": ["Intimidación"],
+    "habilidad_oculta": ["Autoestima"],
+    "estadisticas": {
+      "hp": 95,
+      "ataque": 125,
+      "defensa": 79,
+      "ataque_especial": 60,
+      "defensa_especial": 100,
+      "velocidad": 81
+    },
+    "sprites": {
+      "front_default": "/images/130.webp",
+      "official_artwork": "/images/130.webp"
+    },
+    "descripcion": "Una vez que evoluciona de un Magikarp, su cerebro se reorganiza y se vuelve un Pokémon increíblemente feroz y agresivo.",
+    "cadena_evolucion": 65,
+    "peso": 235.0,
+    "altura": 6.5,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Agua 2", "Dragón"],
+    "evoluciones": []
+  },
+  {
+    "id": 131,
+    "nombre": "Lapras",
+    "generacion": 1,
+    "tipos": ["Agua", "Hielo"],
+    "habilidades": ["Absorbe Agua", "Caparazón"],
+    "habilidad_oculta": ["Hidratación"],
+    "estadisticas": {
+      "hp": 130,
+      "ataque": 85,
+      "defensa": 80,
+      "ataque_especial": 85,
+      "defensa_especial": 95,
+      "velocidad": 60
+    },
+    "sprites": {
+      "front_default": "/images/131.webp",
+      "official_artwork": "/images/131.webp"
+    },
+    "descripcion": "Es un Pokémon amable y leal. Transporta a las personas a través del agua sobre su espalda. Está en peligro de extinción.",
+    "cadena_evolucion": 66,
+    "peso": 220.0,
+    "altura": 2.5,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Monstruo", "Agua 1"],
+    "evoluciones": []
+  },
+  {
+    "id": 132,
+    "nombre": "Ditto",
+    "generacion": 1,
+    "tipos": ["Normal"],
+    "habilidades": ["Impostor"],
+    "habilidad_oculta": ["Ninguna"],
+    "estadisticas": {
+      "hp": 48,
+      "ataque": 48,
+      "defensa": 48,
+      "ataque_especial": 48,
+      "defensa_especial": 48,
+      "velocidad": 48
+    },
+    "sprites": {
+      "front_default": "/images/132.webp",
+      "official_artwork": "/images/132.webp"
+    },
+    "descripcion": "Puede transformarse en cualquier cosa. Si se encuentra con otro Ditto, los dos se mimetizan entre sí hasta que uno se ríe.",
+    "cadena_evolucion": 67,
+    "peso": 4.0,
+    "altura": 0.3,
+    "genero_ratio": {
+      "male": 0.0,
+      "female": 0.0
+    },
+    "grupo_huevo": ["Ditto"],
+    "evoluciones": []
+  },
+  {
+    "id": 133,
+    "nombre": "Eevee",
+    "generacion": 1,
+    "tipos": ["Normal"],
+    "habilidades": ["Adaptable", "Fuga"],
+    "habilidad_oculta": ["Anticipación"],
+    "estadisticas": {
+      "hp": 55,
+      "ataque": 55,
+      "defensa": 50,
+      "ataque_especial": 45,
+      "defensa_especial": 65,
+      "velocidad": 55
+    },
+    "sprites": {
+      "front_default": "/images/133.webp",
+      "official_artwork": "/images/133.webp"
+    },
+    "descripcion": "Debido a su inestable código genético, puede evolucionar de muchas maneras diferentes dependiendo de su entorno.",
+    "cadena_evolucion": 68,
+    "peso": 6.5,
+    "altura": 0.3,
+    "genero_ratio": {
+      "male": 0.875,
+      "female": 0.125
+    },
+    "grupo_huevo": ["Campo"],
+    "evoluciones": [
+      {
+        "to_id": 134,
+        "to_nombre": "Vaporeon",
+        "method": "piedra_agua"
+      },
+      {
+        "to_id": 135,
+        "to_nombre": "Jolteon",
+        "method": "piedra_trueno"
+      },
+      {
+        "to_id": 136,
+        "to_nombre": "Flareon",
+        "method": "piedra_fuego"
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "nombre": "Vaporeon",
+    "generacion": 1,
+    "tipos": ["Agua"],
+    "habilidades": ["Absorbe Agua"],
+    "habilidad_oculta": ["Hidratación"],
+    "estadisticas": {
+      "hp": 130,
+      "ataque": 65,
+      "defensa": 60,
+      "ataque_especial": 110,
+      "defensa_especial": 95,
+      "velocidad": 65
+    },
+    "sprites": {
+      "front_default": "/images/134.webp",
+      "official_artwork": "/images/134.webp"
+    },
+    "descripcion": "Evoluciona de Eevee. Su estructura celular es similar a las moléculas de agua, lo que le permite disolverse y vivir en el agua.",
+    "cadena_evolucion": 68,
+    "peso": 29.0,
+    "altura": 1.0,
+    "genero_ratio": {
+      "male": 0.875,
+      "female": 0.125
+    },
+    "grupo_huevo": ["Campo"],
+    "evoluciones": []
+  },
+  {
+    "id": 135,
+    "nombre": "Jolteon",
+    "generacion": 1,
+    "tipos": ["Eléctrico"],
+    "habilidades": ["Absorbe Voltaje"],
+    "habilidad_oculta": ["Pies Rápidos"],
+    "estadisticas": {
+      "hp": 65,
+      "ataque": 65,
+      "defensa": 60,
+      "ataque_especial": 110,
+      "defensa_especial": 95,
+      "velocidad": 130
+    },
+    "sprites": {
+      "front_default": "/images/135.webp",
+      "official_artwork": "/images/135.webp"
+    },
+    "descripcion": "Evoluciona de Eevee. Puede generar electricidad y lanzar rayos. Sus pelos se convierten en púas cuando se enfada.",
+    "cadena_evolucion": 68,
+    "peso": 24.5,
+    "altura": 0.8,
+    "genero_ratio": {
+      "male": 0.875,
+      "female": 0.125
+    },
+    "grupo_huevo": ["Campo"],
+    "evoluciones": []
+  },
+  {
+    "id": 136,
+    "nombre": "Flareon",
+    "generacion": 1,
+    "tipos": ["Fuego"],
+    "habilidades": ["Absorbe Fuego"],
+    "habilidad_oculta": ["Agallas"],
+    "estadisticas": {
+      "hp": 65,
+      "ataque": 130,
+      "defensa": 60,
+      "ataque_especial": 95,
+      "defensa_especial": 110,
+      "velocidad": 65
+    },
+    "sprites": {
+      "front_default": "/images/136.webp",
+      "official_artwork": "/images/136.webp"
+    },
+    "descripcion": "Evoluciona de Eevee. Su temperatura corporal puede llegar a los 900°C. Almacena el calor en su pelaje para liberarlo en batalla.",
+    "cadena_evolucion": 68,
+    "peso": 25.0,
+    "altura": 0.9,
+    "genero_ratio": {
+      "male": 0.875,
+      "female": 0.125
+    },
+    "grupo_huevo": ["Campo"],
+    "evoluciones": []
+  },
+  {
+    "id": 137,
+    "nombre": "Porygon",
+    "generacion": 1,
+    "tipos": ["Normal"],
+    "habilidades": ["Rastro", "Descarga"],
+    "habilidad_oculta": ["Análisis"],
+    "estadisticas": {
+      "hp": 65,
+      "ataque": 60,
+      "defensa": 70,
+      "ataque_especial": 85,
+      "defensa_especial": 75,
+      "velocidad": 40
+    },
+    "sprites": {
+      "front_default": "/images/137.webp",
+      "official_artwork": "/images/137.webp"
+    },
+    "descripcion": "El primer Pokémon creado por el hombre. No puede respirar, por lo que puede vivir en el espacio.",
+    "cadena_evolucion": 69,
+    "peso": 36.5,
+    "altura": 0.8,
+    "genero_ratio": {
+      "male": 0.0,
+      "female": 0.0
+    },
+    "grupo_huevo": ["Mineral"],
+    "evoluciones": [
+      {
+        "to_id": 233,
+        "to_nombre": "Porygon2",
+        "method": "intercambio_item",
+        "item": "Mejora"
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "nombre": "Omanyte",
+    "generacion": 1,
+    "tipos": ["Roca", "Agua"],
+    "habilidades": ["Nado Rápido", "Caparazón"],
+    "habilidad_oculta": ["Manto de Roca"],
+    "estadisticas": {
+      "hp": 35,
+      "ataque": 40,
+      "defensa": 100,
+      "ataque_especial": 90,
+      "defensa_especial": 55,
+      "velocidad": 35
+    },
+    "sprites": {
+      "front_default": "/images/138.webp",
+      "official_artwork": "/images/138.webp"
+    },
+    "descripcion": "Un Pokémon extinto que fue revivido a partir de un fósil. Ataca a sus presas con los tentáculos de su concha.",
+    "cadena_evolucion": 70,
+    "peso": 7.5,
+    "altura": 0.4,
+    "genero_ratio": {
+      "male": 0.875,
+      "female": 0.125
+    },
+    "grupo_huevo": ["Agua 1", "Agua 3"],
+    "evoluciones": [
+      {
+        "to_id": 139,
+        "to_nombre": "Omastar",
+        "method": "nivel",
+        "level": 40
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "nombre": "Omastar",
+    "generacion": 1,
+    "tipos": ["Roca", "Agua"],
+    "habilidades": ["Nado Rápido", "Caparazón"],
+    "habilidad_oculta": ["Manto de Roca"],
+    "estadisticas": {
+      "hp": 70,
+      "ataque": 60,
+      "defensa": 125,
+      "ataque_especial": 115,
+      "defensa_especial": 70,
+      "velocidad": 55
+    },
+    "sprites": {
+      "front_default": "/images/139.webp",
+      "official_artwork": "/images/139.webp"
+    },
+    "descripcion": "Sus colmillos son lo suficientemente fuertes como para romper el caparazón de su presa. Se extinguió porque su concha era demasiado pesada.",
+    "cadena_evolucion": 70,
+    "peso": 35.0,
+    "altura": 1.0,
+    "genero_ratio": {
+      "male": 0.875,
+      "female": 0.125
+    },
+    "grupo_huevo": ["Agua 1", "Agua 3"],
+    "evoluciones": []
+  },
+  {
+    "id": 140,
+    "nombre": "Kabuto",
+    "generacion": 1,
+    "tipos": ["Roca", "Agua"],
+    "habilidades": ["Nado Rápido", "Cuerpo Lodo"],
+    "habilidad_oculta": ["Armadura Frágil"],
+    "estadisticas": {
+      "hp": 30,
+      "ataque": 80,
+      "defensa": 90,
+      "ataque_especial": 55,
+      "defensa_especial": 45,
+      "velocidad": 55
+    },
+    "sprites": {
+      "front_default": "/images/140.webp",
+      "official_artwork": "/images/140.webp"
+    },
+    "descripcion": "Un Pokémon que fue revivido de un fósil. Su caparazón lo protege de los depredadores y se esconde en el barro.",
+    "cadena_evolucion": 71,
+    "peso": 11.5,
+    "altura": 0.5,
+    "genero_ratio": {
+      "male": 0.875,
+      "female": 0.125
+    },
+    "grupo_huevo": ["Agua 1", "Agua 3"],
+    "evoluciones": [
+      {
+        "to_id": 141,
+        "to_nombre": "Kabutops",
+        "method": "nivel",
+        "level": 40
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "nombre": "Kabutops",
+    "generacion": 1,
+    "tipos": ["Roca", "Agua"],
+    "habilidades": ["Nado Rápido", "Cuerpo Lodo"],
+    "habilidad_oculta": ["Armadura Frágil"],
+    "estadisticas": {
+      "hp": 60,
+      "ataque": 115,
+      "defensa": 105,
+      "ataque_especial": 65,
+      "defensa_especial": 70,
+      "velocidad": 80
+    },
+    "sprites": {
+      "front_default": "/images/141.webp",
+      "official_artwork": "/images/141.webp"
+    },
+    "descripcion": "Un cazador marino que se extinguió hace 300 millones de años. Se desliza por el agua y corta a sus víctimas con sus afiladas garras.",
+    "cadena_evolucion": 71,
+    "peso": 40.5,
+    "altura": 1.3,
+    "genero_ratio": {
+      "male": 0.875,
+      "female": 0.125
+    },
+    "grupo_huevo": ["Agua 1", "Agua 3"],
+    "evoluciones": []
+  },
+  {
+    "id": 142,
+    "nombre": "Aerodactyl",
+    "generacion": 1,
+    "tipos": ["Roca", "Volador"],
+    "habilidades": ["Cabeza Roca", "Presión"],
+    "habilidad_oculta": ["Nerviosismo"],
+    "estadisticas": {
+      "hp": 80,
+      "ataque": 105,
+      "defensa": 65,
+      "ataque_especial": 60,
+      "defensa_especial": 75,
+      "velocidad": 130
+    },
+    "sprites": {
+      "front_default": "/images/142.webp",
+      "official_artwork": "/images/142.webp"
+    },
+    "descripcion": "Revivido de un fósil. Se dice que dominó los cielos prehistóricos. Ataca a sus enemigos con sus garras y dientes afilados.",
+    "cadena_evolucion": 72,
+    "peso": 59.0,
+    "altura": 1.8,
+    "genero_ratio": {
+      "male": 0.875,
+      "female": 0.125
+    },
+    "grupo_huevo": ["Volador"],
+    "evoluciones": []
+  },
+  {
+    "id": 143,
+    "nombre": "Snorlax",
+    "generacion": 1,
+    "tipos": ["Normal"],
+    "habilidades": ["Inmunidad", "Gula"],
+    "habilidad_oculta": ["Glotón"],
+    "estadisticas": {
+      "hp": 160,
+      "ataque": 110,
+      "defensa": 65,
+      "ataque_especial": 65,
+      "defensa_especial": 110,
+      "velocidad": 30
+    },
+    "sprites": {
+      "front_default": "/images/143.webp",
+      "official_artwork": "/images/143.webp"
+    },
+    "descripcion": "Solo come y duerme. Una vez que se acuesta, es casi imposible despertarlo. Puede comer más de 400 kg de comida al día.",
+    "cadena_evolucion": 73,
+    "peso": 460.0,
+    "altura": 2.1,
+    "genero_ratio": {
+      "male": 0.875,
+      "female": 0.125
+    },
+    "grupo_huevo": ["Monstruo"],
+    "evoluciones": []
+  },
+  {
+    "id": 144,
+    "nombre": "Articuno",
+    "generacion": 1,
+    "tipos": ["Hielo", "Volador"],
+    "habilidades": ["Presión"],
+    "habilidad_oculta": ["Manto Níveo"],
+    "estadisticas": {
+      "hp": 90,
+      "ataque": 85,
+      "defensa": 100,
+      "ataque_especial": 95,
+      "defensa_especial": 125,
+      "velocidad": 85
+    },
+    "sprites": {
+      "front_default": "/images/144.webp",
+      "official_artwork": "/images/144.webp"
+    },
+    "descripcion": "Uno de los legendarios pájaros. Crea tormentas de nieve congelando la humedad en el aire. Se dice que si te pierdes en una montaña, te guiará.",
+    "cadena_evolucion": 74,
+    "peso": 55.4,
+    "altura": 1.7,
+    "genero_ratio": {
+      "male": 0.0,
+      "female": 0.0
+    },
+    "grupo_huevo": ["Indeterminado"],
+    "evoluciones": []
+  },
+  {
+    "id": 145,
+    "nombre": "Zapdos",
+    "generacion": 1,
+    "tipos": ["Eléctrico", "Volador"],
+    "habilidades": ["Presión"],
+    "habilidad_oculta": ["Elec. Estática"],
+    "estadisticas": {
+      "hp": 90,
+      "ataque": 90,
+      "defensa": 85,
+      "ataque_especial": 125,
+      "defensa_especial": 90,
+      "velocidad": 100
+    },
+    "sprites": {
+      "front_default": "/images/145.webp",
+      "official_artwork": "/images/145.webp"
+    },
+    "descripcion": "Uno de los legendarios pájaros. Vive en las nubes de tormenta. Se dice que su aleteo provoca fuertes truenos.",
+    "cadena_evolucion": 75,
+    "peso": 52.6,
+    "altura": 1.6,
+    "genero_ratio": {
+      "male": 0.0,
+      "female": 0.0
+    },
+    "grupo_huevo": ["Indeterminado"],
+    "evoluciones": []
+  },
+  {
+    "id": 146,
+    "nombre": "Moltres",
+    "generacion": 1,
+    "tipos": ["Fuego", "Volador"],
+    "habilidades": ["Presión"],
+    "habilidad_oculta": ["Cuerpo Llama"],
+    "estadisticas": {
+      "hp": 90,
+      "ataque": 100,
+      "defensa": 90,
+      "ataque_especial": 125,
+      "defensa_especial": 85,
+      "velocidad": 90
+    },
+    "sprites": {
+      "front_default": "/images/146.webp",
+      "official_artwork": "/images/146.webp"
+    },
+    "descripcion": "Uno de los legendarios pájaros. Si se hiere, se sumerge en un volcán para curarse. Su aleteo crea llamas.",
+    "cadena_evolucion": 76,
+    "peso": 60.0,
+    "altura": 2.0,
+    "genero_ratio": {
+      "male": 0.0,
+      "female": 0.0
+    },
+    "grupo_huevo": ["Indeterminado"],
+    "evoluciones": []
+  },
+  {
+    "id": 147,
+    "nombre": "Dratini",
+    "generacion": 1,
+    "tipos": ["Dragón"],
+    "habilidades": ["Mudar"],
+    "habilidad_oculta": ["Escama Especial"],
+    "estadisticas": {
+      "hp": 41,
+      "ataque": 64,
+      "defensa": 45,
+      "ataque_especial": 50,
+      "defensa_especial": 50,
+      "velocidad": 50
+    },
+    "sprites": {
+      "front_default": "/images/147.webp",
+      "official_artwork": "/images/147.webp"
+    },
+    "descripcion": "Un Pokémon serpiente. Secreta una energía vital constante. Muda su piel muchas veces mientras crece.",
+    "cadena_evolucion": 77,
+    "peso": 3.3,
+    "altura": 1.8,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Agua 1", "Dragón"],
+    "evoluciones": [
+      {
+        "to_id": 148,
+        "to_nombre": "Dragonair",
+        "method": "nivel",
+        "level": 30
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "nombre": "Dragonair",
+    "generacion": 1,
+    "tipos": ["Dragón"],
+    "habilidades": ["Mudar"],
+    "habilidad_oculta": ["Escama Especial"],
+    "estadisticas": {
+      "hp": 61,
+      "ataque": 84,
+      "defensa": 65,
+      "ataque_especial": 70,
+      "defensa_especial": 70,
+      "velocidad": 70
+    },
+    "sprites": {
+      "front_default": "/images/148.webp",
+      "official_artwork": "/images/148.webp"
+    },
+    "descripcion": "Se dice que emite un aura mística. Vive en los lagos y puede controlar el clima. En su cuello tiene una esfera mágica.",
+    "cadena_evolucion": 77,
+    "peso": 16.5,
+    "altura": 4.0,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Agua 1", "Dragón"],
+    "evoluciones": [
+      {
+        "to_id": 149,
+        "to_nombre": "Dragonite",
+        "method": "nivel",
+        "level": 55
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "nombre": "Dragonite",
+    "generacion": 1,
+    "tipos": ["Dragón", "Volador"],
+    "habilidades": ["Foco Interno"],
+    "habilidad_oculta": ["Multiescala"],
+    "estadisticas": {
+      "hp": 91,
+      "ataque": 134,
+      "defensa": 95,
+      "ataque_especial": 100,
+      "defensa_especial": 100,
+      "velocidad": 80
+    },
+    "sprites": {
+      "front_default": "/images/149.webp",
+      "official_artwork": "/images/149.webp"
+    },
+    "descripcion": "Un Pokémon dragón amigable. Puede volar alrededor del mundo en solo 16 horas. Guía a los barcos perdidos a la orilla.",
+    "cadena_evolucion": 77,
+    "peso": 210.0,
+    "altura": 2.2,
+    "genero_ratio": {
+      "male": 0.5,
+      "female": 0.5
+    },
+    "grupo_huevo": ["Agua 1", "Dragón"],
+    "evoluciones": []
+  },
+  {
+    "id": 150,
+    "nombre": "Mewtwo",
+    "generacion": 1,
+    "tipos": ["Psíquico"],
+    "habilidades": ["Presión"],
+    "habilidad_oculta": ["Nerviosismo"],
+    "estadisticas": {
+      "hp": 106,
+      "ataque": 110,
+      "defensa": 90,
+      "ataque_especial": 154,
+      "defensa_especial": 90,
+      "velocidad": 130
+    },
+    "sprites": {
+      "front_default": "/images/150.webp",
+      "official_artwork": "/images/150.webp"
+    },
+    "descripcion": "Un Pokémon legendario creado por manipulación genética. Es un Pokémon muy inteligente y poderoso, pero también cruel.",
+    "cadena_evolucion": 78,
+    "peso": 122.0,
+    "altura": 2.0,
+    "genero_ratio": {
+      "male": 0.0,
+      "female": 0.0
+    },
+    "grupo_huevo": ["Indeterminado"],
+    "evoluciones": []
+  },
+  {
+    "id": 151,
+    "nombre": "Mew",
+    "generacion": 1,
+    "tipos": ["Psíquico"],
+    "habilidades": ["Sincronizar"],
+    "habilidad_oculta": ["Ninguna"],
+    "estadisticas": {
+      "hp": 100,
+      "ataque": 100,
+      "defensa": 100,
+      "ataque_especial": 100,
+      "defensa_especial": 100,
+      "velocidad": 100
+    },
+    "sprites": {
+      "front_default": "/images/151.webp",
+      "official_artwork": "/images/151.webp"
+    },
+    "descripcion": "Se cree que contiene el ADN de todos los Pokémon. Es tan raro que muy pocas personas lo han visto. Es tímido y juguetón.",
+    "cadena_evolucion": 79,
+    "peso": 4.0,
+    "altura": 0.4,
+    "genero_ratio": {
+      "male": 0.0,
+      "female": 0.0
+    },
+    "grupo_huevo": ["Indeterminado"],
+    "evoluciones": []
   }
 ]
+
+
