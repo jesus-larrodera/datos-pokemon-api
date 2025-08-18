@@ -1,1 +1,1211 @@
-d
+[
+  {
+    "id": 1,
+    "nombre": "Bulbasaur",
+    "generacion": 1,
+    "tipos": ["Planta", "Veneno"],
+    "grupo_huevo": ["Monstruo", "Planta"],
+    "imagen": "/images/1.webp"
+  },
+  {
+    "id": 2,
+    "nombre": "Ivysaur",
+    "generacion": 1,
+    "tipos": ["Planta", "Veneno"],
+    "grupo_huevo": ["Monstruo", "Planta"],
+    "imagen": "/images/2.webp"
+  },
+  {
+    "id": 3,
+    "nombre": "Venusaur",
+    "generacion": 1,
+    "tipos": ["Planta", "Veneno"],
+    "grupo_huevo": ["Monstruo", "Planta"],
+    "imagen": "/images/3.webp"
+  },
+  {
+    "id": 4,
+    "nombre": "Charmander",
+    "generacion": 1,
+    "tipos": ["Fuego"],
+    "grupo_huevo": ["Monstruo", "Dragón"],
+    "imagen": "/images/4.webp"
+  },
+  {
+    "id": 5,
+    "nombre": "Charmeleon",
+    "generacion": 1,
+    "tipos": ["Fuego"],
+    "grupo_huevo": ["Monstruo", "Dragón"],
+    "imagen": "/images/5.webp"
+  },
+  {
+    "id": 6,
+    "nombre": "Charizard",
+    "generacion": 1,
+    "tipos": ["Fuego", "Volador"],
+    "grupo_huevo": ["Monstruo", "Dragón"],
+    "imagen": "/images/6.webp"
+  },
+  {
+    "id": 7,
+    "nombre": "Squirtle",
+    "generacion": 1,
+    "tipos": ["Agua"],
+    "grupo_huevo": ["Monstruo", "Agua 1"],
+    "imagen": "/images/7.webp"
+  },
+  {
+    "id": 8,
+    "nombre": "Wartortle",
+    "generacion": 1,
+    "tipos": ["Agua"],
+    "grupo_huevo": ["Monstruo", "Agua 1"],
+    "imagen": "/images/8.webp"
+  },
+  {
+    "id": 9,
+    "nombre": "Blastoise",
+    "generacion": 1,
+    "tipos": ["Agua"],
+    "grupo_huevo": ["Monstruo", "Agua 1"],
+    "imagen": "/images/9.webp"
+  },
+  {
+    "id": 10,
+    "nombre": "Caterpie",
+    "generacion": 1,
+    "tipos": ["Bicho"],
+    "grupo_huevo": ["Bicho"],
+    "imagen": "/images/10.webp"
+  },
+  {
+    "id": 11,
+    "nombre": "Metapod",
+    "generacion": 1,
+    "tipos": ["Bicho"],
+    "grupo_huevo": ["Bicho"],
+    "imagen": "/images/11.webp"
+  },
+  {
+    "id": 12,
+    "nombre": "Butterfree",
+    "generacion": 1,
+    "tipos": ["Bicho", "Volador"],
+    "grupo_huevo": ["Bicho"],
+    "imagen": "/images/12.webp"
+  },
+  {
+    "id": 13,
+    "nombre": "Weedle",
+    "generacion": 1,
+    "tipos": ["Bicho", "Veneno"],
+    "grupo_huevo": ["Bicho"],
+    "imagen": "/images/13.webp"
+  },
+  {
+    "id": 14,
+    "nombre": "Kakuna",
+    "generacion": 1,
+    "tipos": ["Bicho", "Veneno"],
+    "grupo_huevo": ["Bicho"],
+    "imagen": "/images/14.webp"
+  },
+  {
+    "id": 15,
+    "nombre": "Beedrill",
+    "generacion": 1,
+    "tipos": ["Bicho", "Veneno"],
+    "grupo_huevo": ["Bicho"],
+    "imagen": "/images/15.webp"
+  },
+  {
+    "id": 16,
+    "nombre": "Pidgey",
+    "generacion": 1,
+    "tipos": ["Normal", "Volador"],
+    "grupo_huevo": ["Volador"],
+    "imagen": "/images/16.webp"
+  },
+  {
+    "id": 17,
+    "nombre": "Pidgeotto",
+    "generacion": 1,
+    "tipos": ["Normal", "Volador"],
+    "grupo_huevo": ["Volador"],
+    "imagen": "/images/17.webp"
+  },
+  {
+    "id": 18,
+    "nombre": "Pidgeot",
+    "generacion": 1,
+    "tipos": ["Normal", "Volador"],
+    "grupo_huevo": ["Volador"],
+    "imagen": "/images/18.webp"
+  },
+  {
+    "id": 19,
+    "nombre": "Rattata",
+    "generacion": 1,
+    "tipos": ["Normal"],
+    "grupo_huevo": ["Campo"],
+    "imagen": "/images/19.webp"
+  },
+  {
+    "id": 20,
+    "nombre": "Raticate",
+    "generacion": 1,
+    "tipos": ["Normal"],
+    "grupo_huevo": ["Campo"],
+    "imagen": "/images/20.webp"
+  },
+  {
+    "id": 21,
+    "nombre": "Spearow",
+    "generacion": 1,
+    "tipos": ["Normal", "Volador"],
+    "grupo_huevo": ["Volador"],
+    "imagen": "/images/21.webp"
+  },
+  {
+    "id": 22,
+    "nombre": "Fearow",
+    "generacion": 1,
+    "tipos": ["Normal", "Volador"],
+    "grupo_huevo": ["Volador"],
+    "imagen": "/images/22.webp"
+  },
+  {
+    "id": 23,
+    "nombre": "Ekans",
+    "generacion": 1,
+    "tipos": ["Veneno"],
+    "grupo_huevo": ["Campo", "Dragón"],
+    "imagen": "/images/23.webp"
+  },
+  {
+    "id": 24,
+    "nombre": "Arbok",
+    "generacion": 1,
+    "tipos": ["Veneno"],
+    "grupo_huevo": ["Campo", "Dragón"],
+    "imagen": "/images/24.webp"
+  },
+  {
+    "id": 25,
+    "nombre": "Pikachu",
+    "generacion": 1,
+    "tipos": ["Eléctrico"],
+    "grupo_huevo": ["Campo", "Hada"],
+    "imagen": "/images/25.webp"
+  },
+  {
+    "id": 26,
+    "nombre": "Raichu",
+    "generacion": 1,
+    "tipos": ["Eléctrico"],
+    "grupo_huevo": ["Campo", "Hada"],
+    "imagen": "/images/26.webp"
+  },
+  {
+    "id": 27,
+    "nombre": "Sandshrew",
+    "generacion": 1,
+    "tipos": ["Tierra"],
+    "grupo_huevo": ["Campo"],
+    "imagen": "/images/27.webp"
+  },
+  {
+    "id": 28,
+    "nombre": "Sandslash",
+    "generacion": 1,
+    "tipos": ["Tierra"],
+    "grupo_huevo": ["Campo"],
+    "imagen": "/images/28.webp"
+  },
+  {
+    "id": 29,
+    "nombre": "Nidoran♀",
+    "generacion": 1,
+    "tipos": ["Veneno"],
+    "grupo_huevo": ["Monstruo", "Campo"],
+    "imagen": "/images/29.webp"
+  },
+  {
+    "id": 30,
+    "nombre": "Nidorina",
+    "generacion": 1,
+    "tipos": ["Veneno"],
+    "grupo_huevo": ["Monstruo", "Campo"],
+    "imagen": "/images/30.webp"
+  },
+  {
+    "id": 31,
+    "nombre": "Nidoqueen",
+    "generacion": 1,
+    "tipos": ["Veneno", "Tierra"],
+    "grupo_huevo": ["Monstruo", "Campo"],
+    "imagen": "/images/31.webp"
+  },
+  {
+    "id": 32,
+    "nombre": "Nidoran♂",
+    "generacion": 1,
+    "tipos": ["Veneno"],
+    "grupo_huevo": ["Monstruo", "Campo"],
+    "imagen": "/images/32.webp"
+  },
+  {
+    "id": 33,
+    "nombre": "Nidorino",
+    "generacion": 1,
+    "tipos": ["Veneno"],
+    "grupo_huevo": ["Monstruo", "Campo"],
+    "imagen": "/images/33.webp"
+  },
+  {
+    "id": 34,
+    "nombre": "Nidoking",
+    "generacion": 1,
+    "tipos": ["Veneno", "Tierra"],
+    "grupo_huevo": ["Monstruo", "Campo"],
+    "imagen": "/images/34.webp"
+  },
+  {
+    "id": 35,
+    "nombre": "Clefairy",
+    "generacion": 1,
+    "tipos": ["Hada"],
+    "grupo_huevo": ["Hada"],
+    "imagen": "/images/35.webp"
+  },
+  {
+    "id": 36,
+    "nombre": "Clefable",
+    "generacion": 1,
+    "tipos": ["Hada"],
+    "grupo_huevo": ["Hada"],
+    "imagen": "/images/36.webp"
+  },
+  {
+    "id": 37,
+    "nombre": "Vulpix",
+    "generacion": 1,
+    "tipos": ["Fuego"],
+    "grupo_huevo": ["Campo"],
+    "imagen": "/images/37.webp"
+  },
+  {
+    "id": 38,
+    "nombre": "Ninetales",
+    "generacion": 1,
+    "tipos": ["Fuego"],
+    "grupo_huevo": ["Campo"],
+    "imagen": "/images/38.webp"
+  },
+  {
+    "id": 39,
+    "nombre": "Jigglypuff",
+    "generacion": 1,
+    "tipos": ["Normal", "Hada"],
+    "grupo_huevo": ["Hada"],
+    "imagen": "/images/39.webp"
+  },
+  {
+    "id": 40,
+    "nombre": "Wigglytuff",
+    "generacion": 1,
+    "tipos": ["Normal", "Hada"],
+    "grupo_huevo": ["Hada"],
+    "imagen": "/images/40.webp"
+  },
+  {
+    "id": 41,
+    "nombre": "Zubat",
+    "generacion": 1,
+    "tipos": ["Veneno", "Volador"],
+    "grupo_huevo": ["Volador"],
+    "imagen": "/images/41.webp"
+  },
+  {
+    "id": 42,
+    "nombre": "Golbat",
+    "generacion": 1,
+    "tipos": ["Veneno", "Volador"],
+    "grupo_huevo": ["Volador"],
+    "imagen": "/images/42.webp"
+  },
+  {
+    "id": 43,
+    "nombre": "Oddish",
+    "generacion": 1,
+    "tipos": ["Planta", "Veneno"],
+    "grupo_huevo": ["Planta"],
+    "imagen": "/images/43.webp"
+  },
+  {
+    "id": 44,
+    "nombre": "Gloom",
+    "generacion": 1,
+    "tipos": ["Planta", "Veneno"],
+    "grupo_huevo": ["Planta"],
+    "imagen": "/images/44.webp"
+  },
+  {
+    "id": 45,
+    "nombre": "Vileplume",
+    "generacion": 1,
+    "tipos": ["Planta", "Veneno"],
+    "grupo_huevo": ["Planta"],
+    "imagen": "/images/45.webp"
+  },
+  {
+    "id": 46,
+    "nombre": "Paras",
+    "generacion": 1,
+    "tipos": ["Bicho", "Planta"],
+    "grupo_huevo": ["Bicho", "Planta"],
+    "imagen": "/images/46.webp"
+  },
+  {
+    "id": 47,
+    "nombre": "Parasect",
+    "generacion": 1,
+    "tipos": ["Bicho", "Planta"],
+    "grupo_huevo": ["Bicho", "Planta"],
+    "imagen": "/images/47.webp"
+  },
+  {
+    "id": 48,
+    "nombre": "Venonat",
+    "generacion": 1,
+    "tipos": ["Bicho", "Veneno"],
+    "grupo_huevo": ["Bicho"],
+    "imagen": "/images/48.webp"
+  },
+  {
+    "id": 49,
+    "nombre": "Venomoth",
+    "generacion": 1,
+    "tipos": ["Bicho", "Veneno"],
+    "grupo_huevo": ["Bicho"],
+    "imagen": "/images/49.webp"
+  },
+  {
+    "id": 50,
+    "nombre": "Diglett",
+    "generacion": 1,
+    "tipos": ["Tierra"],
+    "grupo_huevo": ["Campo"],
+    "imagen": "/images/50.webp"
+  },
+  {
+    "id": 51,
+    "nombre": "Dugtrio",
+    "generacion": 1,
+    "tipos": ["Tierra"],
+    "grupo_huevo": ["Campo"],
+    "imagen": "/images/51.webp"
+  },
+  {
+    "id": 52,
+    "nombre": "Meowth",
+    "generacion": 1,
+    "tipos": ["Normal"],
+    "grupo_huevo": ["Campo"],
+    "imagen": "/images/52.webp"
+  },
+  {
+    "id": 53,
+    "nombre": "Persian",
+    "generacion": 1,
+    "tipos": ["Normal"],
+    "grupo_huevo": ["Campo"],
+    "imagen": "/images/53.webp"
+  },
+  {
+    "id": 54,
+    "nombre": "Psyduck",
+    "generacion": 1,
+    "tipos": ["Agua"],
+    "grupo_huevo": ["Agua 1", "Campo"],
+    "imagen": "/images/54.webp"
+  },
+  {
+    "id": 55,
+    "nombre": "Golduck",
+    "generacion": 1,
+    "tipos": ["Agua"],
+    "grupo_huevo": ["Agua 1", "Campo"],
+    "imagen": "/images/55.webp"
+  },
+  {
+    "id": 56,
+    "nombre": "Mankey",
+    "generacion": 1,
+    "tipos": ["Lucha"],
+    "grupo_huevo": ["Campo"],
+    "imagen": "/images/56.webp"
+  },
+  {
+    "id": 57,
+    "nombre": "Primeape",
+    "generacion": 1,
+    "tipos": ["Lucha"],
+    "grupo_huevo": ["Campo"],
+    "imagen": "/images/57.webp"
+  },
+  {
+    "id": 58,
+    "nombre": "Growlithe",
+    "generacion": 1,
+    "tipos": ["Fuego"],
+    "grupo_huevo": ["Campo"],
+    "imagen": "/images/58.webp"
+  },
+  {
+    "id": 59,
+    "nombre": "Arcanine",
+    "generacion": 1,
+    "tipos": ["Fuego"],
+    "grupo_huevo": ["Campo"],
+    "imagen": "/images/59.webp"
+  },
+  {
+    "id": 60,
+    "nombre": "Poliwag",
+    "generacion": 1,
+    "tipos": ["Agua"],
+    "grupo_huevo": ["Agua 1"],
+    "imagen": "/images/60.webp"
+  },
+  {
+    "id": 61,
+    "nombre": "Poliwhirl",
+    "generacion": 1,
+    "tipos": ["Agua"],
+    "grupo_huevo": ["Agua 1"],
+    "imagen": "/images/61.webp"
+  },
+  {
+    "id": 62,
+    "nombre": "Poliwrath",
+    "generacion": 1,
+    "tipos": ["Agua", "Lucha"],
+    "grupo_huevo": ["Agua 1"],
+    "imagen": "/images/62.webp"
+  },
+  {
+    "id": 63,
+    "nombre": "Abra",
+    "generacion": 1,
+    "tipos": ["Psíquico"],
+    "grupo_huevo": ["Humanoide"],
+    "imagen": "/images/63.webp"
+  },
+  {
+    "id": 64,
+    "nombre": "Kadabra",
+    "generacion": 1,
+    "tipos": ["Psíquico"],
+    "grupo_huevo": ["Humanoide"],
+    "imagen": "/images/64.webp"
+  },
+  {
+    "id": 65,
+    "nombre": "Alakazam",
+    "generacion": 1,
+    "tipos": ["Psíquico"],
+    "grupo_huevo": ["Humanoide"],
+    "imagen": "/images/65.webp"
+  },
+  {
+    "id": 66,
+    "nombre": "Machop",
+    "generacion": 1,
+    "tipos": ["Lucha"],
+    "grupo_huevo": ["Humanoide"],
+    "imagen": "/images/66.webp"
+  },
+  {
+    "id": 67,
+    "nombre": "Machoke",
+    "generacion": 1,
+    "tipos": ["Lucha"],
+    "grupo_huevo": ["Humanoide"],
+    "imagen": "/images/67.webp"
+  },
+  {
+    "id": 68,
+    "nombre": "Machamp",
+    "generacion": 1,
+    "tipos": ["Lucha"],
+    "grupo_huevo": ["Humanoide"],
+    "imagen": "/images/68.webp"
+  },
+  {
+    "id": 69,
+    "nombre": "Bellsprout",
+    "generacion": 1,
+    "tipos": ["Planta", "Veneno"],
+    "grupo_huevo": ["Planta"],
+    "imagen": "/images/69.webp"
+  },
+  {
+    "id": 70,
+    "nombre": "Weepinbell",
+    "generacion": 1,
+    "tipos": ["Planta", "Veneno"],
+    "grupo_huevo": ["Planta"],
+    "imagen": "/images/70.webp"
+  },
+  {
+    "id": 71,
+    "nombre": "Victreebel",
+    "generacion": 1,
+    "tipos": ["Planta", "Veneno"],
+    "grupo_huevo": ["Planta"],
+    "imagen": "/images/71.webp"
+  },
+  {
+    "id": 72,
+    "nombre": "Tentacool",
+    "generacion": 1,
+    "tipos": ["Agua", "Veneno"],
+    "grupo_huevo": ["Agua 3"],
+    "imagen": "/images/72.webp"
+  },
+  {
+    "id": 73,
+    "nombre": "Tentacruel",
+    "generacion": 1,
+    "tipos": ["Agua", "Veneno"],
+    "grupo_huevo": ["Agua 3"],
+    "imagen": "/images/73.webp"
+  },
+  {
+    "id": 74,
+    "nombre": "Geodude",
+    "generacion": 1,
+    "tipos": ["Roca", "Tierra"],
+    "grupo_huevo": ["Mineral"],
+    "imagen": "/images/74.webp"
+  },
+  {
+    "id": 75,
+    "nombre": "Graveler",
+    "generacion": 1,
+    "tipos": ["Roca", "Tierra"],
+    "grupo_huevo": ["Mineral"],
+    "imagen": "/images/75.webp"
+  },
+  {
+    "id": 76,
+    "nombre": "Golem",
+    "generacion": 1,
+    "tipos": ["Roca", "Tierra"],
+    "grupo_huevo": ["Mineral"],
+    "imagen": "/images/76.webp"
+  },
+  {
+    "id": 77,
+    "nombre": "Ponyta",
+    "generacion": 1,
+    "tipos": ["Fuego"],
+    "grupo_huevo": ["Campo"],
+    "imagen": "/images/77.webp"
+  },
+  {
+    "id": 78,
+    "nombre": "Rapidash",
+    "generacion": 1,
+    "tipos": ["Fuego"],
+    "grupo_huevo": ["Campo"],
+    "imagen": "/images/78.webp"
+  },
+  {
+    "id": 79,
+    "nombre": "Slowpoke",
+    "generacion": 1,
+    "tipos": ["Agua", "Psíquico"],
+    "grupo_huevo": ["Monstruo", "Agua 1"],
+    "imagen": "/images/79.webp"
+  },
+  {
+    "id": 80,
+    "nombre": "Slowbro",
+    "generacion": 1,
+    "tipos": ["Agua", "Psíquico"],
+    "grupo_huevo": ["Monstruo", "Agua 1"],
+    "imagen": "/images/80.webp"
+  },
+  {
+    "id": 81,
+    "nombre": "Magnemite",
+    "generacion": 1,
+    "tipos": ["Eléctrico", "Acero"],
+    "grupo_huevo": ["Mineral"],
+    "imagen": "/images/81.webp"
+  },
+  {
+    "id": 82,
+    "nombre": "Magneton",
+    "generacion": 1,
+    "tipos": ["Eléctrico", "Acero"],
+    "grupo_huevo": ["Mineral"],
+    "imagen": "/images/82.webp"
+  },
+  {
+    "id": 83,
+    "nombre": "Farfetch'd",
+    "generacion": 1,
+    "tipos": ["Normal", "Volador"],
+    "grupo_huevo": ["Volador", "Campo"],
+    "imagen": "/images/83.webp"
+  },
+  {
+    "id": 84,
+    "nombre": "Doduo",
+    "generacion": 1,
+    "tipos": ["Normal", "Volador"],
+    "grupo_huevo": ["Volador"],
+    "imagen": "/images/84.webp"
+  },
+  {
+    "id": 85,
+    "nombre": "Dodrio",
+    "generacion": 1,
+    "tipos": ["Normal", "Volador"],
+    "grupo_huevo": ["Volador"],
+    "imagen": "/images/85.webp"
+  },
+  {
+    "id": 86,
+    "nombre": "Seel",
+    "generacion": 1,
+    "tipos": ["Agua"],
+    "grupo_huevo": ["Campo", "Agua 1"],
+    "imagen": "/images/86.webp"
+  },
+  {
+    "id": 87,
+    "nombre": "Dewgong",
+    "generacion": 1,
+    "tipos": ["Agua", "Hielo"],
+    "grupo_huevo": ["Campo", "Agua 1"],
+    "imagen": "/images/87.webp"
+  },
+  {
+    "id": 88,
+    "nombre": "Grimer",
+    "generacion": 1,
+    "tipos": ["Veneno"],
+    "grupo_huevo": ["Amorfo"],
+    "imagen": "/images/88.webp"
+  },
+  {
+    "id": 89,
+    "nombre": "Muk",
+    "generacion": 1,
+    "tipos": ["Veneno"],
+    "grupo_huevo": ["Amorfo"],
+    "imagen": "/images/89.webp"
+  },
+  {
+    "id": 90,
+    "nombre": "Shellder",
+    "generacion": 1,
+    "tipos": ["Agua"],
+    "grupo_huevo": ["Agua 3"],
+    "imagen": "/images/90.webp"
+  },
+  {
+    "id": 91,
+    "nombre": "Cloyster",
+    "generacion": 1,
+    "tipos": ["Agua", "Hielo"],
+    "grupo_huevo": ["Agua 3"],
+    "imagen": "/images/91.webp"
+  },
+  {
+    "id": 92,
+    "nombre": "Gastly",
+    "generacion": 1,
+    "tipos": ["Fantasma", "Veneno"],
+    "grupo_huevo": ["Amorfo"],
+    "imagen": "/images/92.webp"
+  },
+  {
+    "id": 93,
+    "nombre": "Haunter",
+    "generacion": 1,
+    "tipos": ["Fantasma", "Veneno"],
+    "grupo_huevo": ["Amorfo"],
+    "imagen": "/images/93.webp"
+  },
+  {
+    "id": 94,
+    "nombre": "Gengar",
+    "generacion": 1,
+    "tipos": ["Fantasma", "Veneno"],
+    "grupo_huevo": ["Amorfo"],
+    "imagen": "/images/94.webp"
+  },
+  {
+    "id": 95,
+    "nombre": "Onix",
+    "generacion": 1,
+    "tipos": ["Roca", "Tierra"],
+    "grupo_huevo": ["Mineral"],
+    "imagen": "/images/95.webp"
+  },
+  {
+    "id": 96,
+    "nombre": "Drowzee",
+    "generacion": 1,
+    "tipos": ["Psíquico"],
+    "grupo_huevo": ["Humanoide"],
+    "imagen": "/images/96.webp"
+  },
+  {
+    "id": 97,
+    "nombre": "Hypno",
+    "generacion": 1,
+    "tipos": ["Psíquico"],
+    "grupo_huevo": ["Humanoide"],
+    "imagen": "/images/97.webp"
+  },
+  {
+    "id": 98,
+    "nombre": "Krabby",
+    "generacion": 1,
+    "tipos": ["Agua"],
+    "grupo_huevo": ["Agua 3"],
+    "imagen": "/images/98.webp"
+  },
+  {
+    "id": 99,
+    "nombre": "Kingler",
+    "generacion": 1,
+    "tipos": ["Agua"],
+    "grupo_huevo": ["Agua 3"],
+    "imagen": "/images/99.webp"
+  },
+  {
+    "id": 100,
+    "nombre": "Voltorb",
+    "generacion": 1,
+    "tipos": ["Eléctrico"],
+    "grupo_huevo": ["Mineral"],
+    "imagen": "/images/100.webp"
+  },
+  {
+    "id": 101,
+    "nombre": "Electrode",
+    "generacion": 1,
+    "tipos": ["Eléctrico"],
+    "grupo_huevo": ["Mineral"],
+    "imagen": "/images/101.webp"
+  },
+  {
+    "id": 102,
+    "nombre": "Exeggcute",
+    "generacion": 1,
+    "tipos": ["Planta", "Psíquico"],
+    "grupo_huevo": ["Planta"],
+    "imagen": "/images/102.webp"
+  },
+  {
+    "id": 103,
+    "nombre": "Exeggutor",
+    "generacion": 1,
+    "tipos": ["Planta", "Psíquico"],
+    "grupo_huevo": ["Planta"],
+    "imagen": "/images/103.webp"
+  },
+  {
+    "id": 104,
+    "nombre": "Cubone",
+    "generacion": 1,
+    "tipos": ["Tierra"],
+    "grupo_huevo": ["Monstruo"],
+    "imagen": "/images/104.webp"
+  },
+  {
+    "id": 105,
+    "nombre": "Marowak",
+    "generacion": 1,
+    "tipos": ["Tierra"],
+    "grupo_huevo": ["Monstruo"],
+    "imagen": "/images/105.webp"
+  },
+  {
+    "id": 106,
+    "nombre": "Hitmonlee",
+    "generacion": 1,
+    "tipos": ["Lucha"],
+    "grupo_huevo": ["Humanoide"],
+    "imagen": "/images/106.webp"
+  },
+  {
+    "id": 107,
+    "nombre": "Hitmonchan",
+    "generacion": 1,
+    "tipos": ["Lucha"],
+    "grupo_huevo": ["Humanoide"],
+    "imagen": "/images/107.webp"
+  },
+  {
+    "id": 108,
+    "nombre": "Lickitung",
+    "generacion": 1,
+    "tipos": ["Normal"],
+    "grupo_huevo": ["Monstruo", "Campo"],
+    "imagen": "/images/108.webp"
+  },
+  {
+    "id": 109,
+    "nombre": "Koffing",
+    "generacion": 1,
+    "tipos": ["Veneno"],
+    "grupo_huevo": ["Amorfo"],
+    "imagen": "/images/109.webp"
+  },
+  {
+    "id": 110,
+    "nombre": "Weezing",
+    "generacion": 1,
+    "tipos": ["Veneno"],
+    "grupo_huevo": ["Amorfo"],
+    "imagen": "/images/110.webp"
+  },
+  {
+    "id": 111,
+    "nombre": "Rhyhorn",
+    "generacion": 1,
+    "tipos": ["Tierra", "Roca"],
+    "grupo_huevo": ["Monstruo", "Campo"],
+    "imagen": "/images/111.webp"
+  },
+  {
+    "id": 112,
+    "nombre": "Rhydon",
+    "generacion": 1,
+    "tipos": ["Tierra", "Roca"],
+    "grupo_huevo": ["Monstruo", "Campo"],
+    "imagen": "/images/112.webp"
+  },
+  {
+    "id": 113,
+    "nombre": "Chansey",
+    "generacion": 1,
+    "tipos": ["Normal"],
+    "grupo_huevo": ["Hada"],
+    "imagen": "/images/113.webp"
+  },
+  {
+    "id": 114,
+    "nombre": "Tangela",
+    "generacion": 1,
+    "tipos": ["Planta"],
+    "grupo_huevo": ["Planta"],
+    "imagen": "/images/114.webp"
+  },
+  {
+    "id": 115,
+    "nombre": "Kangaskhan",
+    "generacion": 1,
+    "tipos": ["Normal"],
+    "grupo_huevo": ["Monstruo"],
+    "imagen": "/images/115.webp"
+  },
+  {
+    "id": 116,
+    "nombre": "Horsea",
+    "generacion": 1,
+    "tipos": ["Agua"],
+    "grupo_huevo": ["Agua 1", "Dragón"],
+    "imagen": "/images/116.webp"
+  },
+  {
+    "id": 117,
+    "nombre": "Seadra",
+    "generacion": 1,
+    "tipos": ["Agua"],
+    "grupo_huevo": ["Agua 1", "Dragón"],
+    "imagen": "/images/117.webp"
+  },
+  {
+    "id": 118,
+    "nombre": "Goldeen",
+    "generacion": 1,
+    "tipos": ["Agua"],
+    "grupo_huevo": ["Agua 2"],
+    "imagen": "/images/118.webp"
+  },
+  {
+    "id": 119,
+    "nombre": "Seaking",
+    "generacion": 1,
+    "tipos": ["Agua"],
+    "grupo_huevo": ["Agua 2"],
+    "imagen": "/images/119.webp"
+  },
+  {
+    "id": 120,
+    "nombre": "Staryu",
+    "generacion": 1,
+    "tipos": ["Agua"],
+    "grupo_huevo": ["Agua 3"],
+    "imagen": "/images/120.webp"
+  },
+  {
+    "id": 121,
+    "nombre": "Starmie",
+    "generacion": 1,
+    "tipos": ["Agua", "Psíquico"],
+    "grupo_huevo": ["Agua 3"],
+    "imagen": "/images/121.webp"
+  },
+  {
+    "id": 122,
+    "nombre": "Mr. Mime",
+    "generacion": 1,
+    "tipos": ["Psíquico", "Hada"],
+    "grupo_huevo": ["Humanoide"],
+    "imagen": "/images/122.webp"
+  },
+  {
+    "id": 123,
+    "nombre": "Scyther",
+    "generacion": 1,
+    "tipos": ["Bicho", "Volador"],
+    "grupo_huevo": ["Bicho"],
+    "imagen": "/images/123.webp"
+  },
+  {
+    "id": 124,
+    "nombre": "Jynx",
+    "generacion": 1,
+    "tipos": ["Hielo", "Psíquico"],
+    "grupo_huevo": ["Humanoide"],
+    "imagen": "/images/124.webp"
+  },
+  {
+    "id": 125,
+    "nombre": "Electabuzz",
+    "generacion": 1,
+    "tipos": ["Eléctrico"],
+    "grupo_huevo": ["Humanoide"],
+    "imagen": "/images/125.webp"
+  },
+  {
+    "id": 126,
+    "nombre": "Magmar",
+    "generacion": 1,
+    "tipos": ["Fuego"],
+    "grupo_huevo": ["Humanoide"],
+    "imagen": "/images/126.webp"
+  },
+  {
+    "id": 127,
+    "nombre": "Pinsir",
+    "generacion": 1,
+    "tipos": ["Bicho"],
+    "grupo_huevo": ["Bicho"],
+    "imagen": "/images/127.webp"
+  },
+  {
+    "id": 128,
+    "nombre": "Tauros",
+    "generacion": 1,
+    "tipos": ["Normal"],
+    "grupo_huevo": ["Campo"],
+    "imagen": "/images/128.webp"
+  },
+  {
+    "id": 129,
+    "nombre": "Magikarp",
+    "generacion": 1,
+    "tipos": ["Agua"],
+    "grupo_huevo": ["Agua 2", "Dragón"],
+    "imagen": "/images/129.webp"
+  },
+  {
+    "id": 130,
+    "nombre": "Gyarados",
+    "generacion": 1,
+    "tipos": ["Agua", "Volador"],
+    "grupo_huevo": ["Agua 2", "Dragón"],
+    "imagen": "/images/130.webp"
+  },
+  {
+    "id": 131,
+    "nombre": "Lapras",
+    "generacion": 1,
+    "tipos": ["Agua", "Hielo"],
+    "grupo_huevo": ["Monstruo", "Agua 1"],
+    "imagen": "/images/131.webp"
+  },
+  {
+    "id": 132,
+    "nombre": "Ditto",
+    "generacion": 1,
+    "tipos": ["Normal"],
+    "grupo_huevo": ["Indeterminado"],
+    "imagen": "/images/132.webp"
+  },
+  {
+    "id": 133,
+    "nombre": "Eevee",
+    "generacion": 1,
+    "tipos": ["Normal"],
+    "grupo_huevo": ["Campo"],
+    "imagen": "/images/133.webp"
+  },
+  {
+    "id": 134,
+    "nombre": "Vaporeon",
+    "generacion": 1,
+    "tipos": ["Agua"],
+    "grupo_huevo": ["Campo"],
+    "imagen": "/images/134.webp"
+  },
+  {
+    "id": 135,
+    "nombre": "Jolteon",
+    "generacion": 1,
+    "tipos": ["Eléctrico"],
+    "grupo_huevo": ["Campo"],
+    "imagen": "/images/135.webp"
+  },
+  {
+    "id": 136,
+    "nombre": "Flareon",
+    "generacion": 1,
+    "tipos": ["Fuego"],
+    "grupo_huevo": ["Campo"],
+    "imagen": "/images/136.webp"
+  },
+  {
+    "id": 137,
+    "nombre": "Porygon",
+    "generacion": 1,
+    "tipos": ["Normal"],
+    "grupo_huevo": ["Mineral"],
+    "imagen": "/images/137.webp"
+  },
+  {
+    "id": 138,
+    "nombre": "Omanyte",
+    "generacion": 1,
+    "tipos": ["Roca", "Agua"],
+    "grupo_huevo": ["Agua 1", "Agua 3"],
+    "imagen": "/images/138.webp"
+  },
+  {
+    "id": 139,
+    "nombre": "Omastar",
+    "generacion": 1,
+    "tipos": ["Roca", "Agua"],
+    "grupo_huevo": ["Agua 1", "Agua 3"],
+    "imagen": "/images/139.webp"
+  },
+  {
+    "id": 140,
+    "nombre": "Kabuto",
+    "generacion": 1,
+    "tipos": ["Roca", "Agua"],
+    "grupo_huevo": ["Agua 1", "Agua 3"],
+    "imagen": "/images/140.webp"
+  },
+  {
+    "id": 141,
+    "nombre": "Kabutops",
+    "generacion": 1,
+    "tipos": ["Roca", "Agua"],
+    "grupo_huevo": ["Agua 1", "Agua 3"],
+    "imagen": "/images/141.webp"
+  },
+  {
+    "id": 142,
+    "nombre": "Aerodactyl",
+    "generacion": 1,
+    "tipos": ["Roca", "Volador"],
+    "grupo_huevo": ["Volador"],
+    "imagen": "/images/142.webp"
+  },
+  {
+    "id": 143,
+    "nombre": "Snorlax",
+    "generacion": 1,
+    "tipos": ["Normal"],
+    "grupo_huevo": ["Monstruo"],
+    "imagen": "/images/143.webp"
+  },
+  {
+    "id": 144,
+    "nombre": "Articuno",
+    "generacion": 1,
+    "tipos": ["Hielo", "Volador"],
+    "grupo_huevo": ["Indeterminado"],
+    "imagen": "/images/144.webp"
+  },
+  {
+    "id": 145,
+    "nombre": "Zapdos",
+    "generacion": 1,
+    "tipos": ["Eléctrico", "Volador"],
+    "grupo_huevo": ["Indeterminado"],
+    "imagen": "/images/145.webp"
+  },
+  {
+    "id": 146,
+    "nombre": "Moltres",
+    "generacion": 1,
+    "tipos": ["Fuego", "Volador"],
+    "grupo_huevo": ["Indeterminado"],
+    "imagen": "/images/146.webp"
+  },
+  {
+    "id": 147,
+    "nombre": "Dratini",
+    "generacion": 1,
+    "tipos": ["Dragón"],
+    "grupo_huevo": ["Agua 1", "Dragón"],
+    "imagen": "/images/147.webp"
+  },
+  {
+    "id": 148,
+    "nombre": "Dragonair",
+    "generacion": 1,
+    "tipos": ["Dragón"],
+    "grupo_huevo": ["Agua 1", "Dragón"],
+    "imagen": "/images/148.webp"
+  },
+  {
+    "id": 149,
+    "nombre": "Dragonite",
+    "generacion": 1,
+    "tipos": ["Dragón", "Volador"],
+    "grupo_huevo": ["Agua 1", "Dragón"],
+    "imagen": "/images/149.webp"
+  },
+  {
+    "id": 150,
+    "nombre": "Mewtwo",
+    "generacion": 1,
+    "tipos": ["Psíquico"],
+    "grupo_huevo": ["Indeterminado"],
+    "imagen": "/images/150.webp"
+  },
+  {
+    "id": 151,
+    "nombre": "Mew",
+    "generacion": 1,
+    "tipos": ["Psíquico"],
+    "grupo_huevo": ["Indeterminado"],
+    "imagen": "/images/151.webp"
+  }
+]
+
