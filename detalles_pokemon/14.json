@@ -1,9 +1,7 @@
 {
     "id": 14,
     "numeroNacional": "0014",
-    "nombre": {
-      "es": "Kakuna"
-    },
+    "nombre":"Kakuna",
     "generacion": 1,
     "tieneMegaEvolucion": false,
     "variantesRegionales": [],
