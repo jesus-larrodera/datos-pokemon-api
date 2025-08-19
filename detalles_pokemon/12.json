@@ -1,9 +1,7 @@
  {
     "id": 12,
     "numeroNacional": "0012",
-    "nombre": {
-      "es": "Butterfree"
-    },
+    "nombre": "Butterfree",
     "generacion": 1,
     "tieneMegaEvolucion": false,
     "variantesRegionales": [],
