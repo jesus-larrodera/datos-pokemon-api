@@ -1,0 +1,59 @@
+{
+    "id": 19,
+    "numeroNacional": "0019",
+    "nombre": {
+      "es": "Rattata"
+    },
+    "generacion": 1,
+    "tieneMegaEvolucion": false,
+    "variantesRegionales": ["Alola"],
+    "tipos": ["Normal"],
+    "habilidades": [
+      {
+        "nombre": "Fuga",
+        "esOculta": false
+      },
+      {
+        "nombre": "Agallas",
+        "esOculta": false
+      },
+      {
+        "nombre": "Entusiasmo",
+        "esOculta": true
+      }
+    ],
+    "estadisticasBase": {
+      "hp": 30,
+      "ataque": 56,
+      "defensa": 35,
+      "ataqueEspecial": 25,
+      "defensaEspecial": 35,
+      "velocidad": 72
+    },
+    "imagen": "19.webp",
+    "pokedexEntrada": {
+      "descripcion": "Rattata se reproduce rápidamente y puede ser encontrado en muchos lugares. Usan sus fuertes dientes para roer cualquier cosa.",
+      "especie": "Pokémon Ratón"
+    },
+    "caracteristicasFisicas": {
+      "pesoKg": 3.5,
+      "alturaM": 0.3,
+      "ratioGenero": {
+        "masculino": 50.0,
+        "femenino": 50.0
+      },
+      "grupoHuevo": ["Campo"]
+    },
+    "cadenaEvolucion": {
+      "primeraEtapa": {
+        "nombre": "Rattata",
+        "id": 19
+      },
+      "segundaEtapa": {
+        "nombre": "Raticate",
+        "id": 20,
+        "metodo": "Subir de nivel",
+        "nivelRequerido": 20
+      }
+    }
+  }
