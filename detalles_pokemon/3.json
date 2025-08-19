@@ -1,1 +1,61 @@
-
+{
+    "id": 3,
+    "numeroNacional": "0003",
+    "nombre": {
+      "es": "Venusaur"
+    },
+    "generacion": 1,
+    "tieneMegaEvolucion": true,
+    "variantesRegionales": [],
+    "tipos": ["Planta", "Veneno"],
+    "habilidades": [
+      {
+        "nombre": "Espesura",
+        "esOculta": false
+      },
+      {
+        "nombre": "Clorofila",
+        "esOculta": true
+      }
+    ],
+    "estadisticasBase": {
+      "hp": 80,
+      "ataque": 82,
+      "defensa": 83,
+      "ataqueEspecial": 100,
+      "defensaEspecial": 100,
+      "velocidad": 80
+    },
+    "imagen": "3.webp",
+    "pokedexEntrada": {
+      "descripcion": "La flor en su espalda se vuelve un color brillante y libera un aroma calmante. El aroma se vuelve más fuerte en días soleados.",
+      "especie": "Pokémon Semilla"
+    },
+    "caracteristicasFisicas": {
+      "pesoKg": 100,
+      "alturaM": 2,
+      "ratioGenero": {
+        "masculino": 87.5,
+        "femenino": 12.5
+      },
+      "grupoHuevo": ["Monstruo", "Planta"]
+    },
+    "cadenaEvolucion": {
+      "primeraEtapa": {
+        "nombre": "Bulbasaur",
+        "id": 1
+      },
+      "segundaEtapa": {
+        "nombre": "Ivysaur",
+        "id": 2,
+        "metodo": "Subir de nivel",
+        "nivelRequerido": 16
+      },
+      "terceraEtapa": {
+        "nombre": "Venusaur",
+        "id": 3,
+        "metodo": "Subir de nivel",
+        "nivelRequerido": 32
+      }
+    }
+  }
