@@ -1,9 +1,7 @@
 {
     "id": 17,
     "numeroNacional": "0017",
-    "nombre": {
-      "es": "Pidgeotto"
-    },
+    "nombre":"Pidgeotto",
     "generacion": 1,
     "tieneMegaEvolucion": false,
     "variantesRegionales": [],
