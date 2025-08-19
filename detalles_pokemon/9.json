@@ -1,9 +1,7 @@
  {
     "id": 9,
     "numeroNacional": "0009",
-    "nombre": {
-      "es": "Blastoise"
-    },
+    "nombre":"Blastoise",
     "generacion": 1,
     "tieneMegaEvolucion": true,
     "variantesRegionales": [],
