@@ -1,64 +1,61 @@
-{
-  "id": 1,
-  "numeroNacional": "0001",
-  "nombre": {
-    "es": "Bulbasaur"
-  },
-  "generacion": 1,
-  "variantes": [
-    {
-      "region": "Kanto",
-      "tipos": ["Planta", "Veneno"],
-      "habilidades": [
-        {
-          "nombre": "Espesura",
-          "esOculta": false
-        },
-        {
-          "nombre": "Clorofila",
-          "esOculta": true
-        }
-      ],
-      "estadisticasBase": {
-        "hp": 45,
-        "ataque": 49,
-        "defensa": 49,
-        "ataqueEspecial": 65,
-        "defensaEspecial": 65,
-        "velocidad": 45
+  {
+    "id": 1,
+    "numeroNacional": "0001",
+    "nombre": {
+      "es": "Bulbasaur"
+    },
+    "generacion": 1,
+    "tieneMegaEvolucion": false,
+    "variantesRegionales": [],
+    "tipos": ["Planta", "Veneno"],
+    "habilidades": [
+      {
+        "nombre": "Espesura",
+        "esOculta": false
       },
-      "imagen": "1.webp"
-    }
-  ],
-  "pokedexEntrada": {
-    "descripcion": "Un Pokémon de tipo Planta/Veneno. Desde su nacimiento, una semilla crece en su espalda, acumulando nutrientes.",
-    "especie": "Pokémon Semilla"
-  },
-  "caracteristicasFisicas": {
-    "pesoKg": 6.9,
-    "alturaM": 0.7,
-    "ratioGenero": {
-      "masculino": 87.5,
-      "femenino": 12.5
+      {
+        "nombre": "Clorofila",
+        "esOculta": true
+      }
+    ],
+    "estadisticasBase": {
+      "hp": 45,
+      "ataque": 49,
+      "defensa": 49,
+      "ataqueEspecial": 65,
+      "defensaEspecial": 65,
+      "velocidad": 45
     },
-    "grupoHuevo": ["Monstruo", "Planta"]
-  },
-  "cadenaEvolucion": {
-    "primeraEtapa": {
-      "nombre": "Bulbasaur",
-      "id": 1
+    "imagen": "1.webp",
+    "pokedexEntrada": {
+      "descripcion": "Una extraña semilla ha sido plantada en su espalda al nacer. La planta brota y crece junto a este Pokémon.",
+      "especie": "Pokémon Semilla"
     },
-    "segundaEtapa": {
-      "nombre": "Ivysaur",
-      "id": 2,
-      "metodo": "Subir de nivel",
-      "nivelRequerido": 16
+    "caracteristicasFisicas": {
+      "pesoKg": 6.9,
+      "alturaM": 0.7,
+      "ratioGenero": {
+        "masculino": 87.5,
+        "femenino": 12.5
+      },
+      "grupoHuevo": ["Monstruo", "Planta"]
     },
-    "terceraEtapa": {
-      "nombre": "Venusaur",
-      "id": 3,
-      "metodo": "Subir de nivel",
-      "nivelRequerido": 32
+    "cadenaEvolucion": {
+      "primeraEtapa": {
+        "nombre": "Bulbasaur",
+        "id": 1
+      },
+      "segundaEtapa": {
+        "nombre": "Ivysaur",
+        "id": 2,
+        "metodo": "Subir de nivel",
+        "nivelRequerido": 16
+      },
+      "terceraEtapa": {
+        "nombre": "Venusaur",
+        "id": 3,
+        "metodo": "Subir de nivel",
+        "nivelRequerido": 32
+      }
     }
   }
-}
