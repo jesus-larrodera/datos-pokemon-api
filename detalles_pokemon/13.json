@@ -1,9 +1,7 @@
  {
     "id": 13,
     "numeroNacional": "0013",
-    "nombre": {
-      "es": "Weedle"
-    },
+    "nombre":"Weedle",
     "generacion": 1,
     "tieneMegaEvolucion": false,
     "variantesRegionales": [],
