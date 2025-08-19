@@ -1,9 +1,7 @@
 {
     "id": 3,
     "numeroNacional": "0003",
-    "nombre": {
-      "es": "Venusaur"
-    },
+    "nombre":"Venusaur",
     "generacion": 1,
     "tieneMegaEvolucion": true,
     "variantesRegionales": [],
