@@ -1,0 +1,65 @@
+ {
+    "id": 16,
+    "numeroNacional": "0016",
+    "nombre": {
+      "es": "Pidgey"
+    },
+    "generacion": 1,
+    "tieneMegaEvolucion": false,
+    "variantesRegionales": [],
+    "tipos": ["Normal", "Volador"],
+    "habilidades": [
+      {
+        "nombre": "Vista Lince",
+        "esOculta": false
+      },
+      {
+        "nombre": "Tumbos",
+        "esOculta": false
+      },
+      {
+        "nombre": "Sacapecho",
+        "esOculta": true
+      }
+    ],
+    "estadisticasBase": {
+      "hp": 40,
+      "ataque": 45,
+      "defensa": 40,
+      "ataqueEspecial": 35,
+      "defensaEspecial": 35,
+      "velocidad": 56
+    },
+    "imagen": "16.webp",
+    "pokedexEntrada": {
+      "descripcion": "Pidgey tiene un sentido del olfato muy desarrollado, por lo que puede encontrar comida y nidos a gran distancia.",
+      "especie": "Pokémon Pajarito"
+    },
+    "caracteristicasFisicas": {
+      "pesoKg": 1.8,
+      "alturaM": 0.3,
+      "ratioGenero": {
+        "masculino": 50.0,
+        "femenino": 50.0
+      },
+      "grupoHuevo": ["Volador"]
+    },
+    "cadenaEvolucion": {
+      "primeraEtapa": {
+        "nombre": "Pidgey",
+        "id": 16
+      },
+      "segundaEtapa": {
+        "nombre": "Pidgeotto",
+        "id": 17,
+        "metodo": "Subir de nivel",
+        "nivelRequerido": 18
+      },
+      "terceraEtapa": {
+        "nombre": "Pidgeot",
+        "id": 18,
+        "metodo": "Subir de nivel",
+        "nivelRequerido": 36
+      }
+    }
+  }
