@@ -1,9 +1,7 @@
  {
     "id": 11,
     "numeroNacional": "0011",
-    "nombre": {
-      "es": "Metapod"
-    },
+    "nombre":"Metapod",
     "generacion": 1,
     "tieneMegaEvolucion": false,
     "variantesRegionales": [],
