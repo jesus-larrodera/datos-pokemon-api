@@ -1,9 +1,7 @@
 {
     "id": 18,
     "numeroNacional": "0018",
-    "nombre": {
-      "es": "Pidgeot"
-    },
+    "nombre":"Pidgeot",
     "generacion": 1,
     "tieneMegaEvolucion": true,
     "variantesRegionales": [],
