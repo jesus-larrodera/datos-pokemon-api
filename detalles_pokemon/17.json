@@ -1,0 +1,65 @@
+{
+    "id": 17,
+    "numeroNacional": "0017",
+    "nombre": {
+      "es": "Pidgeotto"
+    },
+    "generacion": 1,
+    "tieneMegaEvolucion": false,
+    "variantesRegionales": [],
+    "tipos": ["Normal", "Volador"],
+    "habilidades": [
+      {
+        "nombre": "Vista Lince",
+        "esOculta": false
+      },
+      {
+        "nombre": "Tumbos",
+        "esOculta": false
+      },
+      {
+        "nombre": "Sacapecho",
+        "esOculta": true
+      }
+    ],
+    "estadisticasBase": {
+      "hp": 63,
+      "ataque": 60,
+      "defensa": 55,
+      "ataqueEspecial": 50,
+      "defensaEspecial": 50,
+      "velocidad": 71
+    },
+    "imagen": "17.webp",
+    "pokedexEntrada": {
+      "descripcion": "Extremadamente territorial, este Pokémon defenderá su territorio ferozmente. Puede volar a alta velocidad para atacar a sus oponentes.",
+      "especie": "Pokémon Pájaro"
+    },
+    "caracteristicasFisicas": {
+      "pesoKg": 30.0,
+      "alturaM": 1.1,
+      "ratioGenero": {
+        "masculino": 50.0,
+        "femenino": 50.0
+      },
+      "grupoHuevo": ["Volador"]
+    },
+    "cadenaEvolucion": {
+      "primeraEtapa": {
+        "nombre": "Pidgey",
+        "id": 16
+      },
+      "segundaEtapa": {
+        "nombre": "Pidgeotto",
+        "id": 17,
+        "metodo": "Subir de nivel",
+        "nivelRequerido": 18
+      },
+      "terceraEtapa": {
+        "nombre": "Pidgeot",
+        "id": 18,
+        "metodo": "Subir de nivel",
+        "nivelRequerido": 36
+      }
+    }
+  }
