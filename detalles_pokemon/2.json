@@ -1,9 +1,7 @@
  {
     "id": 2,
     "numeroNacional": "0002",
-    "nombre": {
-      "es": "Ivysaur"
-    },
+    "nombre":"Ivysaur",
     "generacion": 1,
     "tieneMegaEvolucion": false,
     "variantesRegionales": [],
