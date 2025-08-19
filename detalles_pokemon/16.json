@@ -1,9 +1,7 @@
  {
     "id": 16,
     "numeroNacional": "0016",
-    "nombre": {
-      "es": "Pidgey"
-    },
+    "nombre":"Pidgey",
     "generacion": 1,
     "tieneMegaEvolucion": false,
     "variantesRegionales": [],
