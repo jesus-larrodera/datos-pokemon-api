@@ -1,9 +1,7 @@
   {
     "id": 6,
     "numeroNacional": "0006",
-    "nombre": {
-      "es": "Charizard"
-    },
+    "nombre":"Charizard",
     "generacion": 1,
     "tieneMegaEvolucion": true,
     "variantesRegionales": [],
