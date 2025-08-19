@@ -1,9 +1,7 @@
  {
     "id": 8,
     "numeroNacional": "0008",
-    "nombre": {
-      "es": "Wartortle"
-    },
+    "nombre":"Wartortle",
     "generacion": 1,
     "tieneMegaEvolucion": false,
     "variantesRegionales": [],
