@@ -1,0 +1,65 @@
+{
+    "id": 18,
+    "numeroNacional": "0018",
+    "nombre": {
+      "es": "Pidgeot"
+    },
+    "generacion": 1,
+    "tieneMegaEvolucion": true,
+    "variantesRegionales": [],
+    "tipos": ["Normal", "Volador"],
+    "habilidades": [
+      {
+        "nombre": "Vista Lince",
+        "esOculta": false
+      },
+      {
+        "nombre": "Tumbos",
+        "esOculta": false
+      },
+      {
+        "nombre": "Sacapecho",
+        "esOculta": true
+      }
+    ],
+    "estadisticasBase": {
+      "hp": 83,
+      "ataque": 80,
+      "defensa": 75,
+      "ataqueEspecial": 70,
+      "defensaEspecial": 70,
+      "velocidad": 101
+    },
+    "imagen": "18.webp",
+    "pokedexEntrada": {
+      "descripcion": "El plumaje de su cabeza está tan bien cuidado que le confiere un aspecto majestuoso. Se lanza a gran velocidad para atrapar a su presa.",
+      "especie": "Pokémon Pájaro Grande"
+    },
+    "caracteristicasFisicas": {
+      "pesoKg": 39.5,
+      "alturaM": 1.5,
+      "ratioGenero": {
+        "masculino": 50.0,
+        "femenino": 50.0
+      },
+      "grupoHuevo": ["Volador"]
+    },
+    "cadenaEvolucion": {
+      "primeraEtapa": {
+        "nombre": "Pidgey",
+        "id": 16
+      },
+      "segundaEtapa": {
+        "nombre": "Pidgeotto",
+        "id": 17,
+        "metodo": "Subir de nivel",
+        "nivelRequerido": 18
+      },
+      "terceraEtapa": {
+        "nombre": "Pidgeot",
+        "id": 18,
+        "metodo": "Subir de nivel",
+        "nivelRequerido": 36
+      }
+    }
+  }
