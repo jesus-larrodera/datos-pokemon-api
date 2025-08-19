@@ -1,0 +1,57 @@
+ {
+    "id": 11,
+    "numeroNacional": "0011",
+    "nombre": {
+      "es": "Metapod"
+    },
+    "generacion": 1,
+    "tieneMegaEvolucion": false,
+    "variantesRegionales": [],
+    "tipos": ["Bicho"],
+    "habilidades": [
+      {
+        "nombre": "Mudar",
+        "esOculta": false
+      }
+    ],
+    "estadisticasBase": {
+      "hp": 50,
+      "ataque": 20,
+      "defensa": 55,
+      "ataqueEspecial": 25,
+      "defensaEspecial": 25,
+      "velocidad": 30
+    },
+    "imagen": "11.webp",
+    "pokedexEntrada": {
+      "descripcion": "El caparazón que lo envuelve es tan duro como el acero. Se prepara para evolucionar dentro de la dura concha.",
+      "especie": "Pokémon Capullo"
+    },
+    "caracteristicasFisicas": {
+      "pesoKg": 9.9,
+      "alturaM": 0.7,
+      "ratioGenero": {
+        "masculino": 50.0,
+        "femenino": 50.0
+      },
+      "grupoHuevo": ["Bicho"]
+    },
+    "cadenaEvolucion": {
+      "primeraEtapa": {
+        "nombre": "Caterpie",
+        "id": 10
+      },
+      "segundaEtapa": {
+        "nombre": "Metapod",
+        "id": 11,
+        "metodo": "Subir de nivel",
+        "nivelRequerido": 7
+      },
+      "terceraEtapa": {
+        "nombre": "Butterfree",
+        "id": 12,
+        "metodo": "Subir de nivel",
+        "nivelRequerido": 10
+      }
+    }
+  }
