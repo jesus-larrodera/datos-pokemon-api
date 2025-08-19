@@ -1,9 +1,7 @@
   {
     "id": 1,
     "numeroNacional": "0001",
-    "nombre": {
-      "es": "Bulbasaur"
-    },
+    "nombre":"Bulbasaur",
     "generacion": 1,
     "tieneMegaEvolucion": false,
     "variantesRegionales": [],
