@@ -1,9 +1,7 @@
   {
     "id": 5,
     "numeroNacional": "0005",
-    "nombre": {
-      "es": "Charmeleon"
-    },
+    "nombre":"Charmeleon",
     "generacion": 1,
     "tieneMegaEvolucion": false,
     "variantesRegionales": [],
