@@ -1,9 +1,7 @@
 {
     "id": 4,
     "numeroNacional": "0004",
-    "nombre": {
-      "es": "Charmander"
-    },
+    "nombre":"Charmander",
     "generacion": 1,
     "tieneMegaEvolucion": false,
     "variantesRegionales": [],
