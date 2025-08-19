@@ -1,61 +1,59 @@
-  {
-    "id": 10,
-    "numeroNacional": "0010",
-    "nombre": {
-      "es": "Caterpie"
+{
+  "id": 10,
+  "numeroNacional": "0010",
+  "nombre": "Caterpie",
+  "generacion": 1,
+  "tieneMegaEvolucion": false,
+  "variantesRegionales": [],
+  "tipos": ["Bicho"],
+  "habilidades": [
+    {
+      "nombre": "Polvo Escudo",
+      "esOculta": false
     },
-    "generacion": 1,
-    "tieneMegaEvolucion": false,
-    "variantesRegionales": [],
-    "tipos": ["Bicho"],
-    "habilidades": [
-      {
-        "nombre": "Polvo Escudo",
-        "esOculta": false
-      },
-      {
-        "nombre": "Fuga",
-        "esOculta": true
-      }
-    ],
-    "estadisticasBase": {
-      "hp": 45,
-      "ataque": 30,
-      "defensa": 35,
-      "ataqueEspecial": 20,
-      "defensaEspecial": 20,
-      "velocidad": 45
+    {
+      "nombre": "Fuga",
+      "esOculta": true
+    }
+  ],
+  "estadisticasBase": {
+    "hp": 45,
+    "ataque": 30,
+    "defensa": 35,
+    "ataqueEspecial": 20,
+    "defensaEspecial": 20,
+    "velocidad": 45
+  },
+  "imagen": "10.webp",
+  "pokedexEntrada": {
+    "descripcion": "Sus antenas segregan un olor horrendo para ahuyentar a sus enemigos. Se desplaza usando las ventosas de sus patas.",
+    "especie": "Pokémon Gusano"
+  },
+  "caracteristicasFisicas": {
+    "pesoKg": 2.9,
+    "alturaM": 0.3,
+    "ratioGenero": {
+      "masculino": 50.0,
+      "femenino": 50.0
     },
-    "imagen": "10.webp",
-    "pokedexEntrada": {
-      "descripcion": "Sus antenas segregan un olor horrendo para ahuyentar a sus enemigos. Se desplaza usando las ventosas de sus patas.",
-      "especie": "Pokémon Gusano"
+    "grupoHuevo": ["Bicho"]
+  },
+  "cadenaEvolucion": {
+    "primeraEtapa": {
+      "nombre": "Caterpie",
+      "id": 10
     },
-    "caracteristicasFisicas": {
-      "pesoKg": 2.9,
-      "alturaM": 0.3,
-      "ratioGenero": {
-        "masculino": 50.0,
-        "femenino": 50.0
-      },
-      "grupoHuevo": ["Bicho"]
+    "segundaEtapa": {
+      "nombre": "Metapod",
+      "id": 11,
+      "metodo": "Subir de nivel",
+      "nivelRequerido": 7
     },
-    "cadenaEvolucion": {
-      "primeraEtapa": {
-        "nombre": "Caterpie",
-        "id": 10
-      },
-      "segundaEtapa": {
-        "nombre": "Metapod",
-        "id": 11,
-        "metodo": "Subir de nivel",
-        "nivelRequerido": 7
-      },
-      "terceraEtapa": {
-        "nombre": "Butterfree",
-        "id": 12,
-        "metodo": "Subir de nivel",
-        "nivelRequerido": 10
-      }
+    "terceraEtapa": {
+      "nombre": "Butterfree",
+      "id": 12,
+      "metodo": "Subir de nivel",
+      "nivelRequerido": 10
     }
   }
+}
