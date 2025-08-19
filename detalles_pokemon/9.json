@@ -1,0 +1,61 @@
+ {
+    "id": 9,
+    "numeroNacional": "0009",
+    "nombre": {
+      "es": "Blastoise"
+    },
+    "generacion": 1,
+    "tieneMegaEvolucion": true,
+    "variantesRegionales": [],
+    "tipos": ["Agua"],
+    "habilidades": [
+      {
+        "nombre": "Torrente",
+        "esOculta": false
+      },
+      {
+        "nombre": "Cura Lluvia",
+        "esOculta": true
+      }
+    ],
+    "estadisticasBase": {
+      "hp": 79,
+      "ataque": 83,
+      "defensa": 100,
+      "ataqueEspecial": 85,
+      "defensaEspecial": 105,
+      "velocidad": 78
+    },
+    "imagen": "9.webp",
+    "pokedexEntrada": {
+      "descripcion": "Los cañones de agua en su caparazón pueden lanzar chorros de agua que perforan acero sólido. Es un Pokémon muy fuerte.",
+      "especie": "Pokémon Armazón"
+    },
+    "caracteristicasFisicas": {
+      "pesoKg": 85.5,
+      "alturaM": 1.6,
+      "ratioGenero": {
+        "masculino": 87.5,
+        "femenino": 12.5
+      },
+      "grupoHuevo": ["Monstruo", "Agua 1"]
+    },
+    "cadenaEvolucion": {
+      "primeraEtapa": {
+        "nombre": "Squirtle",
+        "id": 7
+      },
+      "segundaEtapa": {
+        "nombre": "Wartortle",
+        "id": 8,
+        "metodo": "Subir de nivel",
+        "nivelRequerido": 16
+      },
+      "terceraEtapa": {
+        "nombre": "Blastoise",
+        "id": 9,
+        "metodo": "Subir de nivel",
+        "nivelRequerido": 36
+      }
+    }
+  }
