@@ -1,9 +1,7 @@
  {
     "id": 7,
     "numeroNacional": "0007",
-    "nombre": {
-      "es": "Squirtle"
-    },
+    "nombre":"Squirtle",
     "generacion": 1,
     "tieneMegaEvolucion": false,
     "variantesRegionales": [],
