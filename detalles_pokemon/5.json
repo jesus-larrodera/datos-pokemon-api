@@ -1,0 +1,61 @@
+  {
+    "id": 5,
+    "numeroNacional": "0005",
+    "nombre": {
+      "es": "Charmeleon"
+    },
+    "generacion": 1,
+    "tieneMegaEvolucion": false,
+    "variantesRegionales": [],
+    "tipos": ["Fuego"],
+    "habilidades": [
+      {
+        "nombre": "Mar de Llamas",
+        "esOculta": false
+      },
+      {
+        "nombre": "Poder Solar",
+        "esOculta": true
+      }
+    ],
+    "estadisticasBase": {
+      "hp": 58,
+      "ataque": 64,
+      "defensa": 58,
+      "ataqueEspecial": 80,
+      "defensaEspecial": 65,
+      "velocidad": 80
+    },
+    "imagen": "5.webp",
+    "pokedexEntrada": {
+      "descripcion": "Posee una naturaleza brutal. En una batalla, ataca a su oponente usando sus afiladas garras.",
+      "especie": "Pokémon Llama"
+    },
+    "caracteristicasFisicas": {
+      "pesoKg": 19,
+      "alturaM": 1.1,
+      "ratioGenero": {
+        "masculino": 87.5,
+        "femenino": 12.5
+      },
+      "grupoHuevo": ["Monstruo", "Dragón"]
+    },
+    "cadenaEvolucion": {
+      "primeraEtapa": {
+        "nombre": "Charmander",
+        "id": 4
+      },
+      "segundaEtapa": {
+        "nombre": "Charmeleon",
+        "id": 5,
+        "metodo": "Subir de nivel",
+        "nivelRequerido": 16
+      },
+      "terceraEtapa": {
+        "nombre": "Charizard",
+        "id": 6,
+        "metodo": "Subir de nivel",
+        "nivelRequerido": 36
+      }
+    }
+  }
