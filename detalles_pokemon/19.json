@@ -1,9 +1,7 @@
 {
     "id": 19,
     "numeroNacional": "0019",
-    "nombre": {
-      "es": "Rattata"
-    },
+    "nombre":"Rattata",
     "generacion": 1,
     "tieneMegaEvolucion": false,
     "variantesRegionales": ["Alola"],
