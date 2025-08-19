@@ -1,35 +1,32 @@
-{
+ {
     "id": 2,
     "numeroNacional": "0002",
     "nombre": {
       "es": "Ivysaur"
     },
     "generacion": 1,
-    "variantes": [
+    "tieneMegaEvolucion": false,
+    "variantesRegionales": [],
+    "tipos": ["Planta", "Veneno"],
+    "habilidades": [
       {
-        "region": "Kanto",
-        "tipos": ["Planta", "Veneno"],
-        "habilidades": [
-          {
-            "nombre": "Espesura",
-            "esOculta": false
-          },
-          {
-            "nombre": "Clorofila",
-            "esOculta": true
-          }
-        ],
-        "estadisticasBase": {
-          "hp": 60,
-          "ataque": 62,
-          "defensa": 63,
-          "ataqueEspecial": 80,
-          "defensaEspecial": 80,
-          "velocidad": 60
-        },
-        "imagen": "2.webp"
+        "nombre": "Espesura",
+        "esOculta": false
+      },
+      {
+        "nombre": "Clorofila",
+        "esOculta": true
       }
     ],
+    "estadisticasBase": {
+      "hp": 60,
+      "ataque": 62,
+      "defensa": 63,
+      "ataqueEspecial": 80,
+      "defensaEspecial": 80,
+      "velocidad": 60
+    },
+    "imagen": "2.webp",
     "pokedexEntrada": {
       "descripcion": "Un bulbo florece en su espalda a medida que crece. El bulbo absorbe luz solar y se vuelve más grande y pesado.",
       "especie": "Pokémon Semilla"
