@@ -1,0 +1,61 @@
+ {
+    "id": 7,
+    "numeroNacional": "0007",
+    "nombre": {
+      "es": "Squirtle"
+    },
+    "generacion": 1,
+    "tieneMegaEvolucion": false,
+    "variantesRegionales": [],
+    "tipos": ["Agua"],
+    "habilidades": [
+      {
+        "nombre": "Torrente",
+        "esOculta": false
+      },
+      {
+        "nombre": "Cura Lluvia",
+        "esOculta": true
+      }
+    ],
+    "estadisticasBase": {
+      "hp": 44,
+      "ataque": 48,
+      "defensa": 65,
+      "ataqueEspecial": 50,
+      "defensaEspecial": 64,
+      "velocidad": 43
+    },
+    "imagen": "7.webp",
+    "pokedexEntrada": {
+      "descripcion": "Nace con un caparazón rígido, que se vuelve más duro a medida que crece. Escupe chorros de agua por la boca.",
+      "especie": "Pokémon Tortuguita"
+    },
+    "caracteristicasFisicas": {
+      "pesoKg": 9,
+      "alturaM": 0.5,
+      "ratioGenero": {
+        "masculino": 87.5,
+        "femenino": 12.5
+      },
+      "grupoHuevo": ["Monstruo", "Agua 1"]
+    },
+    "cadenaEvolucion": {
+      "primeraEtapa": {
+        "nombre": "Squirtle",
+        "id": 7
+      },
+      "segundaEtapa": {
+        "nombre": "Wartortle",
+        "id": 8,
+        "metodo": "Subir de nivel",
+        "nivelRequerido": 16
+      },
+      "terceraEtapa": {
+        "nombre": "Blastoise",
+        "id": 9,
+        "metodo": "Subir de nivel",
+        "nivelRequerido": 36
+      }
+    }
+  }
