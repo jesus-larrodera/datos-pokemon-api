@@ -1,0 +1,61 @@
+  {
+    "id": 6,
+    "numeroNacional": "0006",
+    "nombre": {
+      "es": "Charizard"
+    },
+    "generacion": 1,
+    "tieneMegaEvolucion": true,
+    "variantesRegionales": [],
+    "tipos": ["Fuego", "Volador"],
+    "habilidades": [
+      {
+        "nombre": "Mar de Llamas",
+        "esOculta": false
+      },
+      {
+        "nombre": "Poder Solar",
+        "esOculta": true
+      }
+    ],
+    "estadisticasBase": {
+      "hp": 78,
+      "ataque": 84,
+      "defensa": 78,
+      "ataqueEspecial": 109,
+      "defensaEspecial": 85,
+      "velocidad": 100
+    },
+    "imagen": "6.webp",
+    "pokedexEntrada": {
+      "descripcion": "Charizard vuela por el cielo en busca de oponentes fuertes. Escupe fuego capaz de derretir rocas.",
+      "especie": "Pokémon Llama"
+    },
+    "caracteristicasFisicas": {
+      "pesoKg": 90.5,
+      "alturaM": 1.7,
+      "ratioGenero": {
+        "masculino": 87.5,
+        "femenino": 12.5
+      },
+      "grupoHuevo": ["Monstruo", "Dragón"]
+    },
+    "cadenaEvolucion": {
+      "primeraEtapa": {
+        "nombre": "Charmander",
+        "id": 4
+      },
+      "segundaEtapa": {
+        "nombre": "Charmeleon",
+        "id": 5,
+        "metodo": "Subir de nivel",
+        "nivelRequerido": 16
+      },
+      "terceraEtapa": {
+        "nombre": "Charizard",
+        "id": 6,
+        "metodo": "Subir de nivel",
+        "nivelRequerido": 36
+      }
+    }
+  }
