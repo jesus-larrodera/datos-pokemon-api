@@ -1,0 +1,61 @@
+ {
+    "id": 8,
+    "numeroNacional": "0008",
+    "nombre": {
+      "es": "Wartortle"
+    },
+    "generacion": 1,
+    "tieneMegaEvolucion": false,
+    "variantesRegionales": [],
+    "tipos": ["Agua"],
+    "habilidades": [
+      {
+        "nombre": "Torrente",
+        "esOculta": false
+      },
+      {
+        "nombre": "Cura Lluvia",
+        "esOculta": true
+      }
+    ],
+    "estadisticasBase": {
+      "hp": 59,
+      "ataque": 63,
+      "defensa": 80,
+      "ataqueEspecial": 65,
+      "defensaEspecial": 80,
+      "velocidad": 58
+    },
+    "imagen": "8.webp",
+    "pokedexEntrada": {
+      "descripcion": "Se dice que vive por 10,000 años. Su cola es tan grande que se usa como un remo para nadar a gran velocidad.",
+      "especie": "Pokémon Tortuga"
+    },
+    "caracteristicasFisicas": {
+      "pesoKg": 22.5,
+      "alturaM": 1,
+      "ratioGenero": {
+        "masculino": 87.5,
+        "femenino": 12.5
+      },
+      "grupoHuevo": ["Monstruo", "Agua 1"]
+    },
+    "cadenaEvolucion": {
+      "primeraEtapa": {
+        "nombre": "Squirtle",
+        "id": 7
+      },
+      "segundaEtapa": {
+        "nombre": "Wartortle",
+        "id": 8,
+        "metodo": "Subir de nivel",
+        "nivelRequerido": 16
+      },
+      "terceraEtapa": {
+        "nombre": "Blastoise",
+        "id": 9,
+        "metodo": "Subir de nivel",
+        "nivelRequerido": 36
+      }
+    }
+  }
