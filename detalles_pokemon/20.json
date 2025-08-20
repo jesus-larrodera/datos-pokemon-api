@@ -1,0 +1,61 @@
+{
+    "id": 20,
+    "numeroNacional": "0020",
+    "nombre": "Raticate",
+    "generacion": 1,
+    "tieneMegaEvolucion": false,
+    "variantesRegionales": ["Alola"],
+    "tipos": [
+      "Normal"
+    ],
+    "habilidades": [
+      {
+        "nombre": "Fuga",
+        "esOculta": false
+      },
+      {
+        "nombre": "Agallas",
+        "esOculta": false
+      },
+      {
+        "nombre": "Entusiasmo",
+        "esOculta": true
+      }
+    ],
+    "estadisticasBase": {
+      "hp": 55,
+      "ataque": 81,
+      "defensa": 60,
+      "ataqueEspecial": 50,
+      "defensaEspecial": 70,
+      "velocidad": 97
+    },
+    "imagen": "20.webp",
+    "pokedexEntrada": {
+      "descripcion": "Sus colmillos son tan duros que pueden roer el cemento. Es muy agresivo y ataca a cualquier cosa que se mueva.",
+      "especie": "Pokémon Ratón"
+    },
+    "caracteristicasFisicas": {
+      "pesoKg": 18.5,
+      "alturaM": 0.7,
+      "ratioGenero": {
+        "masculino": 50.0,
+        "femenino": 50.0
+      },
+      "grupoHuevo": [
+        "Campo"
+      ]
+    },
+    "cadenaEvolucion": {
+      "primeraEtapa": {
+        "nombre": "Rattata",
+        "id": 19
+      },
+      "segundaEtapa": {
+        "nombre": "Raticate",
+        "id": 20,
+        "metodo": "Subir de nivel",
+        "nivelRequerido": 20
+      }
+    }
+  }
