@@ -1,9 +1,7 @@
  {
     "id": 15,
     "numeroNacional": "0015",
-    "nombre": {
-      "es": "Beedrill"
-    },
+    "nombre":"Beedrill",
     "generacion": 1,
     "tieneMegaEvolucion": true,
     "variantesRegionales": [],
