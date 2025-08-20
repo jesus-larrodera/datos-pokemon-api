@@ -1,0 +1,63 @@
+{
+    "id": 25,
+    "numeroNacional": "0025",
+    "nombre": "Pikachu",
+    "generacion": 1,
+    "tieneMegaEvolucion": false,
+    "variantesRegionales": [],
+    "tipos": [
+      "Eléctrico"
+    ],
+    "habilidades": [
+      {
+        "nombre": "Elec. Estática",
+        "esOculta": false
+      },
+      {
+        "nombre": "Pararrayos",
+        "esOculta": true
+      }
+    ],
+    "estadisticasBase": {
+      "hp": 35,
+      "ataque": 55,
+      "defensa": 40,
+      "ataqueEspecial": 50,
+      "defensaEspecial": 50,
+      "velocidad": 90
+    },
+    "imagen": "25.webp",
+    "pokedexEntrada": {
+      "descripcion": "Cuando varios de estos Pokémon se juntan, pueden generar una gran descarga eléctrica que provoca tormentas.",
+      "especie": "Pokémon Ratón"
+    },
+    "caracteristicasFisicas": {
+      "pesoKg": 6.0,
+      "alturaM": 0.4,
+      "ratioGenero": {
+        "masculino": 50.0,
+        "femenino": 50.0
+      },
+      "grupoHuevo": [
+        "Campo",
+        "Hada"
+      ]
+    },
+    "cadenaEvolucion": {
+      "primeraEtapa": {
+        "nombre": "Pichu",
+        "id": 172
+      },
+      "segundaEtapa": {
+        "nombre": "Pikachu",
+        "id": 25,
+        "metodo": "Subir de nivel",
+        "nivelRequerido": 10
+      },
+      "terceraEtapa": {
+        "nombre": "Raichu",
+        "id": 26,
+        "metodo": "Piedra Trueno"
+      }
+    }
+  }
