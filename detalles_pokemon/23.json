@@ -1,0 +1,58 @@
+ {
+    "id": 22,
+    "numeroNacional": "0022",
+    "nombre": "Fearow",
+    "generacion": 1,
+    "tieneMegaEvolucion": false,
+    "variantesRegionales": [],
+    "tipos": [
+      "Normal",
+      "Volador"
+    ],
+    "habilidades": [
+      {
+        "nombre": "Vista Lince",
+        "esOculta": false
+      },
+      {
+        "nombre": "Francotirador",
+        "esOculta": true
+      }
+    ],
+    "estadisticasBase": {
+      "hp": 65,
+      "ataque": 90,
+      "defensa": 65,
+      "ataqueEspecial": 61,
+      "defensaEspecial": 61,
+      "velocidad": 100
+    },
+    "imagen": "22.webp",
+    "pokedexEntrada": {
+      "descripcion": "Un Pokémon con un largo y delgado cuello que le permite buscar comida bajo el agua. Ataca con su pico afilado.",
+      "especie": "Pokémon Pico"
+    },
+    "caracteristicasFisicas": {
+      "pesoKg": 38.0,
+      "alturaM": 1.2,
+      "ratioGenero": {
+        "masculino": 50.0,
+        "femenino": 50.0
+      },
+      "grupoHuevo": [
+        "Volador"
+      ]
+    },
+    "cadenaEvolucion": {
+      "primeraEtapa": {
+        "nombre": "Spearow",
+        "id": 21
+      },
+      "segundaEtapa": {
+        "nombre": "Fearow",
+        "id": 22,
+        "metodo": "Subir de nivel",
+        "nivelRequerido": 20
+      }
+    }
+  }
