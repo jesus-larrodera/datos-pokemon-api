@@ -1,0 +1,58 @@
+ {
+    "id": 21,
+    "numeroNacional": "0021",
+    "nombre": "Spearow",
+    "generacion": 1,
+    "tieneMegaEvolucion": false,
+    "variantesRegionales": [],
+    "tipos": [
+      "Normal",
+      "Volador"
+    ],
+    "habilidades": [
+      {
+        "nombre": "Vista Lince",
+        "esOculta": false
+      },
+      {
+        "nombre": "Francotirador",
+        "esOculta": true
+      }
+    ],
+    "estadisticasBase": {
+      "hp": 40,
+      "ataque": 60,
+      "defensa": 30,
+      "ataqueEspecial": 31,
+      "defensaEspecial": 31,
+      "velocidad": 70
+    },
+    "imagen": "21.webp",
+    "pokedexEntrada": {
+      "descripcion": "Se alimenta de insectos. Aunque tiene alas pequeñas, puede volar a gran altura y mantenerse en el aire por mucho tiempo.",
+      "especie": "Pokémon Pajarito"
+    },
+    "caracteristicasFisicas": {
+      "pesoKg": 2.0,
+      "alturaM": 0.3,
+      "ratioGenero": {
+        "masculino": 50.0,
+        "femenino": 50.0
+      },
+      "grupoHuevo": [
+        "Volador"
+      ]
+    },
+    "cadenaEvolucion": {
+      "primeraEtapa": {
+        "nombre": "Spearow",
+        "id": 21
+      },
+      "segundaEtapa": {
+        "nombre": "Fearow",
+        "id": 22,
+        "metodo": "Subir de nivel",
+        "nivelRequerido": 20
+      }
+    }
+  }
