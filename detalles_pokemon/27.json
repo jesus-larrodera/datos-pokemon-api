@@ -1,0 +1,57 @@
+ {
+    "id": 27,
+    "numeroNacional": "0027",
+    "nombre": "Sandshrew",
+    "generacion": 1,
+    "tieneMegaEvolucion": false,
+    "variantesRegionales": ["Alola"],
+    "tipos": [
+      "Tierra"
+    ],
+    "habilidades": [
+      {
+        "nombre": "Velo Arena",
+        "esOculta": false
+      },
+      {
+        "nombre": "Ímpetu Arena",
+        "esOculta": true
+      }
+    ],
+    "estadisticasBase": {
+      "hp": 50,
+      "ataque": 75,
+      "defensa": 85,
+      "ataqueEspecial": 20,
+      "defensaEspecial": 30,
+      "velocidad": 40
+    },
+    "imagen": "27.webp",
+    "pokedexEntrada": {
+      "descripcion": "Cuando es atacado, se enrolla en una bola. De esta forma, su duro caparazón lo protege de cualquier daño.",
+      "especie": "Pokémon Ratón"
+    },
+    "caracteristicasFisicas": {
+      "pesoKg": 12.0,
+      "alturaM": 0.6,
+      "ratioGenero": {
+        "masculino": 50.0,
+        "femenino": 50.0
+      },
+      "grupoHuevo": [
+        "Campo"
+      ]
+    },
+    "cadenaEvolucion": {
+      "primeraEtapa": {
+        "nombre": "Sandshrew",
+        "id": 27
+      },
+      "segundaEtapa": {
+        "nombre": "Sandslash",
+        "id": 28,
+        "metodo": "Subir de nivel",
+        "nivelRequerido": 22
+      }
+    }
+  }
