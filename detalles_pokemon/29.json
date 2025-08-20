@@ -1,0 +1,67 @@
+ {
+    "id": 29,
+    "numeroNacional": "0029",
+    "nombre": "Nidoran Hembra",
+    "generacion": 1,
+    "tieneMegaEvolucion": false,
+    "variantesRegionales": [],
+    "tipos": [
+      "Veneno"
+    ],
+    "habilidades": [
+      {
+        "nombre": "Punto Tóxico",
+        "esOculta": false
+      },
+      {
+        "nombre": "Rivalidad",
+        "esOculta": false
+      },
+      {
+        "nombre": "Entusiasmo",
+        "esOculta": true
+      }
+    ],
+    "estadisticasBase": {
+      "hp": 55,
+      "ataque": 47,
+      "defensa": 52,
+      "ataqueEspecial": 40,
+      "defensaEspecial": 40,
+      "velocidad": 41
+    },
+    "imagen": "29.webp",
+    "pokedexEntrada": {
+      "descripcion": "Aunque es pequeño, sus cuernos son muy venenosos. Su veneno es muy potente y puede hacer caer a un Pokémon de gran tamaño.",
+      "especie": "Pokémon Pin Veneno"
+    },
+    "caracteristicasFisicas": {
+      "pesoKg": 7.0,
+      "alturaM": 0.4,
+      "ratioGenero": {
+        "masculino": 0.0,
+        "femenino": 100.0
+      },
+      "grupoHuevo": [
+        "Monstruo",
+        "Campo"
+      ]
+    },
+    "cadenaEvolucion": {
+      "primeraEtapa": {
+        "nombre": "Nidoran Hembra",
+        "id": 29
+      },
+      "segundaEtapa": {
+        "nombre": "Nidorina",
+        "id": 30,
+        "metodo": "Subir de nivel",
+        "nivelRequerido": 16
+      },
+      "terceraEtapa": {
+        "nombre": "Nidoqueen",
+        "id": 31,
+        "metodo": "Piedra Lunar"
+      }
+    }
+  }
